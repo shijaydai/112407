@@ -3,10 +3,6 @@
     font-family:微軟正黑體;  
     }
     
-    body{
-    background-color: white;
-    }
-    
     #username, #password, h3, #fullname, #comfirm_password,#username2, #password2{
     width: 200px;
     height: 20px;
@@ -36,7 +32,7 @@
     /*定位對齊*/
     position:relative;   
     margin: auto;
-    top: 100px;
+    top: 50px;
     text-align:center;  
     }
     
@@ -44,7 +40,7 @@
     /*定位對齊*/
     position:relative;   
     margin: auto;
-    top: 100px;
+    top: 40px;
     text-align:center; 
     }
     
@@ -82,3 +78,42 @@
     border:solid 1px #ccc;
     border-radius: 5px;
     }
+    /*----------index畫面button----------*/ 
+
+    .dropbtn {
+        background-color: #48428a;
+        border-radius: 5px;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      .dropdown {
+        top: 0px;
+        display: inline-block;
+        }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #8c80ad;
+      }
+      
