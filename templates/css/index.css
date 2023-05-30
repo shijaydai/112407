@@ -34,12 +34,12 @@ a{
 /*----------index文字----------*/
 .G{
   font-size: 100px;
-  text-align: center;
+ margin-left: 400px;
   margin-top: 100px;
 }
 .A{
   font-size: 30px;
-  text-align: center;
+margin-left: 470px; 
 }
 
 
@@ -84,6 +84,30 @@ a{
 
 .dropdown:hover .dropbtn {
   background-color: #8c80ad;
+}
+/*----------LOGO----------*/ 
+
+
+div.logo img {
+  margin-top: 120px;
+  margin-right: 300px;
+  width: 200px;
+  height: 150px;
+  float: right;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 300%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
 
