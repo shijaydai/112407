@@ -34,12 +34,12 @@ a{
 /*----------index文字----------*/
 .G{
   font-size: 100px;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 100px;
 }
 .A{
   font-size: 30px;
-margin-left: 35%; 
+margin-left: 38%; 
 }
 
 
@@ -90,7 +90,7 @@ margin-left: 35%;
 
 div.logo img {
   margin-top: 100px;
-  margin-right: 20%;
+  margin-right: 23%;
   width: 200px;
   height: 180px;
   float: right;
