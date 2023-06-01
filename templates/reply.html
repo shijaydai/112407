@@ -19,5 +19,25 @@
             <a href="reply.html">回饋意見</a>
         </div>
       </div>
+      <h1>回饋表單</h1>
+
+      <form action="submit_feedback.php" method="POST">
+        <div class="form-group">
+          <label for="name">姓名：</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="email">電子郵件：</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="feedback">回饋內容：</label>
+          <textarea id="feedback" name="feedback" rows="5" required></textarea>
+        </div>
+    
+        <button type="submit">提交回饋</button>
+      </form>
 </body>
 </html>

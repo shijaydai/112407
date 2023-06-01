@@ -34,7 +34,7 @@ a{
 /*----------index文字----------*/
 .G{
   font-size: 100px;
- margin-left: 400px;
+  margin-left: 400px;
   margin-top: 100px;
 }
 .A{
@@ -109,6 +109,16 @@ div.logo img {
     width: 100%;
   }
 }
+
+.login{
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size:26px;
+}
+
 
 
 
