@@ -46,9 +46,9 @@
     font-weight: 700;
     color: #e63946;
   }
-  a.index {
+  a.result {
     margin-top: 10px;
-    margin-left: 520px;
+    margin-left: 40%;
     border-radius: 5px;
     background-color:  #4e4d4c;
     color: white;
@@ -57,7 +57,7 @@
     text-decoration: none;
     display: inline-block;
   }
-  a.grouping{
+  a.reply{
     border-radius: 5px;
     background-color:  #4e4d4c;
     color: white;
@@ -66,7 +66,7 @@
     text-decoration: none;
     display: inline-block;
   }
-  a.reply {
+  a.index {
     border-radius: 5px;
     background-color:  #4e4d4c;
     color: white;

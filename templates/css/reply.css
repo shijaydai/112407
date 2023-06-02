@@ -41,3 +41,55 @@
     background-color: #8c80ad;
   }
   
+    /*----------回饋表單內文----------*/
+
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      font-family:微軟正黑體;
+      background-color: #f3efef;
+      margin: 0;
+      padding: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4e4d4c;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #4e4d4c;
+    }
