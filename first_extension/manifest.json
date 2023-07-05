@@ -1,0 +1,18 @@
+{
+  "name": "GoogleMapsReviewFilter", 
+  "version": "1.0",
+  "description": "Quick Filter for Fake Reviews",
+  "manifest_version": 2,
+  "icons": {
+    "16": "/images/icon_16.jpg",
+    "48": "/images/icon_48.jpg",
+    "128": "/images/icon_128.jpg"
+  },
+  "page_action":{
+    "defalt_icon":{ 
+        "16":"/images/icon_16.jpg",
+        "48":"/images/icon_48.jpg",
+        "128":"/images/icon_128.jpg"
+    }
+  }
+}
