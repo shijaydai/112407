@@ -3,16 +3,18 @@
   "version": "1.0",
   "description": "Quick Filter for Fake Reviews",
   "manifest_version": 2,
-  "icons": {
-    "16": "/images/icon_16.jpg",
-    "48": "/images/icon_48.jpg",
-    "128": "/images/icon_128.jpg"
+  "permissions":["activateTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
   },
-  "page_action":{
-    "defalt_icon":{ 
-        "16":"/images/icon_16.jpg",
-        "48":"/images/icon_48.jpg",
-        "128":"/images/icon_128.jpg"
+  "content_scripts":[
+    {
+        "matches":["<all_urls>"],
+        "js": ["content.js"]
     }
+  ],
+  "background": {
+    "scripts": ["background.js"]
   }
+
 }
