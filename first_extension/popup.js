@@ -1,3 +1,20 @@
+
+// // 點擊"篩選評價"按鈕後，向content發送篩選評價的訊息
+// document.getElementById('applyFilter').addEventListener('click', function() {
+//   const keyword = document.getElementById('keyword').value;
+//   chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+//     chrome.tabs.sendMessage(tabs[0].id, { type: 'applyFilter', keyword: keyword });
+//   });
+// });
+
+// // 點擊"清除篩選"按鈕後，向content發送清除篩選的訊息
+// document.getElementById('clearFilter').addEventListener('click', function() {
+//   chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+//     chrome.tabs.sendMessage(tabs[0].id, { type: 'clearFilter' });
+//   });
+// });
+// 假設這是您獲取的店家評論資料和真實性百分比（假設真實性百分比為固定值）
+// 假設這是您獲取的店家評論資料和真實性百分比（假設真實性百分比為固定值）
 const commentsData = [
   { comment: "這個地方很棒！食物非常好吃！", reliabilityPercentage: 80 },
   { comment: "糟糕透了！這裡的服務太差了！", reliabilityPercentage: 40 },
@@ -29,6 +46,21 @@ function generateComments() {
 document.addEventListener('DOMContentLoaded', function() {
   generateComments();
 });
+
+// // 搜尋按鈕的點擊事件處理
+// document.getElementById('applyFilter').addEventListener('click', function() {
+//   // 在這裡可以獲取並處理搜尋關鍵字
+//   const keyword = document.getElementById('keyword').value;
+//   // 處理搜尋關鍵字的邏輯...
+// });
+
+// // 清除按鈕的點擊事件處理
+// document.getElementById('clearFilter').addEventListener('click', function() {
+//   // 將搜尋關鍵字的值清空
+//   document.getElementById('keyword').value = '';
+//   // 觸發搜尋按鈕的點擊事件，重新生成評論和真實性百分比（這裡假設搜尋按鈕有個 id 為 "applyFilter"）
+//   document.getElementById('applyFilter').click();
+// });
 
 // 搜尋按鈕的點擊事件處理
 document.getElementById('applyFilter').addEventListener('click', function() {
