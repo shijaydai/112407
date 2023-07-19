@@ -1,4 +1,3 @@
-
 // 当收到来自弹出窗口或内容脚本的消息请求时
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     // 根据消息请求进行不同的处理
@@ -10,4 +9,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
       sendResponse({responseMessage: 'Hello from background to content script!'});
     }
   });
-  

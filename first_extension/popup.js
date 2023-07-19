@@ -1,33 +1,16 @@
-// 当文档加载完成后执行
-document.addEventListener('DOMContentLoaded', function() {
-    // 在这里获取评论数据并进行分析，然后根据结果绘制图表或展示数据
-    // 以下是一个简单的示例使用Chart.js绘制柱状图：
+
+  // 
+  document.addEventListener('DOMContentLoaded', function() {
+    const applyFilterButton = document.getElementById('applyFilter');
   
-    // 假设这是您的评论数据
-    const commentsData = {
-      positive: 50,
-      negative: 30,
-      neutral: 20
-    };
+    // 监听“应用筛选”按钮点击事件
+    applyFilterButton.addEventListener('click', function() {
+      // 获取用户输入的筛选关键词
+      const filterKeyword = document.getElementById('filter').value;
   
-    // 使用Chart.js绘制柱状图
-    const ctx = document.getElementById('chart').getContext('2d');
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['正面', '负面', '中立'],
-        datasets: [{
-          label: '评论情感分析',
-          data: [commentsData.positive, commentsData.negative, commentsData.neutral],
-          backgroundColor: ['green', 'red', 'gray'],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        responsive: true,
-        legend: {
-          display: false
-        }
-      }
+      // 向当前激活的标签页发送筛选关键词
+      chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+        chrome.tabs.sendMessage(tabs[0].id, { type: 'applyFilter', keyword: filterKeyword });
+      });
     });
   });
