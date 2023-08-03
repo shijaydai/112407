@@ -1,0 +1,22 @@
+{
+  "name": "GoogleMapsReviewFilter", 
+  "version": "1.0",
+  "description": "Quick Filter for Fake Reviews",
+  "manifest_version": 2,
+  "permissions":["activeTab","https://www.google.com/maps/*"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts":[
+    {
+        "matches":["https://www.google.com/maps/*"],
+        "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+    
+}
+  
