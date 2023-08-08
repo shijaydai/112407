@@ -1,39 +1,27 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-  <title>GoogleMaps Reviews Filter</title>
-  <meta charset="UTF-8">
-</head>
-<body>
-  <h1>GoogleMaps評論真實性</h1>
-  <label for="keyword">關鍵字:</label>
-  <input type="text" id="Keyword" placeholder="搜尋關鍵字">
-  <button id="applyFilter">搜尋</button>
-  <button id="clearFilter">清除</button>
-
-  <script scr="popup.js"></script>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>GoogleMaps Reviews Filter</title>
   <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places"></script>
+
 </head>
 <body>
-  <h1>GoogleMaps評論真實性</h1>
+  <a href="https://www.google.com/maps" target="_blank">前往 Google Maps</a>
+  <h2>GoogleMaps評論真實性</h2>
   <label for="keyword">關鍵字:</label>
   <input type="text" id="keyword" placeholder="搜尋關鍵字">
   <button id="applyFilter" onclick="searchPlaces()">搜尋</button>
   <button id="clearFilter">清除</button>
 
-  <!-- 用於顯示店家評論和真實性百分比 -->
-  <div id="commentContainer">
-    <!-- 評論和真實性百分比將由 JavaScript 動態生成和填充 -->
+  <div id="placeInfo">
+    <!-- 這裡將顯示店家資訊 -->
+  <p>店家名稱：</p>
+  <p>地址：</p>
+  <p>連絡電話：</p>
+  <p>有效評論占比：</p>
   </div>
-  <!-- 用於顯示店家搜尋結果 -->
-<div id="resultContainer"></div>
   <script src="popup.js"></script>
 </body>
 </html>
+

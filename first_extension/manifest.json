@@ -3,7 +3,11 @@
   "version": "1.0",
   "description": "Quick Filter for Fake Reviews",
   "manifest_version": 2,
-  "permissions":["activeTab","https://www.google.com/maps/*"],
+  "permissions": [
+    "activeTab",
+    "https://www.google.com/maps/*",
+    "storage"
+  ],
   "browser_action": {
     "default_popup": "popup.html"
   },
@@ -16,7 +20,6 @@
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  }
-    
+  } 
 }
-  
+
