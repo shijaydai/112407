@@ -1,4 +1,5 @@
-// 搜尋按鈕的點擊事件處理
+/////////////////////////////////////////////////////////////////////////////
+// 搜尋按鈕的點擊事件處理(關鍵字)
 document.getElementById('applyFilter').addEventListener('click', function() {
   searchPlaces();
 });
@@ -8,10 +9,12 @@ document.getElementById('clearFilter').addEventListener('click', function() {
   document.getElementById('keyword').value = '';
   searchPlaces();
 });
+/////////////////////////////////////////////////////////////////////////////
 
 
 // 點擊店家時的點擊事件處理
 function onPlaceClick(place) {
+  console.log('點擊店家:', place);
   displayPlaceInfo(place);
 
   // 將店家資訊顯示在小視窗中
@@ -41,23 +44,3 @@ function createPlaceInfo(place) {
 
   return placeInfoDiv;
 }
-
-// // 店家搜尋功能
-// function searchPlaces() {
-//   const keyword = document.getElementById('keyword').value;
-  
-//   // 使用 Google Maps Places API 進行店家搜尋
-//   const service = new google.maps.places.PlacesService(document.createElement('div'));
-//   const request = {
-//     query: keyword,
-//     fields: ['name', 'formatted_address', 'geometry'],
-//   };
-
-//   service.findPlaceFromQuery(request, (results, status) => {
-//     if (status === google.maps.places.PlacesServiceStatus.OK) {
-//       displayResults(results);
-//     } else {
-//       alert('找不到符合搜尋條件的店家。');
-//     }
-//   });
-// }
