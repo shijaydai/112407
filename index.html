@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>店家搜尋</title>
+    <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places"></script>
+</head>
+<body>
+    <h1>店家搜尋</h1>
+    <input type="text" id="searchInput" placeholder="輸入店家名稱">
+    <button onclick="searchPlaces()">搜尋</button>
+    <div id="map" style="height: 400px;"></div>
+
+    <div id="results">
+        <h2>搜索結果</h2>
+        <ul id="placesList"></ul>
+    </div>
+
+    <script>
+       var map;
+var service;
+var markers = []; // 用於存儲店家標記的數組
+
+function initMap() {
+    var center = new google.maps.LatLng(25.042007, 121.525612); // 設定地圖中心
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: center,
+        zoom: 15 // 地圖縮放級別
+    });
+}
+
+function searchPlaces() {
+    var searchInput = document.getElementById('searchInput').value;
+    var request = {
+        location: map.getCenter(),
+        radius: '500',
+        query: searchInput
+    };
+    
+    service = new google.maps.places.PlacesService(map);
+    service.textSearch(request, displayResults);
+}
+
+function displayResults(results, status) {
+    var placesList = document.getElementById('placesList');
+    placesList.innerHTML = '';
+    
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+        for (var i = 0; i < results.length; i++) {
+            var place = results[i];
+            var listItem = document.createElement('li');
+            listItem.textContent = place.name + ' - ' + place.formatted_address;
+
+            // 檢查是否有聯絡電話
+            if (place.formatted_phone_number) {
+                listItem.textContent += ' - 聯絡電話: ' + place.formatted_phone_number;
+            } else {
+                listItem.textContent += ' - 聯絡電話: 未提供';
+            }
+
+            // 創建店家標記並添加到地圖上
+            var marker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location,
+                title: place.name
+            });
+
+            // 添加點擊事件監聽器，顯示店家信息
+            marker.addListener('click', function() {
+                showPlaceInfo(place);
+            });
+
+            markers.push(marker);
+
+            placesList.appendChild(listItem);
+        }
+    } else {
+        placesList.innerHTML = '未找到相符的店家。';
+    }
+}
+
+function showPlaceInfo(place) {
+    var placeInfoDiv = document.getElementById('placeInfo');
+    var info = '';
+
+    info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
+    info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
+
+    if (place.formatted_phone_number) {
+        info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
+    } else {
+        info += '<strong>聯絡電話:</strong> 未提供<br>';
+    }
+
+    placeInfoDiv.innerHTML = info;
+}
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places&callback=initMap"></script>
+</body>
+</html>
+
+
