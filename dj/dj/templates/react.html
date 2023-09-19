@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <h2>評論留言</h2>
+    <table border="3" width="1000">
+        <tr>
+            <th>店家名稱</th>
+            <th>評論真實性占比</th>
+            <th>星星評論數</th>
+            <th>可疑評論</th>
+        </tr>
+        <tr> 
+            <td align="center">{{ A.Shop_Name }}</td>
+            <td align="center">{{ A.Mes_Percent }}</td>
+            <td align="center">{{ A.Mes_Stars }}</td>
+            <td align="center">{{ A.Mes_Suspicious }}</td>
+        </tr>
+        <tr>{{errormessage}}</tr>
+    
+    </table>   
+</body>
+</html>
