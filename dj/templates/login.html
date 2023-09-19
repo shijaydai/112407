@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入帳號</title>
+    <link href='{% static "css/login.css"%}' rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">畫面</button>
+    <div class="dropdown-content">
+        <a href="index">搜尋畫面</a>
+        <a href="result">有效評論占比</a>
+        <a href="grouping">正負面百分比及關鍵字</a>
+        <a href="login">登入</a>
+        <!-- <a href="register.html">註冊帳號</a>-->
+        <a href="reply">回饋意見</a>
+    </div>
+  </div>
+  
+    <div class="system_name">
+        <h2>有評有G</h2>
+      </div>
+      
+      <div class="login_page">
+        <div id="container1">
+          <div class="login">  
+            <h3>登入 Login</h3>
+            <form action="用戶管理.php">
+              <input type="text" id="username" name="username" placeholder="帳號" required>
+              <div class="tab"></div>
+              <input type="text" id="password" name="password" placeholder="密碼" required>
+              <div class="tab"></div>
+              <input type="submit" value="登入" class="submit" onclick="location.href='https://codepen.io/rosewang0303/full/OQbLBv/'"/>
+            </form>  
+            <a href="result"></a>
+            <h5 onclick="show_hide()">註冊帳號</h5>
+            
+          </div><!-- login end-->
+        </div><!-- container1 end-->
+      </div><!-- login_page end-->
+      
+      <div class="signup_page"></div>
+        <div id="container2">
+          <div class="signup">  
+            <h3>註冊帳號</h3>
+            <form action="用戶管理.php">
+              <input type="text" id="fullname" name="fullname" placeholder="使用者名稱" required>
+              <div class="tab"></div>
+              <input type="text" id="username2" name="username" placeholder="帳號" required>
+              <div class="tab"></div>
+              <input type="text" id="password2" name="password" placeholder="密碼" required>
+              <div class="tab"></div>
+              <input type="text" id="comfirm_password" name="comfirm_password" placeholder="確認密碼" required>
+              <div class="tab"></div>            
+              <input type="submit" value="註冊" class="submit">
+            </form>  
+            <h5 onclick="show_hide()">登入帳號</h5>
+          </div><!-- signup end-->
+        </div><!-- container2 end-->
+      </div><!-- signup_page end--> 
+      <script src="{% static 'js/login.js' %}"></script>
+</body>
+</html>
+
+
+
+ 
