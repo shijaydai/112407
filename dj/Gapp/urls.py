@@ -11,4 +11,6 @@ urlpatterns = [
     # path('result/',result),
     # path('index/grouping/',grouping),
     # path('index/reply/',reply),
+    path('test/', views.test ),
+
 ]

@@ -34,8 +34,6 @@ def reply(request):
 
 def test(request):
         
-    
-
     return render(request, "test.html", locals())
 
 

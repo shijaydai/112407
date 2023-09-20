@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load static %}
 <html>
 <head>
     <title>店家搜尋</title>
@@ -18,7 +17,7 @@
         <ul id="placesList"></ul>
         
     </div>
-    <script src="text.js"></script>
+    {% comment %} <script src="../static/text.js"></script> {% endcomment %}
     <script>
         
         var map;
@@ -130,6 +129,7 @@
     </script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places&callback=initMap"></script>
-    <script src='{% static "js/text.js"%}'></script>
+    {% comment %} <script src='{% static "js/text.js"%}'></script> {% endcomment %}
 </body>
+<script src="../static/js/text.js"></script>
 </html>
