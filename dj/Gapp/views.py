@@ -19,7 +19,8 @@ from openpyxl import Workbook
 
 
 def test(request):
-    data = dj.objects.all()
+    # data = dj.objects.all()
+    data = dj.objects.filter(star = 1)
     return render(request, "test.html", locals())
 
 
