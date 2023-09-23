@@ -15,8 +15,18 @@
         <div id="placeInfo"></div> <!-- 顯示店家信息的區域 -->
         <h2>搜索結果</h2>
         <ul id="placesList"></ul>
-        
     </div>
+    
+    <h1>測試Database</h1>
+    <ul>
+        {% for item in data %}
+            <li>Username: {{ item.username }}</li>
+            <li>Message Time: {{ item.msgtime }}</li>
+            <li>Star: {{ item.star }}</li>
+            <li>Comment: {{ item.comment }}</li>
+            <li>Eff Flag: {{ item.effflag }}</li>
+        {% endfor %}
+    </ul>
     {% comment %} <script src="../static/text.js"></script> {% endcomment %}
     <script>
         
