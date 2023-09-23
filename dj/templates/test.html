@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load static %}
 <html>
 <head>
     <title>店家搜尋</title>
@@ -16,9 +15,19 @@
         <div id="placeInfo"></div> <!-- 顯示店家信息的區域 -->
         <h2>搜索結果</h2>
         <ul id="placesList"></ul>
-        
     </div>
-    <script src="text.js"></script>
+    
+    <h1>測試Database</h1>
+    <ul>
+        {% for item in data %}
+            <li>Username: {{ item.username }}</li>
+            <li>Message Time: {{ item.msgtime }}</li>
+            <li>Star: {{ item.star }}</li>
+            <li>Comment: {{ item.comment }}</li>
+            <li>Eff Flag: {{ item.effflag }}</li>
+        {% endfor %}
+    </ul>
+    {% comment %} <script src="../static/text.js"></script> {% endcomment %}
     <script>
         
         var map;
@@ -130,6 +139,7 @@
     </script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places&callback=initMap"></script>
-    <script src='{% static "js/text.js"%}'></script>
+    {% comment %} <script src='{% static "js/text.js"%}'></script> {% endcomment %}
 </body>
+<script src="../static/js/text.js"></script>
 </html>
