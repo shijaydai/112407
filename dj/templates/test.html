@@ -26,6 +26,7 @@
         <li>Eff Flag: {{ item.effflag }}</li>
     </ul>
            
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     {% comment %} <script src="../static/text.js"></script> {% endcomment %}
     <script>
@@ -98,22 +99,25 @@
             }
         }
 
-        function showPlaceInfo(place) {
-            var placeInfoDiv = document.getElementById('placeInfo');
-            placeInfoDiv.innerHTML = ''; // 清空之前的信息
+        //function showPlaceInfo(place) {
+         //   var placeInfoDiv = document.getElementById('placeInfo');
+        //    placeInfoDiv.innerHTML = ''; // 清空之前的信息
 
-            var info = '<h3>選定店家信息</h3>';
-            info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
-            info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
+            //var info = '<h3>選定店家信息</h3>';
+            //info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
+            //info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
 
-            if (place.formatted_phone_number) {
-                info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
-            } else {
-                info += '<strong>聯絡電話:</strong> 未提供<br>';
-            }
+            //if (place.formatted_phone_number) {
+            //    info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
+            //} else {
+            //    info += '<strong>聯絡電話:</strong> 未提供<br>';
+            //}
 
-            placeInfoDiv.innerHTML = info;
-        }
+         //   placeInfoDiv.innerHTML = info;
+        //    console.log(place.formatted_address);
+         //   console.log(place.name);
+  //
+       // }
 
         function clearPlaceInfo() {
             var placeInfoDiv = document.getElementById('placeInfo');

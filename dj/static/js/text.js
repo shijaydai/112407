@@ -7,11 +7,13 @@ var placeInfoDiv = document.getElementById('placeInfo');
 // 開始定期檢查元素內容
 function detectTextChange() {
     var targetElement = document.querySelector(elementSelector);
-
+    console.log("我在這");
     if (targetElement) {
         var currentText = targetElement.textContent;
 
         if (currentText !== initialText) {
+ 
+            
             // 文本內容已經變化，將其放入 placeInfoDiv
             var addressElement = document.querySelector('.address-line.full-width');
             var addressText = addressElement ? addressElement.textContent : '地址未提供';
@@ -25,6 +27,21 @@ function detectTextChange() {
             info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
 
             placeInfoDiv.innerHTML = info;
+            $.ajax({
+                url: '',  // 伺服器端的 URL
+                type: 'GET',  // 請求類型為 GET
+                data: {
+                    currentText: currentText,  // 傳遞給伺服器的參數，以 a_id 為名
+                    address: addressText,
+                },
+                success: function (response) {
+                    console.log("se: ");
+                },
+                error: function (xhr, status, error) {
+                    // 請求失敗時的處理
+                    console.log("search_textAJAX請求失敗: " + error);
+                }
+            });
             return true;
         } else {
             // 文本內容未變化
@@ -40,7 +57,7 @@ function detectTextChange() {
 var initialText = detectTextChange();
 
 // 定期檢查變化
-setInterval(function() {
+setInterval(function () {
     if (detectTextChange()) {
         console.log("文字已變化");
         // 在這裡執行相關的操作
