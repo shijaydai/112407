@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load static %}
 <html>
 <head>
     <title>店家搜尋</title>
@@ -16,9 +15,20 @@
         <div id="placeInfo"></div> <!-- 顯示店家信息的區域 -->
         <h2>搜索結果</h2>
         <ul id="placesList"></ul>
-        
     </div>
-    <script src="text.js"></script>
+    
+    <h1>測試Database</h1>
+    <ul>
+        <li>Username: {{ item.username }}</li>
+        <li>Message Time: {{ item.msgtime }}</li>
+        <li>Star: {{ item.star }}</li>
+        <li>Comment: {{ item.comment }}</li>
+        <li>Eff Flag: {{ item.effflag }}</li>
+    </ul>
+           
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    {% comment %} <script src="../static/text.js"></script> {% endcomment %}
     <script>
         
         var map;
@@ -89,22 +99,25 @@
             }
         }
 
-        function showPlaceInfo(place) {
-            var placeInfoDiv = document.getElementById('placeInfo');
-            placeInfoDiv.innerHTML = ''; // 清空之前的信息
+        //function showPlaceInfo(place) {
+         //   var placeInfoDiv = document.getElementById('placeInfo');
+        //    placeInfoDiv.innerHTML = ''; // 清空之前的信息
 
-            var info = '<h3>選定店家信息</h3>';
-            info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
-            info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
+            //var info = '<h3>選定店家信息</h3>';
+            //info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
+            //info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
 
-            if (place.formatted_phone_number) {
-                info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
-            } else {
-                info += '<strong>聯絡電話:</strong> 未提供<br>';
-            }
+            //if (place.formatted_phone_number) {
+            //    info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
+            //} else {
+            //    info += '<strong>聯絡電話:</strong> 未提供<br>';
+            //}
 
-            placeInfoDiv.innerHTML = info;
-        }
+         //   placeInfoDiv.innerHTML = info;
+        //    console.log(place.formatted_address);
+         //   console.log(place.name);
+  //
+       // }
 
         function clearPlaceInfo() {
             var placeInfoDiv = document.getElementById('placeInfo');
@@ -130,6 +143,7 @@
     </script>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places&callback=initMap"></script>
-    <script src='{% static "js/text.js"%}'></script>
+    {% comment %} <script src='{% static "js/text.js"%}'></script> {% endcomment %}
 </body>
+<script src="../static/js/text.js"></script>
 </html>
