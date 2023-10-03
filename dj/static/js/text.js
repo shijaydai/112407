@@ -35,8 +35,7 @@ function detectTextChange() {
                     address: addressText,
                 },
                 success: function (response) {
-                    console.log(response.username);
-                    console.log(response.msgtime);
+                    console.log("se: ");
                 },
                 error: function (xhr, status, error) {
                     // 請求失敗時的處理
