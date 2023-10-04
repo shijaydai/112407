@@ -36,7 +36,8 @@ def testA(request, place_name="None", formatted_address="None"):
                 # 查询匹配的dj对象
                 #matched_dj = dj.objects.get(
                 #matched_store = store.objects.get(
-                matched_store = store.objects.filter(storename = currentText , address=addressText).first()
+                matched_store = store.objects.filter(storename=currentText, address=addressText).first()
+                # if matched_store is None:
                     #storeid =  "1001"
                      #storeid__storename=currentText,
                      #storeid__address=addressText
@@ -60,7 +61,11 @@ def testA(request, place_name="None", formatted_address="None"):
                      #storeid__storename=currentText,
                      #storeid__address=addressText
                 )
-                print("ddd" + matched_dj.username  + "222")
+                print(matched_dj.username)
+                print(matched_dj.msgtime)
+                print(matched_dj.star)
+                print(matched_dj.comment)
+                print(matched_dj.comment)
                 # 构建JSON响应数据
                 response_data = {
                     'username': matched_dj.username,
@@ -82,5 +87,4 @@ def testA(request, place_name="None", formatted_address="None"):
 
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "test.html",locals())
-    return render(request, "test.html", {'item': response_data})
-
+    return render(request, "test.html", {'response_data': response_data})

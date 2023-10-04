@@ -25,6 +25,7 @@ function detectTextChange() {
             info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
             info += '<strong>地址:</strong> ' + addressText + '<br>';
             info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
+           
 
             placeInfoDiv.innerHTML = info;
             $.ajax({
@@ -35,8 +36,19 @@ function detectTextChange() {
                     address: addressText,
                 },
                 success: function (response) {
-                    console.log(response.username);
-                    console.log(response.msgtime);
+                    console.log('username'+response.username);
+                    console.log('comment'+response.comment);
+                    console.log('eff'+response.effflag);
+                    console.log('star'+response.star);
+
+
+                    var resultDiv = document.getElementById('results');
+                    resultDiv.innerHTML = 'username: ' + response.username + '<br>' +
+                                        'msgtime: ' + response.msgtime+ '<br>' +
+                                        'star: ' + response.star+ '<br>' +
+                                        'comment: ' + response.comment+ '<br>' +
+                                        'effflag: ' + response.effflag;
+                                        
                 },
                 error: function (xhr, status, error) {
                     // 請求失敗時的處理

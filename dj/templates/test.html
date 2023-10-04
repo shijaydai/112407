@@ -20,11 +20,13 @@
     
     <h1>測試Database</h1>
     <ul>
-        <li>Username: {{ item.username }}</li>
-        <li>Message Time: {{ item.msgtime }}</li>
-        <li>Star: {{ item.star }}</li>
-        <li>Comment: {{ item.comment }}</li>
-        <li>Eff Flag: {{ item.effflag }}</li>
+        {% for item in response_data %}
+            <li>username: {{ item.username }}</li>
+            <li>msgtime: {{ item.msgtime }}</li>
+            <li>star: {{ item.star }}</li>
+            <li>comment: {{ item.comment }}</li>
+            <li>effflag: {{ item.effflag }}</li>
+        {% endfor %}
     </ul>
            
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
