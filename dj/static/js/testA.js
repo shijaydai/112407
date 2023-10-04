@@ -43,6 +43,7 @@ function displayResults(results, status) {
                 listItem.textContent += ' - 聯絡電話: 未提供';
             }
 
+
             var marker = new google.maps.Marker({
                 map: map,
                 position: place.geometry.location,
@@ -66,26 +67,10 @@ function displayResults(results, status) {
     }
 }
 
-//function showPlaceInfo(place) {
- //   var placeInfoDiv = document.getElementById('placeInfo');
-//    placeInfoDiv.innerHTML = ''; // 清空之前的信息
 
-    //var info = '<h3>選定店家信息</h3>';
-    //info += '<strong>店家名稱:</strong> ' + place.name + '<br>';
-    //info += '<strong>地址:</strong> ' + place.formatted_address + '<br>';
 
-    //if (place.formatted_phone_number) {
-    //    info += '<strong>聯絡電話:</strong> ' + place.formatted_phone_number + '<br>';
-    //} else {
-    //    info += '<strong>聯絡電話:</strong> 未提供<br>';
-    //}
 
- //   placeInfoDiv.innerHTML = info;
-//    console.log(place.formatted_address);
- //   console.log(place.name);
-//
-// }
-
+//顯示店家資訊
 function clearPlaceInfo() {
     var placeInfoDiv = document.getElementById('placeInfo');
     placeInfoDiv.innerHTML = ''; // 清空信息

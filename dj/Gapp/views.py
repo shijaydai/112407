@@ -65,7 +65,6 @@ def testA(request, place_name="None", formatted_address="None"):
                 print(matched_dj.msgtime)
                 print(matched_dj.star)
                 print(matched_dj.comment)
-                print(matched_dj.comment)
                 # 构建JSON响应数据
                 response_data = {
                     'username': matched_dj.username,
