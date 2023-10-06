@@ -1,4 +1,3 @@
-
 import openpyxl
 from random import randint
 from time import sleep
@@ -15,14 +14,15 @@ from selenium.webdriver import Chrome
 import numpy as np
 import codecs
 from openpyxl import Workbook
-from django.http import JsonResponse
+
+
+
 
 def testA(request, place_name="None", formatted_address="None"):
-    response_data = {}  # 默认的空字典
-    print("AAA")
     print(request.GET)
     data = dj.objects.all()
     data1 = store.objects.all()
+<<<<<<< HEAD
     # print("aaa" + request.method + "bbb")
     #if request.GET.get("currentText") != None and request.GET.get("currentText") != None :
     if  request.method == "GET" and request.GET.get("currentText") != None and request.GET.get("currentText") != None :    
@@ -76,14 +76,33 @@ def testA(request, place_name="None", formatted_address="None"):
                 #print("111" + response_data + "222")
                 # 返回JSON响应
                 return JsonResponse(response_data)
+=======
+    # data = dj.objects.filter(star = 5) #要用一個條件傳到這裡的r
+    if request.method == "GET" and request.GET.get("address") != None:
+        print(request.GET)
 
-            except dj.DoesNotExist:
-                # 如果没有匹配的记录，返回错误消息和HTTP状态码
-                return JsonResponse({'error': 'No matching record found'}, status=404)
-        else:
-            # 如果缺少必要的参数，返回错误消息和HTTP状态码
-            return JsonResponse({'error': 'Missing currentText or address parameter'}, status=400)
+    try:
+        matched_dj = dj.objects.filter(
+            storeid__storename=place_name,
+            storeid__address=formatted_address
+        ).first()
+>>>>>>> de7f4e6329e05b3054fbff63ff8dcbb878b8d618
 
+        if matched_dj:
+            print("hello")
+                # 匹配成功，可以在这里返回匹配的数据或渲染相应的模板
+            return render(request, 'test.html', {'item': matched_dj})
+
+<<<<<<< HEAD
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "test.html",locals())
     return render(request, "test.html", {'response_data': response_data})
+=======
+    except dj.DoesNotExist:
+            pass
+
+        # 如果没有匹配或发生异常，可以返回一个适当的响应
+    return render(request, "test.html",locals())
+
+ 
+>>>>>>> de7f4e6329e05b3054fbff63ff8dcbb878b8d618

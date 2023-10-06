@@ -1,0 +1,88 @@
+*{
+    font-family:微軟正黑體;
+}
+
+
+body{
+    background-color: rgba(179, 189, 247, 0.603);
+}
+
+#account, #password{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 45px;
+    color: #0a0458;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    color: #4a4c5f;
+}
+
+.login_page{
+    margin: 50px;
+    padding: 30px;
+    width: 230px;
+    height: 280px;
+    background-color: white;
+    border-radius: 50px;
+    border-top: 20px solid #4a4c5f;
+    box-shadow: 100px rgba(0, 0, 0, 0.150);
+    
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center;  
+}
+
+
+.index{
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center; 
+}
+
+.submit{
+    color: white;  
+    background: #4a4c5f;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.bottom{
+    position: relative;
+    top: 70px;
+}
+
+.register, .visit{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(85, 125, 141, 0.315);
+}
+
+
+
+input{
+    padding: 5px;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+

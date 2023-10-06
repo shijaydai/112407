@@ -36,6 +36,7 @@ function detectTextChange() {
                     address: addressText,
                 },
                 success: function (response) {
+<<<<<<< HEAD
                     var resultDiv = document.getElementById('results');
                     var info = '<strong>店家信息</strong><br>';
                     info += '店家名稱: ' + currentText + '<br>';
@@ -49,6 +50,9 @@ function detectTextChange() {
                     info += '有效性: ' + response.effflag + '<br>';
                     
                     resultDiv.innerHTML = info;
+=======
+                    console.log("se: ");
+>>>>>>> de7f4e6329e05b3054fbff63ff8dcbb878b8d618
                 },
                 
                 error: function (xhr, status, error) {
