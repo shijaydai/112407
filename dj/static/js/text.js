@@ -25,6 +25,7 @@ function detectTextChange() {
             info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
             info += '<strong>地址:</strong> ' + addressText + '<br>';
             info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
+           
 
             placeInfoDiv.innerHTML = info;
             $.ajax({
@@ -35,8 +36,21 @@ function detectTextChange() {
                     address: addressText,
                 },
                 success: function (response) {
-                    console.log("se: ");
+                    var resultDiv = document.getElementById('results');
+                    var info = '<strong>店家信息</strong><br>';
+                    info += '店家名稱: ' + currentText + '<br>';
+                    info += '地址: ' + addressText + '<br>';
+                    info += '聯絡電話: ' + phoneText + '<br><br>';
+                    info += '<strong>用戶信息</strong><br>';
+                    info += '留言者名字: ' + response.username + '<br>';
+                    info += '留言時間: ' + response.msgtime + '<br>';
+                    info += '星星數: ' + response.star + '<br>';
+                    info += '評論: ' + response.comment + '<br>';
+                    info += '有效性: ' + response.effflag + '<br>';
+                    
+                    resultDiv.innerHTML = info;
                 },
+                
                 error: function (xhr, status, error) {
                     // 請求失敗時的處理
                     console.log("search_textAJAX請求失敗: " + error);

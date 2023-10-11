@@ -2,9 +2,11 @@ import json
 from django.db import models
 
 class store(models.Model):
-    storeid = models.AutoField(primary_key=True)
+    storeid = models.IntegerField(primary_key=True)
     storename = models.CharField(max_length=50)
     address = models.CharField(max_length=100)
+    def __str__(self):
+        return self.storeid
     
 class dj(models.Model):
     username = models.CharField(max_length=100)
