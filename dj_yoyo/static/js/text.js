@@ -42,11 +42,18 @@ function detectTextChange() {
                     info += '地址: ' + addressText + '<br>';
                     info += '聯絡電話: ' + phoneText + '<br><br>';
                     info += '<strong>用戶信息</strong><br>';
-                    info += '留言者名字: ' + response.username + '<br>';
-                    info += '留言時間: ' + response.msgtime + '<br>';
-                    info += '星星數: ' + response.star + '<br>';
-                    info += '評論: ' + response.comment + '<br>';
-                    info += '有效性: ' + response.effflag + '<br>';
+
+                    
+                    var jsonData = JSON.parse(response.comment);
+                    console.log(jsonData[0]);
+                    for (let i = 0; i < jsonData.length; i++) {
+                        info += '留言者名字: ' + jsonData[i].username + '<br>';
+                        info += '留言時間: ' + jsonData[i].msgtime + '<br>';
+                        info += '星星數: ' + jsonData[i].star + '<br>';
+                        info += '評論: ' + jsonData[i].comment + '<br>';
+                        info += '有效性: ' + jsonData[i].effflag + '<br>';    
+                    }
+
                     
                     resultDiv.innerHTML = info;
                 },

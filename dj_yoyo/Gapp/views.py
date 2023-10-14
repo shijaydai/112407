@@ -16,6 +16,7 @@ import numpy as np
 import codecs
 from openpyxl import Workbook
 from django.http import JsonResponse
+import json
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -56,23 +57,24 @@ def visitor(request, place_name="None", formatted_address="None"):
                 #     print(item)
                 #print("ccc" + aa.+ "222")
 
-                matched_dj = dj.objects.get(
-                    storeid =  matched_store.storeid
+                matched_dj = dj.objects.filter(
+                    storeid_id =  matched_store.storeid
                      #storeid__storename=currentText,
                      #storeid__address=addressText
-                )
-                print(matched_dj.username)
-                print(matched_dj.msgtime)
-                print(matched_dj.star)
-                print(matched_dj.comment)
-                
+                ).values()
+                # print(matched_dj.username)
+                # print(matched_dj.msgtime)
+                # print(matched_dj.star)
+                # print(matched_dj.comment)
+                 # 将QuerySet对象转换为列表
+                matched_dj_list = list(matched_dj)
+
+                # 将列表转换为JSON字符串
+                json_data = json.dumps(matched_dj_list)
+
                 # 构建JSON响应数据
                 response_data = {
-                    'username': matched_dj.username,
-                    'msgtime': matched_dj.msgtime,
-                    'star': matched_dj.star,
-                    'comment': matched_dj.comment,
-                    'effflag': matched_dj.effflag
+                    'comment': json_data,
                 }
                 #print("111" + response_data + "222")
                 # 返回JSON响应
