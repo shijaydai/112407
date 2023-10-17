@@ -90,3 +90,7 @@ def visitor(request, place_name="None", formatted_address="None"):
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
     return render(request, "visitor.html", {'response_data': response_data})
+
+def index(request):
+   
+    return render(request, "index.html", locals())
