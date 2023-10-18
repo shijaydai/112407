@@ -12,7 +12,6 @@ function detectTextChange() {
         var currentText = targetElement.textContent;
 
         if (currentText !== initialText) {
- 
             
             // 文本內容已經變化，將其放入 placeInfoDiv
             var addressElement = document.querySelector('.address-line.full-width');
@@ -36,6 +35,7 @@ function detectTextChange() {
                     address: addressText,
                 },
                 success: function (response) {
+                    console.log('hello'+response);
                     var resultDiv = document.getElementById('results');
                     var info = '<strong>店家信息</strong><br>';
                     info += '店家名稱: ' + currentText + '<br>';

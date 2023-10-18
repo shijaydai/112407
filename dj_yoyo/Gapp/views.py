@@ -26,10 +26,10 @@ def visitor(request, place_name="None", formatted_address="None"):
     data1 = store.objects.all()
     # print("aaa" + request.method + "bbb")
     #if request.GET.get("currentText") != None and request.GET.get("currentText") != None :
-    if  request.method == "GET" and request.GET.get("currentText") != None and request.GET.get("currentText") != None :    
+    print(request.GET)
+    if  request.method == "GET" and request.GET.get("currentText") != None :    
         currentText = request.GET.get("currentText")
         addressText = request.GET.get("address")
-    
         if currentText is not None and addressText is not None:
             try:
                 print("name" , currentText)
@@ -71,7 +71,7 @@ def visitor(request, place_name="None", formatted_address="None"):
 
                 # 将列表转换为JSON字符串
                 json_data = json.dumps(matched_dj_list)
-
+                print(json_data)
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
@@ -89,8 +89,13 @@ def visitor(request, place_name="None", formatted_address="None"):
 
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
+    
     return render(request, "visitor.html", {'response_data': response_data})
 
 def index(request):
    
     return render(request, "index.html", locals())
+
+# def visitor_view(request):
+#     # 处理 visitor.html 页面的逻辑
+#     return render(request, 'visitor.html')  # 返回 visitor.html 模板

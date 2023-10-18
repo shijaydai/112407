@@ -18,7 +18,7 @@
         <ul id="placesList"></ul>
     </div>
     
-    <h1>測試Database</h1>
+    {% comment %} <h1>測試Database</h1>
     <ul>
         {% for item in response_data %}
             <li>username: {{ item.username }}</li>
@@ -27,7 +27,7 @@
             <li>comment: {{ item.comment }}</li>
             <li>effflag: {{ item.effflag }}</li>
         {% endfor %}
-    </ul>
+    </ul> {% endcomment %}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
