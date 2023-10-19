@@ -11,6 +11,9 @@ from Gapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('visitor/',visitor),
+    # path('visitor/', views.visitor_view, name='visitor_page'),
+    
+    path('index/', views.index, name='index'),
     path('', views.index),
 #     path('login/',login)
 ]
