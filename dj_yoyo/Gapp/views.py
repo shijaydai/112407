@@ -5,7 +5,7 @@ from time import sleep
 from fake_useragent import UserAgent
 import pandas as pd
 import Gapp.models
-from .models import dj,store
+from .models import dj,store,effective
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
@@ -17,6 +17,12 @@ import codecs
 from openpyxl import Workbook
 from django.http import JsonResponse
 import json
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import authenticate, login as auth_login
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth import login as auth_login
+from Gapp.models import User
+from django.contrib.auth.hashers import make_password
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -35,37 +41,14 @@ def visitor(request, place_name="None", formatted_address="None"):
                 print("name" , currentText)
                 print("address" , addressText)
                 # 查询匹配的dj对象
-                #matched_dj = dj.objects.get(
-                #matched_store = store.objects.get(
                 matched_store = store.objects.filter(storename=currentText, address=addressText).first()
-                # if matched_store is None:
-                    #storeid =  "1001"
-                     #storeid__storename=currentText,
-                     #storeid__address=addressText
-                    #storename = currentText
-                    #"饌味香麵食館", 
-                    #currentText,
-                    #address="100台灣臺北市中正區濟南路二段6-1號"
-                    #"100台灣臺北市中正區濟南路二段6-1號" 
-                    #addressText
-                #)#.objects.get(address=addressText)
-                # print(store.DoesNotExist)
-                # if store.DoesNotExist:
-                #     return JsonResponse({'error': 'No matching record found in store'}, status=404)
-                # print('id',matched_store.storeid)
-                # for item in matched_store:
-                #     print(item)
-                #print("ccc" + aa.+ "222")
-
-                matched_dj = dj.objects.filter(
-                    storeid_id =  matched_store.storeid
-                     #storeid__storename=currentText,
-                     #storeid__address=addressText
-                ).values()
-                # print(matched_dj.username)
-                # print(matched_dj.msgtime)
-                # print(matched_dj.star)
-                # print(matched_dj.comment)
+                matched_dj = dj.objects.filter(storeid_id =  matched_store.storeid).values()
+                matched_effsum = dj.objects.filter(storeid_id = matched_store.storeid, effflag=1).count()
+                matched_reccnt = dj.objects.filter(storeid_id = matched_store.storeid).count()
+                matched_asw = matched_effsum*100 / matched_reccnt
+                print(matched_effsum)
+                print(matched_reccnt)
+                print(matched_asw)
                  # 将QuerySet对象转换为列表
                 matched_dj_list = list(matched_dj)
 
@@ -75,6 +58,7 @@ def visitor(request, place_name="None", formatted_address="None"):
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
+                    'match_asw': matched_asw,
                 }
                 #print("111" + response_data + "222")
                 # 返回JSON响应
@@ -96,6 +80,43 @@ def index(request):
    
     return render(request, "index.html", locals())
 
-# def visitor_view(request):
-#     # 处理 visitor.html 页面的逻辑
-#     return render(request, 'visitor.html')  # 返回 visitor.html 模板
+
+
+def register(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        username = request.POST.get('username')
+        password = request.POST.get('passwd')
+        password1 = request.POST.get('passwd1')
+
+        # 简单的密码验证，你可以根据需要添加更复杂的验证逻辑
+        if password == password1:
+            if not User.objects.filter(username=username).exists():
+                # 创建User实例并保存到数据库
+                user = User.objects.create(email=email, username=username, password=make_password(password))
+                user.save()
+                # 注册成功后重定向到登录页面
+                return redirect('login')
+            else:
+                message = "帳號已經存在。"
+        else:
+            message = "密碼不匹配。"
+    else:
+        message = ""
+    print(message)
+    return render(request, 'register.html', {'message': message})
+
+def login(request):
+    message = ""
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        password = request.POST.get('passwd')
+        print(email,password)
+        user = authenticate(email=email,password=password)
+        print(user)
+        if user:
+            auth_login(request, user)  # 登录用户
+            return redirect('/visitor')  # 登录成功后跳转到会员页面
+        else:
+            message = "登入失敗，請檢查帳號和密碼是否正確。"
+    return render(request, 'login.html', {'message': message})
