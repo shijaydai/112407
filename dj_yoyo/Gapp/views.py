@@ -5,7 +5,7 @@ from time import sleep
 from fake_useragent import UserAgent
 import pandas as pd
 import Gapp.models
-from .models import dj,store,effective
+from .models import dj,store
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
