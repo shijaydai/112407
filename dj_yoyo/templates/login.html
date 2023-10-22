@@ -1,70 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登入帳號</title>
-    <link href="../static/css/login.css" rel="stylesheet" type="text/css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0069d9;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <div class="dropdown">
-    <button class="dropbtn">畫面</button>
-    <div class="dropdown-content">
-        <a href="index.html">搜尋畫面</a>
-        <a href="result.html">有效評論占比</a>
-        <a href="grouping.html">正負面百分比及關鍵字</a>
-        <a href="login.html">登入</a>
-        <!-- <a href="register.html">註冊帳號</a>-->
-        <a href="reply.html">回饋意見</a>
+    <div class="container">
+        <h2>Login</h2>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+        <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <input type="email" placeholder="e-mail" name="email" required>
+            <input type="password" id="passwordInput" oninput="password_validation()" placeholder="密碼" name="passwd" required>
+                
+            <input type="submit" value="Submit">
+        </form>
+        <div class="register-link">
+            <a href="{% url 'register' %}">註冊帳號</a>
+        </div>
     </div>
-  </div>
-  
-    <div class="system_name">
-        <h2>有評有G</h2>
-      </div>
-      
-      <div class="login_page">
-        <div id="container1">
-          <div class="login">  
-            <h3>登入 Login</h3>
-            <form action="用戶管理.php">
-              <input type="text" id="username" name="username" placeholder="帳號" required>
-              <div class="tab"></div>
-              <input type="text" id="password" name="password" placeholder="密碼" required>
-              <div class="tab"></div>
-              <input type="submit" value="登入" class="submit" /*onclick="location.href='https://codepen.io/rosewang0303/full/OQbLBv/'"*/>
-            </form>  
-            <a href="result.html"></a>
-            <h5 onclick="show_hide()">註冊帳號</h5>
-            
-          </div><!-- login end-->
-        </div><!-- container1 end-->
-      </div><!-- login_page end-->
-      
-      <div class="signup_page"></div>
-        <div id="container2">
-          <div class="signup">  
-            <h3>註冊帳號</h3>
-            <form action="用戶管理.php">
-              <input type="text" id="fullname" name="fullname" placeholder="使用者名稱" required>
-              <div class="tab"></div>
-              <input type="text" id="username2" name="username" placeholder="帳號" required>
-              <div class="tab"></div>
-              <input type="text" id="password2" name="password" placeholder="密碼" required>
-              <div class="tab"></div>
-              <input type="text" id="comfirm_password" name="comfirm_password" placeholder="確認密碼" required>
-              <div class="tab"></div>            
-              <input type="submit" value="註冊" class="submit">
-            </form>  
-            <h5 onclick="show_hide()">登入帳號</h5>
-          </div><!-- signup end-->
-        </div><!-- container2 end-->
-      </div><!-- signup_page end--> 
-      <script src="../static/js/login.js"></script>
+
 </body>
 </html>
-
-
-
- 

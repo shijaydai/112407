@@ -40,10 +40,12 @@ function detectTextChange() {
                     var info = '<strong>店家信息</strong><br>';
                     info += '店家名稱: ' + currentText + '<br>';
                     info += '地址: ' + addressText + '<br>';
-                    info += '聯絡電話: ' + phoneText + '<br><br>';
-                    info += '<strong>用戶信息</strong><br>';
+                    info += '聯絡電話: ' + phoneText + '<br>';
 
-                    
+                    var jsonData = JSON.parse(response.comment);
+                    info += '有效占比: ' + response.match_asw + '<br><br>';
+
+                    info += '<strong>用戶信息</strong><br>';
                     var jsonData = JSON.parse(response.comment);
                     console.log(jsonData[0]);
                     for (let i = 0; i < jsonData.length; i++) {

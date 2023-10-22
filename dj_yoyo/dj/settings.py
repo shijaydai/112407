@@ -39,6 +39,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'dj.urls'
+AUTH_USER_MODEL = 'Gapp.User'
 
 TEMPLATES = [
     {
