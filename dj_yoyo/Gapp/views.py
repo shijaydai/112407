@@ -96,7 +96,7 @@ def register(request):
                 user = User.objects.create(email=email, username=username, password=make_password(password))
                 user.save()
                 # 注册成功后重定向到登录页面
-                return redirect('login')
+                return redirect('/login')
             else:
                 message = "帳號已經存在。"
         else:
