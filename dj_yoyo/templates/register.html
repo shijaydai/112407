@@ -3,62 +3,17 @@
 <head>
     <title>Register</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            padding-top: 100px;
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            border: none;
-            border-radius: 4px;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #0069d9;
-        }
-    </style>
+    <link href="../static/css/login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="container">
-        <h2>Register</h2>
+        <h2>註冊</h2>
         <form method="post" action="{% url 'register' %}">
             {% csrf_token %}
-            <input type="email" placeholder="e-mail" name="email" required><br>
-            <input type="text" placeholder="使用者名稱" name="username" required><br>
-            <input type="password" id="passwordInput" oninput="password_validation()" placeholder="密碼" name="passwd" required><br>
-            <input type="password" id="passwordInput1" oninput="password_validation()" placeholder="確認密碼" name="passwd1" required><br>
+            <input type="email" placeholder="帳號E-mail" name="email" required>
+            <input type="text" placeholder="使用者名稱" name="username" required>
+            <input type="password" id="passwordInput" oninput="password_validation()" placeholder="密碼" name="passwd" required>
+            <input type="password" id="passwordInput1" oninput="password_validation()" placeholder="確認密碼" name="passwd1" required>
             <input type="submit" value="註冊">
         </form>
     </div>

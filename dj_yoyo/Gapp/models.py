@@ -20,12 +20,7 @@ class dj(models.Model):
     effflag = models.PositiveIntegerField()
     storeid = models.ForeignKey(store, on_delete=models.CASCADE)
      
-class effective(models.Model):
-    storeid = models.IntegerField(primary_key=True)
-    eff = models.CharField(max_length=10)
-    noeff = models.CharField(max_length=10)
 
-    
 class User(AbstractUser):
     email = models.EmailField(unique=True, max_length=255, blank=False, null=False)
     # # 設置 related_name 參數
