@@ -5,7 +5,7 @@ from time import sleep
 from fake_useragent import UserAgent
 import pandas as pd
 import Gapp.models
-from .models import dj,store
+from .models import dj,store,feedback
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
@@ -23,6 +23,8 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as auth_login
 from Gapp.models import User
 from django.contrib.auth.hashers import make_password
+from django.http import HttpResponseRedirect
+import logging
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -30,8 +32,48 @@ def visitor(request, place_name="None", formatted_address="None"):
     print(request.GET)
     data = dj.objects.all()
     data1 = store.objects.all()
-    # print("aaa" + request.method + "bbb")
-    #if request.GET.get("currentText") != None and request.GET.get("currentText") != None :
+    print(request.GET)
+    if  request.method == "GET" and request.GET.get("currentText") != None :    
+        currentText = request.GET.get("currentText")
+        addressText = request.GET.get("address")
+        if currentText is not None and addressText is not None:
+            try:
+                print("name" , currentText)
+                print("address" , addressText)
+                # 查询匹配的dj对象
+                matched_store = store.objects.filter(storename=currentText, address=addressText).first()
+                matched_dj = dj.objects.filter(storeid_id =  matched_store.storeid).values()
+                 # 将QuerySet对象转换为列表
+                matched_dj_list = list(matched_dj)
+
+                # 将列表转换为JSON字符串
+                json_data = json.dumps(matched_dj_list)
+                print(json_data)
+                # 构建JSON响应数据
+                response_data = {
+                    'comment': json_data,
+                }
+                #print("111" + response_data + "222")
+                # 返回JSON响应
+                return JsonResponse(response_data)
+
+            except dj.DoesNotExist:
+                # 如果没有匹配的记录，返回错误消息和HTTP状态码
+                return JsonResponse({'error': 'No matching record found'}, status=404)
+        else:
+            # 如果缺少必要的参数，返回错误消息和HTTP状态码
+            return JsonResponse({'error': 'Missing currentText or address parameter'}, status=400)
+
+    # 如果请求方法不是GET，返回错误响应和HTTP状态码
+    # return render(request, "visitor.html",locals())
+    return render(request, "visitor.html", {'response_data': response_data})
+
+def member(request, place_name="None", formatted_address="None"):
+    response_data = {}  # 默认的空字典
+    print("AAA")
+    print(request.GET)
+    data = dj.objects.all()
+    data1 = store.objects.all()
     print(request.GET)
     if  request.method == "GET" and request.GET.get("currentText") != None :    
         currentText = request.GET.get("currentText")
@@ -51,7 +93,6 @@ def visitor(request, place_name="None", formatted_address="None"):
                 print(matched_asw)
                  # 将QuerySet对象转换为列表
                 matched_dj_list = list(matched_dj)
-
                 # 将列表转换为JSON字符串
                 json_data = json.dumps(matched_dj_list)
                 print(json_data)
@@ -63,7 +104,6 @@ def visitor(request, place_name="None", formatted_address="None"):
                 #print("111" + response_data + "222")
                 # 返回JSON响应
                 return JsonResponse(response_data)
-
             except dj.DoesNotExist:
                 # 如果没有匹配的记录，返回错误消息和HTTP状态码
                 return JsonResponse({'error': 'No matching record found'}, status=404)
@@ -73,13 +113,11 @@ def visitor(request, place_name="None", formatted_address="None"):
 
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
-    
-    return render(request, "visitor.html", {'response_data': response_data})
+    return render(request, "member.html", {'response_data': response_data})
 
 def index(request):
    
     return render(request, "index.html", locals())
-
 
 
 def register(request):
@@ -96,7 +134,7 @@ def register(request):
                 user = User.objects.create(email=email, username=username, password=make_password(password))
                 user.save()
                 # 注册成功后重定向到登录页面
-                return redirect('/login')
+                return redirect('login')
             else:
                 message = "帳號已經存在。"
         else:
@@ -116,7 +154,18 @@ def login(request):
         print(user)
         if user:
             auth_login(request, user)  # 登录用户
-            return redirect('/visitor')  # 登录成功后跳转到会员页面
+            return redirect('/member')  # 登录成功后跳转到会员页面
         else:
             message = "登入失敗，請檢查帳號和密碼是否正確。"
     return render(request, 'login.html', {'message': message})
+
+def feedback(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        feadback = request.POST.get('feadback')
+        recommend = request.POST.get('recommend')
+        unit = feedback.objects.create(name=name, email=email, feadback=feadback, recommend=recommend)
+        unit.save()
+        return HttpResponseRedirect('/index/')
+    return render(request, "feadback.html", locals())
