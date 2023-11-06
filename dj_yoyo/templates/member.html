@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>店家搜尋</h1>
-    <input type="visitor" id="searchInput" placeholder="輸入店家名稱">
+    <input type="member" id="searchInput" placeholder="輸入店家名稱">
     <button onclick="searchPlaces()">搜尋</button>
     <div id="map" style="height: 400px;"></div>
 
@@ -17,6 +17,7 @@
         <h2>搜索結果</h2>
         <ul id="placesList"></ul>
     </div>
+    
     {% comment %} <h1>測試Database</h1>
     <ul>
         {% for item in response_data %}
@@ -27,6 +28,7 @@
             <li>effflag: {{ item.effflag }}</li>
         {% endfor %}
     </ul> {% endcomment %}
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="{% static 'js/search.js' %}"></script>
@@ -35,5 +37,5 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places&callback=initMap"></script>
     <script src="{% static 'js/search.js' %}"></script>
 </body>
-<script src="../static/js/visitor.js"></script>
+<script src="../static/js/member.js"></script>
 </html>
