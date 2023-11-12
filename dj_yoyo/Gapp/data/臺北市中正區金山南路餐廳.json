@@ -1,0 +1,1244 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuH-Ro9Q4ldueJvuegvgVBaB_gTLXYn-xZHKJkXyysomXtAlKUeXdxnJAcIKDIGjHihIJL6MhpwOkMhYkZ1PQtrJ_98atmgflZO5rTb2eEGc8Kv4uNDwwUpzKQoF3oa9m171Mb5wAJbbrYiaJeqUv8qy26tUK5Z4FM50UIh2TnBU7jlZ88R4NeGFlbNxRq24BeSweAvYk95lbhRyGCqsF2bE_75ciSMIq3TPdjAW6rynSOkU26yw9EwWwr-eJY_-G45WK_u0oAK0iESxBBYIZrkVwlrAADo107LUVkEOdsaNeFJU0wwIIBQhbWyTfs9T-nKOv6uCnLwmPtzBKJbe9h5Y17xMZAmBbgx8VZSnmuFZAD6u57DMGK4M3nZZMC3s2AOx0XqoRh2DXIjdepecktUcotz3jTzFS5izS8QnqGRW8Q",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段88號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0360995,
+               "lng" : 121.5275183
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03743687989272,
+                  "lng" : 121.5289313798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03473722010727,
+                  "lng" : 121.5262317201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "金山鵝肉店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2620,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116858700935380405405\"\u003eJames Liu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHFHwjc5tM0wG4WU2OuoaNKvmztevMzf4lZP_piraTvN31mKJB9WrgPlsV2E7P6Yj6nQlDwHjMWFNArv8sb8P5t6fevNL_5GRXoj41RqulyWcMiWek7YQj7Ziq2EP3YHrsVJfeHWaMxpqDLu2CIbnzj07ww99zC_YMxqF6l8vERRdGi",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJq-QCaXipQjQRCvIM5TTOW8I",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPH+C2 文祥里 台北市中正區",
+            "global_code" : "7QQ32GPH+C2"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJq-QCaXipQjQRCvIM5TTOW8I",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 598
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段18號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0333203,
+               "lng" : 121.526975
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03466102989272,
+                  "lng" : 121.5283815798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03196137010728,
+                  "lng" : 121.5256819201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "銀翼餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2268,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111426428761765782026\"\u003e閃亮鍵盤劉婉如\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF1V_lUq1H03xnDUFyY6Ze7DxCqyR5b4IaHs15R27my8fm0eNU-G7kMA3ZqNp7UDXklBwGJeLQI3qQMZ4mYWHkLKJgLWGs5Baqs1_UXPCuO1yPMQKgtddWkHU2DezqutZxFmanIVfZJ9VUaP8_zSbbyIqE0KYObdwfg60fov0uwzGWH",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJsfzIwoKpQjQR36_EerquuxY",
+         "plus_code" : 
+         {
+            "compound_code" : "2GMG+8Q 光明里 台北市大安區",
+            "global_code" : "7QQ32GMG+8Q"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJsfzIwoKpQjQR36_EerquuxY",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2251
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段110巷4弄2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0350487,
+               "lng" : 121.5271444
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03644037989272,
+                  "lng" : 121.5285998298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03374072010728,
+                  "lng" : 121.5259001701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "魚バカ",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101321594792088418717\"\u003e蛙魅影\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFrovI6CsfLlsGQfYzepC-cPnhJF9sLqmVeTU-MvuucpqyumiqoQKMdQb4Ao6aQIcLhu82yUao5j-ynOqQT3iNuIT3LoKHALHEOQYKlwaMn9p1xhKHn7eBDGJljeIQ8G8sHJjgdf4ejxQ1b5Q2VB__J75g9g-MggQzg_IqVtxjjAhLF",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJy4yYVdCpQjQRnF1ARrfXBC4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPG+2V 中正區 台北市",
+            "global_code" : "7QQ32GPG+2V"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJy4yYVdCpQjQRnF1ARrfXBC4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 308
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段46號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0415131,
+               "lng" : 121.5291917
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04284662989272,
+                  "lng" : 121.5306094798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04014697010728,
+                  "lng" : 121.5279098201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Bacco 私廚小酒館",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107401769343707298385\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHP3KPhya9MqXofwsYZW7VfY7t_ijuEponK1rHhhKrW3wLeBSCYUAmk70I0gsF1zN0og1gIKJlrb5tdT4dIuFjrQPccy3vcLstAAzNorKYuUXnkbxSGqSxKVXmJRY5JrTLjYtHTHoJVOrnE2Aoo4aDNqdt2HjfOvYo0yOECXsVK6LSu",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJOxG3_kqpQjQRM0l5Tiy1fic",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRH+JM 幸福里 台北市中正區",
+            "global_code" : "7QQ32GRH+JM"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJOxG3_kqpQjQRM0l5Tiy1fic",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 18
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段135號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0353527,
+               "lng" : 121.5276915
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03672392989272,
+                  "lng" : 121.5289591298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03402427010728,
+                  "lng" : 121.5262594701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "すき家 SUKIYA 東門店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103856250206063283195\"\u003ePeter Wang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH5hLAZkmYIfUhkMNAnHEu24l9yCTjL1898IGBKwqDjdTgpd4jkSyHq6W0UogPsI9RlhZy5VwjdFudaG8cwi_Gy-NzwrNna1jLv4zN1cKahpNntKlS1qeBmbEwn1Ef-7McE0wR_Tj36QuIcekujPNzNsfuXjY5Hdguy01QAN1bBHTpB",
+               "width" : 5332
+            }
+         ],
+         "place_id" : "ChIJaxexcHipQjQRjFvJ4ueZ6QQ",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPH+43 文祥里 台北市中正區",
+            "global_code" : "7QQ32GPH+43"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJaxexcHipQjQRjFvJ4ueZ6QQ",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2053
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段37號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0397488,
+               "lng" : 121.529056
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04111572989272,
+                  "lng" : 121.5303453798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03841607010728,
+                  "lng" : 121.5276457201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "良友小館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3072,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114702225436614761583\"\u003eeric ccc\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEB4MohWXmeS-gIO2lh4HE-l8Ldf-b89AzRAZ-sXxRbWlwzPuH5YNZd1Z3t849gvXq7U2zgxTd4YcoD-EV35iSOxp27z_RaFcOfQkf6evURxicWO_2CVIDmI3MKL2Pf1NUxzww6S3fioW5kYdVGMVirJkEaXaWR5C8BXFuIgAtTe6RW",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJ7e_rfHmpQjQRoQFSKIVubuc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GQH+VJ 文北里 台北市中正區",
+            "global_code" : "7QQ32GQH+VJ"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJ7e_rfHmpQjQRoQFSKIVubuc",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1804
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段2號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0337996,
+               "lng" : 121.5270334
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03513862989272,
+                  "lng" : 121.5284544298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03243897010728,
+                  "lng" : 121.5257547701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "享鴨 烤鴨與中華料理 台北金山南店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114763063672190454859\"\u003eVivi Yu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGNDJ3_FNwdkemJG08zUhLpYTxuFd6E8bFRL6PFTIElgoXsBLRVodmiDymXuHRXffKM-VcaMqzj12B6wwd55Do5Imy-4rhlFMUeftm-mghsXstUQT4xsvL3oSDX4amlaZToTqQUhE34i7lAaOVEO6w1jYY7rE9peHD0ifzIdO4-3LtE",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJH2GhJz6pQjQRjSjvFJl2NJ0",
+         "plus_code" : 
+         {
+            "compound_code" : "2GMG+GR 光明里 台北市大安區",
+            "global_code" : "7QQ32GMG+GR"
+         },
+         "price_level" : 2,
+         "rating" : 4.8,
+         "reference" : "ChIJH2GhJz6pQjQRjSjvFJl2NJ0",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 9289
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段50號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0414334,
+               "lng" : 121.5292146
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04277402989272,
+                  "lng" : 121.5305998298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04007437010728,
+                  "lng" : 121.5279001701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Power Beef 日式烤牛肉飯小酒館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105587882457688240759\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFEFfnwrTQ5gQ84aDu47KMs37k-iiS-rNSMpVYaeAyluAd4QNEd74WnOQ7PrW2vbq1qk-la-II4sPFMameOlP9UG64hNo5LvUlIErxRyUwZ1j5pTQP1cqO-rqHM1mpwj9BrrR__2oWNJIgtUyJkQMHRupkCoVwwagtT7-BRFqS4ssqp",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ9y_TuXupQjQRUSnda0nB7u4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRH+HM 中正區 台北市",
+            "global_code" : "7QQ32GRH+HM"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJ9y_TuXupQjQRUSnda0nB7u4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1211
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段81-1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0369525,
+               "lng" : 121.5281362
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03831922989272,
+                  "lng" : 121.5294065298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03561957010728,
+                  "lng" : 121.5267068701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "下酒菜 串燒 居酒屋",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1536,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105163272934947056043\"\u003eBS chen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEFtjKfXN6biu7KOMeev9cMFaB3gsaa_zxKp-fEfm97jl0yZihxgYfwoaNykHuK5GX_7V0jZDM8cE2DV-oVRkPvY5RKe-cXwqf3R-yBEF9JJmoouRzor5GaHgcskx8TG3UldOCp3Gu8QwOfu6Y1EgyPuY-fjAvi_NMSpzMY3mj586CH",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJD8lRV3ipQjQRXkGaB_0uBsA",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPH+Q6 文祥里 台北市中正區",
+            "global_code" : "7QQ32GPH+Q6"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJD8lRV3ipQjQRXkGaB_0uBsA",
+         "types" : 
+         [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 504
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段121號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0303642,
+               "lng" : 121.5267678
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03172632989272,
+                  "lng" : 121.5280486798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02902667010728,
+                  "lng" : 121.5253490201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "摩斯漢堡 金山店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2304,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103856250206063283195\"\u003ePeter Wang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuE5-6BM3S_2F8WJheYuyuInnnm2lcTTG8PwveAN1f2i47rKVNRj8sJTaHTx5cHCEIpiZArQ1BqeCz0vwixS_X1wVqQYdIaANRPR5LccvW00fRCqvFq_Zu5GHrD9rv_186m4H3QiiAhRtK-MtjCK7S0wVPXuRa0Vy9jhH65-BFLmCuID",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJVVVVVRWsQjQRmiia4KI2hXk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJG+4P 永康里 台北市大安區",
+            "global_code" : "7QQ32GJG+4P"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJVVVVVRWsQjQRmiia4KI2hXk",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1395
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段9號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.033543,
+               "lng" : 121.527393
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03490437989272,
+                  "lng" : 121.5286683298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03220472010728,
+                  "lng" : 121.5259686701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "吉野家 東門店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1706,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111605206638383575941\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGNSdcxSRTQE7XZkSsbtnzH_sGXJIv5ltq478Vy6izbxyj0zY9ei-J_zAPE1U9QT5AYocs1CKpdmuSn93W8uTAWigCrfwUIi192cMlKG6o9xviYsX4RcKl4_0VQAJQ5DFa0o4Sx74an0hZ0-9f0--96M9caWc4dlpnWK2oX1eoriThs",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJJzV67IKpQjQRAbVJk4ZEYOc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GMG+CX 永康里 台北市大安區",
+            "global_code" : "7QQ32GMG+CX"
+         },
+         "price_level" : 2,
+         "rating" : 3.5,
+         "reference" : "ChIJJzV67IKpQjQRAbVJk4ZEYOc",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 436
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段19號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0405339,
+               "lng" : 121.5293653
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04190262989272,
+                  "lng" : 121.5306268298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03920297010728,
+                  "lng" : 121.5279271701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "藍記麻辣鍋",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3096,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109406901007829988393\"\u003eRedLeo Lin\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHfrDmljlblQXPmpMDHbfTsz7YH1HyPdnsKUu3WqY1eb81kK98KAZBQSyqe3f38hO_LBA6E-ilbCz0qM9ZiQRQmk74wrqCoGmRp02O50ZvCA838uvB001pthZ73S3IeEpm3ii6ow3Mb8cNpN1L_591X9pq1cnxr43p1JzBC7mcXA-X9",
+               "width" : 5504
+            }
+         ],
+         "place_id" : "ChIJMf8l23upQjQRGMBks-EN68A",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRH+6P 文北里 台北市中正區",
+            "global_code" : "7QQ32GRH+6P"
+         },
+         "price_level" : 2,
+         "rating" : 3.4,
+         "reference" : "ChIJMf8l23upQjQRGMBks-EN68A",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1330
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段99號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0365315,
+               "lng" : 121.5279582
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03788907989272,
+                  "lng" : 121.5292678798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03518942010728,
+                  "lng" : 121.5265682201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "胖老爹美式炸雞 東門店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103962855264009733042\"\u003elisa Chang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGbc8JtQ_pdrrN0kKnxrpbr4gEb5gSSc9InW1LLtZx7ZRr7UJ6e4qyGK3QdOmqyBp3A1Wr3JS3kayOjGJIpJLJey8f6hrAuJAMW8nLfWWj58wL5WGOUK5wDQCmFhd8weIWUg4OjFEz2ME5vrPrCFQFWMmbAZwlEpouymEPqXJhYPbXB",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ1zpmXHipQjQRP5_C73Y3jiI",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPH+J5 文祥里 台北市中正區",
+            "global_code" : "7QQ32GPH+J5"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJ1zpmXHipQjQRP5_C73Y3jiI",
+         "types" : 
+         [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 172
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段134號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.034821,
+               "lng" : 121.527196
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03616427989272,
+                  "lng" : 121.5286071298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03346462010727,
+                  "lng" : 121.5259074701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "東門鴨莊 中正總店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1849,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112339612352151595974\"\u003e鍾宇明\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGjNpt96fzk4Mie26NvPVnu4saFbuWU-mFYlOayghVzKOTeMBj42oZ6Ti-_L2g2OldaTNIjqXVY457lXO9HQlkCO4aHOYSDmowEVNTOS99c3lEfh35vBAP3mz92TlrZcnWDUcosuBtaZ6KNa5wvIQGoZrLjaaHl5_9x_jmU8rEvhrv9",
+               "width" : 2555
+            }
+         ],
+         "place_id" : "ChIJNYbXnoKpQjQRjKP7_-J9J1E",
+         "plus_code" : 
+         {
+            "compound_code" : "2GMG+WV 文祥里 台北市中正區",
+            "global_code" : "7QQ32GMG+WV"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJNYbXnoKpQjQRjKP7_-J9J1E",
+         "types" : 
+         [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1294
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段142巷6號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0346569,
+               "lng" : 121.527109
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03599667989272,
+                  "lng" : 121.5285524798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03329702010728,
+                  "lng" : 121.5258528201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "劉家美味牛肉麵",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116904374243723631638\"\u003e潘志強\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGAuuylA5P1filLzr76L90s34c9gS8PMw5FY9f0YyVU77z62722V9na7eVrDkCiiKNsd-4Vb3VphUJthhW_jw-B7MGAUYFCDN8y_7f9hSQPgGjTjw_PrKi3abHZCrKMfCmXUlDW_nAL6BPSY-nVYZiSyZZF7fqpXltuXVDiAOjcDYpN",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ6bkDTuOpQjQRhso1G7B92XM",
+         "plus_code" : 
+         {
+            "compound_code" : "2GMG+VR 文祥里 台北市中正區",
+            "global_code" : "7QQ32GMG+VR"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ6bkDTuOpQjQRhso1G7B92XM",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 42
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段85巷7之3號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0312299,
+               "lng" : 121.5273129
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03257002989272,
+                  "lng" : 121.5286581298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02987037010728,
+                  "lng" : 121.5259584701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "當家小食堂",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116689782956899881155\"\u003e高棋\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGE3ssExpDz8kmfFbbL-W0_B2yGNpFVnWdcudfx1cprNscqa_5JYyEGf-Pbp0WakH1nvB-EnYQs58npIItEOEumK40un5ShC_xhnmXpUxS6F1n6PJg3T0on_2uxRlwzE7hwz9E0l8ED9nA3e7K9-wGUrTk25kLO7SfORNWVvR7-RT4U",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJoZKDFIOpQjQRQbCr57IUV8A",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJG+FW 大安區 台北市",
+            "global_code" : "7QQ32GJG+FW"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJoZKDFIOpQjQRQbCr57IUV8A",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 161
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段31號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0399857,
+               "lng" : 121.5291434
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04134817989272,
+                  "lng" : 121.5304487798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03864852010728,
+                  "lng" : 121.5277491201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "碳探和牛專門店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4096,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107941621966930833587\"\u003e劉韋彤\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHpSC7CQMJpsVLMeLV0ArzuIEo1vn8Q24SuNiG9WDpTLIfF0wHNv1utYQWVTSqTDbLStBePp3v3QDccvzYqzGpH2NLztm2EmbmtvyiBH3KEEWwA3Wz-usKirpd0cdwu8ENpQBHZ1zlUUPc29yw22LhFAKrAW6naiWPL6hPtqobj7R2h",
+               "width" : 3072
+            }
+         ],
+         "place_id" : "ChIJQRtyOhGpQjQRf-PSxnVd1H8",
+         "plus_code" : 
+         {
+            "compound_code" : "2GQH+XM 文北里 台北市中正區",
+            "global_code" : "7QQ32GQH+XM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJQRtyOhGpQjQRf-PSxnVd1H8",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 117
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段35號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0399011,
+               "lng" : 121.5291168
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04126362989272,
+                  "lng" : 121.5304290298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03856397010728,
+                  "lng" : 121.5277293701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "魚君 さかなくん 海鮮公有市場",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110548854863380156245\"\u003eJonathan Liu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEZ7mddN-kPOIj2CSY-_Kq_vQ4fnppebbroq7kVRf4w9RJ7d4veIdcHAKaF1MSevcO6dfQPfdqGpcQx9CosAlfc17h5iZlffLvwIIKhEIbUxS388u2NHNU479bAUqF2VoHEE8anEsV1xqm4JaDV7-CZzdEi2Ti0_92qVzkUGZr_T3c7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJK3C0YnmpQjQRJibGjtaRhn4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GQH+XM 文北里 台北市中正區",
+            "global_code" : "7QQ32GQH+XM"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJK3C0YnmpQjQRJibGjtaRhn4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 544
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區金山南路一段117 號1 樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.036289,
+               "lng" : 121.5279459
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03765522989272,
+                  "lng" : 121.5292287798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03495557010728,
+                  "lng" : 121.5265291201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "燒肉 PUNCH｜金山南 4 號店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111230071860460680280\"\u003e陳伊柔\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFK3bOmOs6E2_srW4VVEVx1D5aK8-tAPcFHo2iq0Ixdw8TbF35tL2hTqS383yZLMV8jZvEOdClsSWfpvKAV0Cf42NQsEt2KQPdvviT2eSbmxH5xw5K9dQNOCxI7yJbTd9D0ejQ5sNaW4a3tLEIt-6dMC2IJK_edX32VQKTUqguwlC2I",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJE3BKHGSpQjQRx1AltiXxqA4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GPH+G5 文祥里 台北市中正區",
+            "global_code" : "7QQ32GPH+G5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJE3BKHGSpQjQRx1AltiXxqA4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 26
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區金山南路二段87號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0311371,
+               "lng" : 121.52693
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03249967989272,
+                  "lng" : 121.5282038798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02980002010727,
+                  "lng" : 121.5255042201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "名辰牛肉麵",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106096784244173786854\"\u003eMilk Hsieh\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF6mNBE5bJZ9f2HYiOBSyMDOlEDMGFGxxsGcSrQzf3pkgjyPKB5S4Iv3yhJHSnORQcYzw_E8ZJo7s42Ae2xp1o7EhqQm_87sEoViWvycSt0SARQdJ5X12VNKf5jhm4aSF3elnpzOZL7wH11Hfa3-KjXK57hMRQ6DCW2xz5XwKhyrO-L",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJn7oSQIOpQjQRpDP0cur0I48",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJG+FQ 永康里 台北市大安區",
+            "global_code" : "7QQ32GJG+FQ"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJn7oSQIOpQjQRpDP0cur0I48",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 233
+      }
+   ],
+   "status" : "OK"
+}

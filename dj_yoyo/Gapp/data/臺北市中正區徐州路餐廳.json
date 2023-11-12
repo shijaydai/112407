@@ -1,0 +1,1042 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路46號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0402881,
+               "lng" : 121.5244346
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04173857989272,
+                  "lng" : 121.5258143798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03903892010728,
+                  "lng" : 121.5231147201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "市長官邸餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105667147141801614854\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFtgujzEtNPFthGNWI1e497suoJFoxKmEbzFkFtkOmrnZcydye17NPuV34RIVmifyDXiNGsxXSIMMMIvMVe2fK_d23qV5jMceI632M_f-BsEW-SI94ZUrb--PnZoQLlSTN671HrccxhLRwauih4uEy1CETopZjVd5S68sAiSIZccoIW",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJgZ9_SHepQjQRUVSTSQoCVYU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRF+4Q 東門里 台北市中正區",
+            "global_code" : "7QQ32GRF+4Q"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJgZ9_SHepQjQRUVSTSQoCVYU",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1119
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路34號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0405889,
+               "lng" : 121.5235466
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04199517989272,
+                  "lng" : 121.5249094298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03929552010728,
+                  "lng" : 121.5222097701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "璞滿滿",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100607470356331119420\"\u003e蔡宜蓁\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuERh3q0wZJ35M8vDtu41P0dok0jdkIkwcl1BJjSJr7spvegoSTJcyJJhfKSWGB3ihTcpV3KczP47GbU5NyUZnp3e1sDetAoh3tgxrOuAWhvQc7_qeRihPEtlLoUac68Hygz0OBz-Z82b0ou_OdZL5hW27AVJOfGyhEiu9-Dpz1IyCts",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJzTNu80mpQjQRGlOOtsehuVU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRF+6C 東門里 台北市中正區",
+            "global_code" : "7QQ32GRF+6C"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJzTNu80mpQjQRGlOOtsehuVU",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 245
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路46號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0402881,
+               "lng" : 121.5244345
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04173862989272,
+                  "lng" : 121.5258142798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03903897010728,
+                  "lng" : 121.5231146201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "官邸藝文沙龍",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2250,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101092419356761398310\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHCS8xQPOvVrqrl6QPBf-IPHokVaicv9htSHT8K2rF9JqPIKh4a86qtAeTVi_ofjKq58ZURupR49pITLR8yLE8az1-x1X-TS2X56GjtWCLbij5zWWyp4pddHk48j-OS-oZurgx2ZZoBuMlGRm3O4-z-WPl0gQ-062dcKIoqAJcNgIcF",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJgZ9_SHepQjQRioHv1nFk3XU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRF+4Q 東門里 台北市中正區",
+            "global_code" : "7QQ32GRF+4Q"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJgZ9_SHepQjQRioHv1nFk3XU",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 366
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路42號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0405173,
+               "lng" : 121.5237763
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04193297989272,
+                  "lng" : 121.5251415798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03923332010728,
+                  "lng" : 121.5224419201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "禾多餐酒館 HERDOR Bistro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1152,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101055101468597800888\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF6nvnPvp0f5z8BcZjN55utk155RVlHLQpnPFSVE1jJRwuYk4-Gtrlmh8xel0XdQMrUuqpm9LyA5bf3h4fY3r8l0PHBdNshZuTAgus09UsOtDLZE1XTSLyp5F1D-dMkVWwQPRY9gjvKS3pVdziltfQu84mJHK0jhRlow2OezrRUimz2",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJt0RG_NOpQjQRfvE-PaKcVYc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRF+6G 東門里 台北市中正區",
+            "global_code" : "7QQ32GRF+6G"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJt0RG_NOpQjQRfvE-PaKcVYc",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 653
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路2-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0410047,
+               "lng" : 121.5215951
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04243572989272,
+                  "lng" : 121.5229702798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03973607010728,
+                  "lng" : 121.5202706201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "佳欣食堂",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2574,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102106686679052609778\"\u003eHsiaoChen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGA-GhqX5JTAEZOEcCiEqdynT7kvhqeYsF5vD0tWQM_oBBHSM9-cTfP2oRntxtN1iWwGuu11W5r0FSIHe7NjFE3drAlaubxzHINPE5vnXRr_NE7AvOjrKidHqdG3U1MAQQtb51NtT-CbGXQOblfXK2nFs-VcOM60SKV96MKnsr4arjB",
+               "width" : 4576
+            }
+         ],
+         "place_id" : "ChIJs3yEAj2pQjQR_oUSKw0RJsU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+CJ 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+CJ"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJs3yEAj2pQjQR_oUSKw0RJsU",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 65
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "No. 2-3號, 徐州路中正區台北市台灣 100",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0409839,
+               "lng" : 121.5216762
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04238732989272,
+                  "lng" : 121.5230427798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03968767010727,
+                  "lng" : 121.5203431201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "台大男二宿舍餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117648665714783940906\"\u003e塔可\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFSzFGqzeYAv72mh0lO_--S3SB6IB_N491kkGSEr05PbnGGz1ZeRW7Nwn7alk_2f4RD-X2eTI0m9jlJTd906R_e-_ID_o_ecfPD0CCAHiTqhFbvxgG6gwClykJNcrhOweECk09pingMsWzBvsZ64tMW7AysFNVAl0J5014gbMIQ6VC9",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ2wznxXapQjQRXv1AYV7llMg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+9M 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+9M"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJ2wznxXapQjQRXv1AYV7llMg",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 129
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路5號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0421252,
+               "lng" : 121.5195042
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04340342989272,
+                  "lng" : 121.5208336798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04070377010728,
+                  "lng" : 121.5181340201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "育成養生坊",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJfQpaB3SpQjQRplpFZYiCbe4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GR9+VR 東門里 台北市中正區",
+            "global_code" : "7QQ32GR9+VR"
+         },
+         "rating" : 0,
+         "reference" : "ChIJfQpaB3SpQjQRplpFZYiCbe4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路2-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0410369,
+               "lng" : 121.5214635
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04246327989272,
+                  "lng" : 121.5228372298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03976362010728,
+                  "lng" : 121.5201375701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "城市漢堡",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2574,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102106686679052609778\"\u003eHsiaoChen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEDS1TI6t3UDbgiyh1gVsAsDssaWahJT2z8sWZquY8mu6YMDKLrLtv-pQfn1T4BnUvA8tiQZGHMBItgee97wz88JIV2N2yQDhQBgaLt09s6Fki73UbDoVRFj0od5Nn_Jyo7QVa9G6-2PXNOqM41pr2Tyagr2Ow9bXo_xsgatqvBdXlD",
+               "width" : 4576
+            }
+         ],
+         "place_id" : "ChIJJ8n2YyKpQjQRqcPyCdvcXb0",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+CH 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+CH"
+         },
+         "price_level" : 1,
+         "rating" : 3.2,
+         "reference" : "ChIJJ8n2YyKpQjQRqcPyCdvcXb0",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 50
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0409244,
+               "lng" : 121.5209348
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04241792989272,
+                  "lng" : 121.5223680298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03971827010728,
+                  "lng" : 121.5196683701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "徐州路2號庭園會館",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3840,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107603588024103410957\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFiEqjPAHJbrM48jT4C8wL2_wRfDhsoesR81GHgDCUDCzjzwHIcWxL4G8FPmL3Iv-LFVW5obyKWjIiVLaMEhgSB1FOFejfNKwu8OGHpMD9eufG14pa81iu7YQpYpp9_rT-kwxraUoeeVKGtOZfzGk1AMg_eUdbw4jZDK9y-wWKx630K",
+               "width" : 5760
+            }
+         ],
+         "place_id" : "ChIJQ2MquHapQjQRpCZ30WH63us",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+89 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+89"
+         },
+         "price_level" : 3,
+         "rating" : 4.2,
+         "reference" : "ChIJQ2MquHapQjQRpCZ30WH63us",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 902
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0410289,
+               "lng" : 121.5204624
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04248852989272,
+                  "lng" : 121.5218254298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03978887010728,
+                  "lng" : 121.5191257701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "DAILY deli & café",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102506046124065506028\"\u003etu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuECeS1EkUKCabZDBxHyScjQCnHWOfroNJ3-MVT7kK2rnmra529SDgtjNBZOVjC0G7bstyW9bimoeLnO0BKful1TSWXJoCbR0ktapJul22y0uEH1dVPtRtGBQvhWV8z2CFVqjwtDjq0sSaOrTVvVGwtjBFj456dNJFothdAJvcH9d82z",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJHbvCEOWpQjQRAEahpdMfD38",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+97 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+97"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJHbvCEOWpQjQRAEahpdMfD38",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 12
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區徐州路2-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0410705,
+               "lng" : 121.5213387
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04249287989272,
+                  "lng" : 121.5227112298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03979322010728,
+                  "lng" : 121.5200115701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "麗媽四季鍋 台北徐州店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103242461376543553159\"\u003e趙柏達\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHo9uCt3RuUgFAvE4IzPdXlB17ldikduticu__TN-dEQLRAeNukXz_3ppnhT-XcbkpXdI8ceqPWzLRApxCVLezEF0tR3H069HUMtMCFlO4H4HYrBFfbK4SBgjveavLpN4SLn3zejqq-wOijLpo2pukG-cviI04CyJa8QEOOtuekXNGp",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJG-p6JWapQjQRJjNZGzHVB-4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+CG 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+CG"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJG-p6JWapQjQRJjNZGzHVB-4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 71
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區林森南路37-1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0407108,
+               "lng" : 121.5222893
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04207467989272,
+                  "lng" : 121.5235751798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03937502010728,
+                  "lng" : 121.5208755201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "有家麵食館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2936,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115942547373557243504\"\u003e姜秀文\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFv4h1_Vaw6z_9HBjBrTBfuDMTjyS68sYapAmNZDmCAMAa8zmOeylCWTtBG_V2MxEEDgEYe5Y42SqeH4Hp1R-QiAZtEEBfpHpruSiMrzAX3BV10ZwsBukyysNzmWeyhzzWcVqa6shTWyALjdmvoBG0IfkCzcO7HBuQrKTWf0kE4JLhf",
+               "width" : 3916
+            }
+         ],
+         "place_id" : "ChIJhZ9m3HapQjQRdegWkDZnZjo",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRC+7W 東門里 台北市中正區",
+            "global_code" : "7QQ32GRC+7W"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJhZ9m3HapQjQRdegWkDZnZjo",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 247
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區紹興南街14號號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0401832,
+               "lng" : 121.5237795
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04152237989272,
+                  "lng" : 121.5251769798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03882272010728,
+                  "lng" : 121.5224773201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "陽光Musi 3",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3492,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116016679801520541546\"\u003e陳月鶯\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFGZJNC4QdU12Pt-jaIMhhd7ErIDOko3Lj_SfIqZxG9z2DaP0TBUvBZuzxBn0ROCOxu6T--U1gCQoZrknYULrtsEKNcneSG0xwMRdH_MWnrYrKr5spySxF_VxLqHzUSUeZZQYcqXDXuaG57KjPyWs6RSqRikrDhe5anmqTH8i2tmrtE",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJydQAPHepQjQRGZsy6nVvJ8g",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRF+3G 東門里 台北市中正區",
+            "global_code" : "7QQ32GRF+3G"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJydQAPHepQjQRGZsy6nVvJ8g",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路7之5號號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0442435,
+               "lng" : 121.522359
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04566042989272,
+                  "lng" : 121.5237299798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04296077010727,
+                  "lng" : 121.5210303201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "珍品小館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111225326469705928637\"\u003eXia Z\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHsfMkLnlsLZt-cqVrkqtBVNzPcLXd7bFjiklVsHPb0rnxGhWFNMvCxPWdbDFAfVclmqixuXG83TUeBIDxdGSrLk3ixemCAXQNW21xIeOJi3-LVApifcDZHEs8O7GCQQweTAcVUPifsKCx2LSriIX7FcKGLeRecgNOyLEG3qKZKCh2H",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRwzYA3GpQjQRmJ-2dl50_8c",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+MW 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+MW"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJRwzYA3GpQjQRmJ-2dl50_8c",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 607
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區濟南路一段1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0432245,
+               "lng" : 121.5204226
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04445472989272,
+                  "lng" : 121.5216686798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04175507010727,
+                  "lng" : 121.5189690201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "國會康園-立法院餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115424834228264075131\"\u003e周傑特\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGU09U1wNmpX4ffksK2HOCDpO4fZAdavJgrLOPaN-4VVIT5R4kgMtykXsaDGfooL29M_BuKK6sI6PZkf0hRTQdzEq-p3zKc2t5qlJFrBJh6Pf0B-R8CDEXU1eub262or0esgHZgMyok4JOW8V0A2veQmkXbY8sxP2Vh9q_H3IGy99_b",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJu2HY4XOpQjQRO1nFq2BnAqI",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+75 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+75"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJu2HY4XOpQjQRO1nFq2BnAqI",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 720
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區濟南路一段2-1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.043022,
+               "lng" : 121.519646
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04441872989272,
+                  "lng" : 121.5210106298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04171907010728,
+                  "lng" : 121.5183109701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "蘇杭餐廳 濟南店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 478,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103029634193812925518\"\u003e蘇杭餐廳\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEMwTM3C2m84FJvETq7FvX3AEWzrZWOdfLEhmUR1hG1LMIsbXxVOK32v6pqOTesNo4ls7LXV1yAln8WjI2fcoQ2fwsExM6bVTMK4J-iriJ5pIqxIUNazypZKqHeC9yYAByzpTHJIiQCPVM0PUlo5SvOTjt6i8rJe54pek_r_3RVfLzV",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJJwMI43OpQjQRwwiSvnmKVyk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GV9+6V 東門里 台北市中正區",
+            "global_code" : "7QQ32GV9+6V"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJJwMI43OpQjQRwwiSvnmKVyk",
+         "types" : 
+         [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2944
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "微風美食, No. 7號中山南路中正區台北市台灣 100",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0407611,
+               "lng" : 121.5198104
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04235637989272,
+                  "lng" : 121.5212342798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03965672010728,
+                  "lng" : 121.5185346201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "明德素食園",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100726561961606666291\"\u003eshane merkli\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFHkpO8sB0isxpr-BuQpsG0hIZVhwpSpPCHXyqbeHYf0F9YWqRWO2FXTtGwJjCxp0CStwfhCpKaW8VzJQk4wSnODvXXY6d2dFB1Xlko2ORtKXOJyccHuqBauQ2HZ9ggZJD_HEyKA-rx3C5WdLr08P8jLdjuzpXZ_Qpf_wDU20iVoqDI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJPXTWOHSpQjQRn88KEWz2CtY",
+         "plus_code" : 
+         {
+            "compound_code" : "2GR9+8W 中正區 台北市",
+            "global_code" : "7QQ32GR9+8W"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJPXTWOHSpQjQRn88KEWz2CtY",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 71
+      }
+   ],
+   "status" : "OK"
+}
