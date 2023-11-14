@@ -1,0 +1,1239 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuEBxex_S28bwMac9c99CsP9vNi_dF50mUWLHGO-fS8PjzQ1CWESmMnFOm3pI5DeMtNgcr3aGknVGSe8AIG_i84IdUBo9ubbf8_1l8G7NhC4tynkKllgIlYQ1gzUa-6QeD4oVYWWhO0EGIdIVGI1tkEyoUteoxShPDNcOH3n26OnKzy2tvnZyYtIAyQHfqIl9yNRteiwAtvDhKws5LOQCeGMGKygXcdOqOnpjJmwdMUwC04-bFCL223bTaZnCvvlQN0gNB3t1JhtFqsWsT7bMsbgMs08M91OE4LP1-tCf0I93lxtRFVdUKe1h5yhGNQ7_ZXMMDDv66j5wlAHp0CDmXmXtspPa2uJbbziWN5ExHzZeLShKzL_ilVN2Q-RBCpnr9Qt7nFQy9r6hZu-9krUIgQRvT2WTeAFQB2R7DPa3fU7gA",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路353巷20號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0569734,
+               "lng" : 121.5262606
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05835332989272,
+                  "lng" : 121.5275969298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05565367010728,
+                  "lng" : 121.5248972701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "隱鍋 台北林森北路店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2432,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104699999623714929993\"\u003edandy591\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF8NeKmCpi1bkc1BX7YrMYsWEpWBw-xzuLhXQRMQWisINkTYyUvyxG7dKjs9FxN6TZRf5QMV9HRvcPd4wVOrD4RxNnl28qkY34599PbcGDr2I6mtvsUCBX7fqsMuxyPH9wXFwX07LczHCzyDlc_s2gLeT5GtfF-Ty8RSOXJSZ6VlcJa",
+               "width" : 3857
+            }
+         ],
+         "place_id" : "ChIJm1F3coOpQjQRUMXfOR1RxUE",
+         "plus_code" : 
+         {
+            "compound_code" : "3G4G+QG 中山里 台北市中山區",
+            "global_code" : "7QQ33G4G+QG"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJm1F3coOpQjQRUMXfOR1RxUE",
+         "types" : 
+         [
+            "grocery_or_supermarket",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 6116
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路264號號B1",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0547279,
+               "lng" : 121.525335
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05607607989272,
+                  "lng" : 121.5267431298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05337642010728,
+                  "lng" : 121.5240434701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "御讚堂火鍋、鐵板燒/中山美食/宵夜/餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2266,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114170795215575472966\"\u003e坂本浩二\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHcoK1OzoFs5vwcRQbm9n-6G5fsDbQxf4bqbrAK-5XmTt8vqOF3S4erfBi4oQUzFogcvktYsR1HVh_h7jR3EjVexUVfLPhWhS1UCk4u5L7mSLSvzFko-rPioTLyzd3XlhS4AgFrOIqI8KoRmxMmnFYbClZqtd2cKYOIH3rARnxR6bKg",
+               "width" : 3540
+            }
+         ],
+         "place_id" : "ChIJwUHmeWipQjQRI5-pwGcZuFE",
+         "plus_code" : 
+         {
+            "compound_code" : "3G3G+V4 康樂里 台北市中山區",
+            "global_code" : "7QQ33G3G+V4"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJwUHmeWipQjQRI5-pwGcZuFE",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 972
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路353巷20號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.056866,
+               "lng" : 121.526372
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05830052989272,
+                  "lng" : 121.5277210298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05560087010728,
+                  "lng" : 121.5250213701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Leone Restaurant & Bar",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4480,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105410977693792291341\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFuA6zLtnsGr2RzLdP23sKhTuPPtZWbRSRbox8NYN2kzQDxVCUhhYn5PNIitFdcG9lTG2p0z2WyvTCw9fV4vCxthB7l4pIC8ZzD4HbaWG2uPmCCO0l91D-WwUW6JTn0GWACCVDfU4Ab6FpNqaLH2hSyrg4LMZ3iBehPNfj3edT0JZq6",
+               "width" : 6720
+            }
+         ],
+         "place_id" : "ChIJpSovG2ypQjQRpjSy5jvQbTU",
+         "plus_code" : 
+         {
+            "compound_code" : "3G4G+PG 中山里 台北市中山區",
+            "global_code" : "7QQ33G4G+PG"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJpSovG2ypQjQRpjSy5jvQbTU",
+         "types" : 
+         [
+            "bar",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1183
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路107巷6號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0501919,
+               "lng" : 121.525303
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05157837989272,
+                  "lng" : 121.5266641298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04887872010728,
+                  "lng" : 121.5239644701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "正福緣餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116904374243723631638\"\u003e潘志強\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFTs2qyu9fMEHGMqs4c3ZjgWfpFHsboODRsjpNsBrQC5KNo0ayIqJj47XJ-gjJYLytMIJj7VNB1F9D-OrDks_6q08oVkHhNxjwW9s_OkNKG0Inm9eG3N88L0jHg_B5royeP7-gHuRMDgcrU_tRPSAvnLvSPz1I1KPONkQcZn32R-VBx",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ_____26pQjQRh9eiQk8uHpU",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+34 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+34"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ_____26pQjQRh9eiQk8uHpU",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 23
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路353巷21號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0570725,
+               "lng" : 121.5263044
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05842922989272,
+                  "lng" : 121.5276509298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05572957010728,
+                  "lng" : 121.5249512701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "丸滿台灣味手路菜",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113576270206814160142\"\u003ehsuan620430\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH37uWeLIbc0wmddjsWNXjK90mrnv99U7litxjJveqnoX2i2nKpfKj9Mv0yTQeQgvlWry-GzVTq7h6O1DsBxFpvest0NVS4aQlGB3SHkSGWyZ-O5kSLNviUxcVqG53G7pLUbRzcxVFxW4FO3M1d6pWDXZcA1znwbr9MN10OivvWvAfT",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJy2cTgv2pQjQR1Fhco2EWmvg",
+         "plus_code" : 
+         {
+            "compound_code" : "3G4G+RG 中山里 台北市中山區",
+            "global_code" : "7QQ33G4G+RG"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJy2cTgv2pQjQR1Fhco2EWmvg",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1319
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104007台灣台北市中山區林森北路123號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0508468,
+               "lng" : 121.525192
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05220927989272,
+                  "lng" : 121.5264879798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04950962010728,
+                  "lng" : 121.5237883201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "時時英雄 jiji HERO 台北林森店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103714456755345789855\"\u003eA-Kwon Fang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFR_B-Apw9kevtXdwwKwWeHAYUa93O_NRAwioodmguQe97B7v2uJozJLTWRUWlA81x2U53SEVF2orZ6b1EOB_TZcFMERtgoqsnwG810_XR-ujzixciFdT5JfN-bjlqGd5n-I5eM8ESR__sFqOb_FSISj2aHAutuUucoilR-uIFI4meJ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJs2BxH5CpQjQRdvGgqyjaKPA",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+83 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+83"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJs2BxH5CpQjQRdvGgqyjaKPA",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 293
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路263號 2號樓之1",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0545101,
+               "lng" : 121.5255861
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05578257989271,
+                  "lng" : 121.5269011798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05308292010727,
+                  "lng" : 121.5242015201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "紅磡 新飲茶 （林森店） / 中山區 / 朋友聚餐 / 宵夜 / 春酒 / 尾牙 / 人氣餐廳 / 推薦餐廳 / 生日聚餐 / 家庭聚餐 / 約會餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 960,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117725509484611831009\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFX3VF0eni3Uj6eZIOuRtvSNiK0Yh0Rlfni4xOY0nkhjnhTIWKpLNPVX4-n-IgjZ6qj1onY2_lT484njFFkArP1Hgp4BETKZ_UOoj4WxQM7PTUtnfg2Xd7DK9Oe-JIvMzQeGtLrB7DfaCUFImQOUXbnc-eXTS6IqOSHKqjE9sjhpYSD",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJlwsr1mepQjQRsZ8pOJiUmMo",
+         "plus_code" : 
+         {
+            "compound_code" : "3G3G+R6 康樂里 台北市中山區",
+            "global_code" : "7QQ33G3G+R6"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJlwsr1mepQjQRsZ8pOJiUmMo",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 7351
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路123號2F",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0508364,
+               "lng" : 121.5252147
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05219207989272,
+                  "lng" : 121.5264958798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04949242010728,
+                  "lng" : 121.5237962201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Oh my!原燒 台北林森北店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104885470361671383374\"\u003ehaitzu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH2aAWsRl1q-s1C4iQdABn6qtkUEaZk840hMyzS-EL66t9lsV8zxSoUkqURO8DKfYyWeuQ3UJWE7DJIj_anC7nd7oiBXUSr4LI0VD8elhHhaVL5y2QHqnJSsgn9GdbjJQmN8AiQlP4_G2tuZBGNw_r3RRKtxQmqb0jCcRaY9OynL7iQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ70ymUG-pQjQR7JxW3MeQrJs",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+83 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+83"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJ70ymUG-pQjQR7JxW3MeQrJs",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 3808
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路109號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0504083,
+               "lng" : 121.5251399
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05177677989272,
+                  "lng" : 121.5264041298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04907712010728,
+                  "lng" : 121.5237044701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "森咖啡餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112606686071770040801\"\u003eUna Kao\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGtckGmY7hy0nimvrPH0eozZNUbhNm-0MQe9010S0Hmoy1Bm9U7Drp-WRQCPm-LiX564c3LfCE9p5KZnatqBFunFxcSgXTCZFgtSx3OvXOH6tu6V4ZnMWdmsp1xaXG7Zsd3nc3bVDzq36YR7wF6YjqlhREFuNLYH9FKYZYj7Fma9VWo",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJTQU2XG-pQjQRhzc-_r7MENE",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+53 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+53"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJTQU2XG-pQjQRhzc-_r7MENE",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 217
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路263號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0545886,
+               "lng" : 121.5256261
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05593902989272,
+                  "lng" : 121.5268880798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05323937010728,
+                  "lng" : 121.5241884201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "金員外餐廳",
+         "photos" : 
+         [
+            {
+               "height" : 4160,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100683525018361635060\"\u003e裕國連\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHqhKrBhEKubmXkqk2AnqZdPFQKNhc9eqgOUm_XzEBrsEk50DlMGtZTlLC8fN2N2sRh8jfuKJSTfz_l9yw3lFUQHcSDILTgHqk8gS9E6ESkDDJxUeyX7KC5Kj3D82EW_e5vJTVIkfUGnkNG0Na3vr4EPcgG-oTMjx3Cxck5c330pljd",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJX2HF12epQjQRDCLlTIQ2jUM",
+         "plus_code" : 
+         {
+            "compound_code" : "3G3G+R7 康樂里 台北市中山區",
+            "global_code" : "7QQ33G3G+R7"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJX2HF12epQjQRDCLlTIQ2jUM",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 67
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路130號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.051252,
+               "lng" : 121.525025
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05259072989272,
+                  "lng" : 121.5264270798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04989107010728,
+                  "lng" : 121.5237274201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "庄屋 和風居酒屋",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109267308992670577188\"\u003e王崇瑄\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEQ6h_pIyUr9jPkjgTEzEYTS2aGIXNdRXHcdOpKC9DIWLR1vt37iJG7CzRU2Endlq93jlzbALFJCrfTZEk3Sbgjh2kR0m43i7GuEfkPn-mNDjFY4aPclqMA9UM-gb0eg-8dfneDLFxK0Mme1qTg18JPMfhvhauTPOX68Ot8YF7v12TI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ8QQpUm-pQjQRtUpnvbv1Xjw",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+G2 正得里 台北市中山區",
+            "global_code" : "7QQ33G2G+G2"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ8QQpUm-pQjQRtUpnvbv1Xjw",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 991
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10443台灣台北市中山區林森北路107巷1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0503743,
+               "lng" : 121.5252543
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05168192989272,
+                  "lng" : 121.5265910798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04898227010727,
+                  "lng" : 121.5238914201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "梅子台灣料理餐廳 林森老店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 421,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111481642534664367232\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEfpMlIFIta2-8IaaFuKZh_AxdkcWBUZqu_LD4KzM68RdVwBputU9JZXAz5KmCtRESk5K4HmPZbOrYMpWvN8hxB9kbjZj4v9kPfex8IUdrpfbhMcMJ_7yWt_s8ZVwnRteN2taPu1Hy6LHsb_5rHlapAAhXq23sTmIh_ojNt-KfptDdN",
+               "width" : 568
+            }
+         ],
+         "place_id" : "ChIJO16aXm-pQjQR5OsC7hn8zKo",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+44 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+44"
+         },
+         "price_level" : 3,
+         "rating" : 4.2,
+         "reference" : "ChIJO16aXm-pQjQR5OsC7hn8zKo",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1041
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路133巷3號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0510943,
+               "lng" : 121.5254766
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05244972989272,
+                  "lng" : 121.5268204798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04975007010728,
+                  "lng" : 121.5241208201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "八條老宅麻辣鍋",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108606320224452669911\"\u003eDemocrazy Chen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG9aKtt6MVMSHzoOxzWi2XmgpGBioOdRzWDpZvB7SrqoFlk9kbXVTlPeoa4IaDZGJVq5zjFRLUCaPpScxaexwg5gIdOGLQzTeC8E348PwPahEl0g6UFlUHC-Xemt6QSjMyM2GeJGwi9KUsLCfhlwm_k4GFVfhWTfj2zcUseMDK-s_xp",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUUp8Vm-pQjQRQIVDxFaJEgo",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+F5 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+F5"
+         },
+         "price_level" : 3,
+         "rating" : 4.4,
+         "reference" : "ChIJUUp8Vm-pQjQRQIVDxFaJEgo",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 2283
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路487號1 樓 209 室",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.061289,
+               "lng" : 121.5269011
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.06259067989272,
+                  "lng" : 121.5282546298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05989102010728,
+                  "lng" : 121.5255549701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "創作拉麵 悠然",
+         "photos" : 
+         [
+            {
+               "height" : 1200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102117114701293760741\"\u003eLee Zoe\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuE7S8lZCkwbNjc9EIfXzhVRGshU28X-BWbNqqrGgUoYDh-0JHjIB_NdeUtprzTfdD67hXvfB-7SAX7ybSDcWw3Mup06Xk1KEJUDq8c9BJwuzOS7bcL_Qe4c3xCAMi1ZkGhNhWE3v1q5h67FmpRvVANkTncD_6d3L-NyUSbgid6Z8Yb1",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJlejKo1ypQjQR2hr093buKKM",
+         "plus_code" : 
+         {
+            "compound_code" : "3G6G+GQ 聚葉里 台北市中山區",
+            "global_code" : "7QQ33G6G+GQ"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJlejKo1ypQjQR2hr093buKKM",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 792
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10454台灣台北市中山區林森北路159巷4號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0516809,
+               "lng" : 121.5255056
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05306642989272,
+                  "lng" : 121.5268656298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05036677010728,
+                  "lng" : 121.5241659701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "台灣夯BAR串燒烤小店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1350,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102285842500267770650\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHmaa-IXApywkFvEk8l1AcsJgBmM5984S8US8HQ6kOCKtkz89Q_SSIjkc7RvVCk1KvlVe4kytXNcz0Dq4j2zpvJlI3dJaQHdzf9AyEJ4TEr1ssaW4hqjLXHrcUUaXoWqQJEfcmVScXqicmemxiXoVV0twaQQwlJAtVOhslUso5D-vY6",
+               "width" : 1800
+            }
+         ],
+         "place_id" : "ChIJQ3o7S2SpQjQRe_XmRyh4OBY",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+M6 正義里 台北市中山區",
+            "global_code" : "7QQ33G2G+M6"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJQ3o7S2SpQjQRe_XmRyh4OBY",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 44
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路279號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0553301,
+               "lng" : 121.5256455
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05668192989272,
+                  "lng" : 121.5269046298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05398227010728,
+                  "lng" : 121.5242049701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "高家莊米台目",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116904374243723631638\"\u003e潘志強\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGawEKbNyu7Wf-ASNu65cYjdgBgvXFu82TdORRBRXHKF9VF2l_Wc93sWBWKGG_wdOzF4CHH7VfpurPLb7lUtV8POIzJ2oQUyO0lB8RQg5XbOUoxYaAnG9DSPVxVVhRTNC1iOUoBWw2RqkjXKS5r7UzdZPrNPBMEYKHXsk2IlzU6exGW",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJdwXy32epQjQRRKgTY9zYxGg",
+         "plus_code" : 
+         {
+            "compound_code" : "3G4G+47 中山里 台北市中山區",
+            "global_code" : "7QQ33G4G+47"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJdwXy32epQjQRRKgTY9zYxGg",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 2569
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10447台灣台北市中山區林森北路247號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0541679,
+               "lng" : 121.5257142
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05552092989272,
+                  "lng" : 121.5269476798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05282127010728,
+                  "lng" : 121.5242480201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "義式屋古拉爵 欣欣百貨店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2250,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111581661085849546137\"\u003e江宜蓁\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFrGLUI5d3pWq9MMycE2CyMvxdMoK6chvqsYRfarJ9eOINrXU1EMagYfGMI1QPjAUWrdHjRoOpp8CZEOz8jNl-_h4PQMVmvjAXHbTP1sFunVF6Spv8Q8YZnlEprSVFtyAkth0OsLAiYIVH0NtbOrwiQEnIYhRTCnjAaXRRPtan7aGTt",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJPac71VypQjQREM3LNX_m4JY",
+         "plus_code" : 
+         {
+            "compound_code" : "3G3G+M7 康樂里 台北市中山區",
+            "global_code" : "7QQ33G3G+M7"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJPac71VypQjQREM3LNX_m4JY",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1297
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區林森南路4號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0441073,
+               "lng" : 121.523017
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04545097989272,
+                  "lng" : 121.5243935298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04275132010727,
+                  "lng" : 121.5216938701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "北平上園樓(山西餐廳)",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 6944,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111925425236256275810\"\u003e天空萬花筒\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGZSjMZBg2m_XFk15CjwZU2Rt7aVAis8d7Aupc8LWx0rPLM08XwA5HP_ojLbVmAuiyAq9C6z8Jdr1iLUgKZX_rsTQb898jcBn3N3uEqasvA1lIuvwdn68nY637kz2RHQvNRMNtZ0qXbPQLGkGHg9jNbdb01H8sWj5bBiLeK4tMrfSxG",
+               "width" : 9248
+            }
+         ],
+         "place_id" : "ChIJX8MT_3CpQjQRDIu4caKGCnk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+J6 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+J6"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJX8MT_3CpQjQRDIu4caKGCnk",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1292
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "104台灣台北市中山區林森北路305號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0558328,
+               "lng" : 121.5255784
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05718372989272,
+                  "lng" : 121.5268747798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05448407010728,
+                  "lng" : 121.5241751201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "好小子海鮮店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101830857561510606824\"\u003eshang Shung\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGm0vsUVu2qiRbcuYrEKbOYZQOHI2KT305fLtD9PFx_mpQ1AbxdmklTe6UVavYKN0KruShQRWaRGNKLuYU4zQCPSdZCogV0IE_1wdJuFGEqmQHiCeyIs445Ba_r-Ux5Q8z46qjCnS50tTfccWhmpFq5mwIa5w5X1oGPS_HG8CE-QD-z",
+               "width" : 5333
+            }
+         ],
+         "place_id" : "ChIJp8t44mepQjQReTRHDcIxHf0",
+         "plus_code" : 
+         {
+            "compound_code" : "3G4G+86 中山里 台北市中山區",
+            "global_code" : "7QQ33G4G+86"
+         },
+         "price_level" : 3,
+         "rating" : 4.2,
+         "reference" : "ChIJp8t44mepQjQReTRHDcIxHf0",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 793
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10491台灣台北市中山區林森北路140號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.051554,
+               "lng" : 121.5251297
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.05289257989272,
+                  "lng" : 121.5265171298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.05019292010728,
+                  "lng" : 121.5238174701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "摩斯漢堡 林森店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2304,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103856250206063283195\"\u003ePeter Wang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGu-d_WQSZoT0R4OM5ITG5EpLscCBtEBAHgIpL0rJAua5URk5vKy5mgF2Q8OzvhGYtggk3GDB86d67X96LffOTdQyqh7Ti60xgafqznLSka_F8glu-nBp8fmwsOd8_3Qh7Kp0mV-X-n4hl0B4k6G3s5ao_z68egpRW4IMUuSf9nmfeU",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJxXKO1GmpQjQRRU7E8P-k0Us",
+         "plus_code" : 
+         {
+            "compound_code" : "3G2G+J3 正得里 台北市中山區",
+            "global_code" : "7QQ33G2G+J3"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJxXKO1GmpQjQRRU7E8P-k0Us",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 906
+      }
+   ],
+   "status" : "OK"
+}
