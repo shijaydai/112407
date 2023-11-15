@@ -69,18 +69,22 @@ def remove_emojis(text):
 def getnew(namelist):
     review_result = []
     driver = webdriver.Chrome()
-    # namelist =[ "巧之味手工水餃 濟南店 ","饌味香麵食館 中正"]
+    namelist =[ "巧之味手工水餃 濟南店"]
+    nameidlist = ["1730"]
     # 1. 在 Google 搜尋列中輸入 "ABC"
     driver.get("https://www.google.com/")
     time.sleep(2)
-    for name in namelist:
-        if name.id <= 2340:
-            continue
-        print(name.id,name.storename)
-        storeid = name.id
+    for index,name in enumerate(namelist):
+    # for name in namelist:
+        # if name.id <= 2340:
+        #     continue
+        # print(name.id,name.storename)
+        # storeid = name.id
+        storeid= nameidlist[index]
         search_box = driver.find_element(By.NAME, "q")
         search_box.clear()
-        search_box.send_keys(f"{name.storename} {name.address}") #搜尋的資料
+        # search_box.send_keys(f"{name.storename} {name.address}") #搜尋的資料
+        search_box.send_keys(name) #搜尋的資料
         search_box.send_keys(Keys.RETURN)
         try:
             # 2. 找到元素中的評論連結並點擊
