@@ -1,4 +1,6 @@
 
+import csv
+import os
 import openpyxl
 from random import randint
 from time import sleep
@@ -25,6 +27,7 @@ from Gapp.models import User
 from django.contrib.auth.hashers import make_password
 from django.http import HttpResponseRedirect
 import logging
+from .get_new import getnew
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -42,7 +45,10 @@ def visitor(request, place_name="None", formatted_address="None"):
                 print("address" , addressText)
                 # 查询匹配的dj对象
                 matched_store = store.objects.filter(storename=currentText, address=addressText).first()
-                matched_dj = dj.objects.filter(storeid_id =  matched_store.storeid).values()
+
+                if matched_store is not None:
+                    matched_dj = dj.objects.filter(storeid_id=matched_store.id).values()
+                
                  # 将QuerySet对象转换为列表
                 matched_dj_list = list(matched_dj)
 
@@ -70,8 +76,6 @@ def visitor(request, place_name="None", formatted_address="None"):
 
 def member(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
-    print("AAA")
-    print(request.GET)
     data = dj.objects.all()
     data1 = store.objects.all()
     print(request.GET)
@@ -84,18 +88,16 @@ def member(request, place_name="None", formatted_address="None"):
                 print("address" , addressText)
                 # 查询匹配的dj对象
                 matched_store = store.objects.filter(storename=currentText, address=addressText).first()
-                matched_dj = dj.objects.filter(storeid_id =  matched_store.storeid).values()
-                matched_effsum = dj.objects.filter(storeid_id = matched_store.storeid, effflag=1).count()
-                matched_reccnt = dj.objects.filter(storeid_id = matched_store.storeid).count()
-                matched_asw = matched_effsum*100 / matched_reccnt
-                print(matched_effsum)
-                print(matched_reccnt)
-                print(matched_asw)
-                 # 将QuerySet对象转换为列表
-                matched_dj_list = list(matched_dj)
-                # 将列表转换为JSON字符串
-                json_data = json.dumps(matched_dj_list)
-                print(json_data)
+
+                if matched_store is not None:
+                    matched_dj = dj.objects.filter(storeid_id=matched_store.id).values()
+                    matched_effsum = dj.objects.filter(storeid_id=matched_store.id, effflag=1).count()
+                    matched_reccnt = dj.objects.filter(storeid_id=matched_store.id).count()
+                    matched_asw = matched_effsum * 100 / matched_reccnt if matched_reccnt != 0 else 0
+
+                    matched_dj_list = list(matched_dj)
+                    json_data = json.dumps(matched_dj_list)
+
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
@@ -169,3 +171,104 @@ def feedback(request):
         unit.save()
         return HttpResponseRedirect('/index/')
     return render(request, "feadback.html", locals())
+
+def extract_name_and_address(json_data):
+    lst = []
+    results = json_data.get('results', [])
+    for result in results:
+        name = result.get('name', 'N/A')
+        address = result.get('formatted_address', 'N/A')
+        lst.append([name,address])
+        # print(f"店家名稱: {name}")
+        # print(f"地址: {address}")
+        # print("------")
+    return lst
+
+def process_folder(folder_path):
+    all_results = []
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".json"):
+            print(filename)
+            file_path = os.path.join(folder_path, filename)
+            with open(file_path, encoding='utf-8') as file:
+                json_data = json.load(file)
+                lst = extract_name_and_address(json_data)
+                all_results.append(lst)
+                print(lst)
+    return all_results
+
+# def inputsql(request):
+#     data_folder_path = os.getcwd()+"\\Gapp\\data\\"
+#     all_results = process_folder(data_folder_path)
+#     print(len(all_results))
+#     for datalst in all_results:
+#         for data in datalst:
+#             store.objects.create(
+#                 storename=data[0],
+#                 address=data[1],
+#             )
+#     return render(request,"test.html",locals())
+
+# def test(request):
+#     namelist = store.objects.all()
+#     getnew(namelist)
+#     # getnew(namelist)
+#     return render(request,"test.html",locals())
+def check_file_in_folder(folder_path, file_name):
+    file_path = os.path.join(folder_path, file_name)
+    return os.path.exists(file_path)
+
+def test(request):
+    # 使用 values 方法擷取所有欄位
+    all_place_list = store.objects.all().values()
+    # 將 QuerySet 轉換為列表
+    all_place_list_dict = list(all_place_list)
+    all_place_list = [x["storename"] for x in  all_place_list ]
+    # print(all_place_list)
+    # 取得檔案的絕對路徑
+    file_path = os.path.join(os.path.dirname(__file__), 'data', '臺北市區路段資料.csv')
+    # print(all_place_list,file_path)
+    # 呼叫 get_photo 函數並傳遞路徑
+    get_photo(all_place_list, file_path)
+    return render(request, "test.html", {'all_place_list': all_place_list})
+
+
+
+def get_photo(all_place_list, file_path):
+    count =0
+    with open(file_path, newline="", encoding="utf-8") as csvfile:
+        address_list = list(csv.reader(csvfile))
+        list(address_list)   
+        for address in address_list[1:]:
+            with open(f"{os.getcwd()}\\Gapp\\data\\{address[0]}{address[1]}餐廳.json", encoding="utf-8") as file:
+                data_opening_phone = json.load(file)
+                for data in data_opening_phone["results"]:
+                    place_id = data["name"]
+                    try:
+                        photo_list = data["photos"]
+                        if place_id in all_place_list:
+                            print(place_id)
+                            for num in range(len(photo_list)):
+                                if check_file_in_folder(f'{os.getcwd()}\\照片\\備份\\',f'{place_id}.jpg'): continue
+                                photo_reference = photo_list[num]["photo_reference"]
+                                # print(photo_list[num]["photo_reference"])
+                                # print(f'{os.getcwd()}\\照片\\{place_id}_{num+1}.jpg')
+                                count+=1
+                                # ------------------------------------------------------------------
+                                max_width = 1024  # 设置所需的最大宽度
+                                max_height = 1024  # 设置所需的最大高度
+                                # 构建请求URL，包括maxwidth和maxheight参数
+                                # print(data["result"]["name"])
+                                url = f"https://maps.googleapis.com/maps/api/place/photo?photoreference={photo_reference}&maxwidth={max_width}&maxheight={max_height}&key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries"
+                                # 将your_api_key替换为您的实际API密钥
+                                # print(photo_reference)
+                                # # 发送HTTP请求获取照片
+                                response = requests.get(url)
+                                
+                                # 将照片保存到文件
+                                with open(f'{os.getcwd()}\\照片\\備份\\{place_id}.jpg', "wb") as file:
+                                        file.write(response.content) 
+                                # all_place_list.remove(place_id)    
+                    except Exception as e:
+                        print(f"發生未處理的異常: {e}")
+
