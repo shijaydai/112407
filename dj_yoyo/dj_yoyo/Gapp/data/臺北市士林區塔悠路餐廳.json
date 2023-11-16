@@ -1,0 +1,1254 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuFeSsiAlm1z4p9rhxougrXiOo1uTjaarGeAVFHMd6WxISZm620gLhat6O0DTEjQaMMg8PBcBtOVJkfkamKSJmOCNZXMjbcHKj8vHW_KnKk8TvuU3nlUehazlY3cbo-GuTP4rtvyfLgZzSpwEOBZ6icHmsQ2AtbCVC3jKm6cxQPNvr-cN6OKfHGvaKRNcggQ7v3RylESdSslOTbwZr45Suh0C1a2r-k2s_iiSEV8kxU1w9TNzypSv7VKLI65_pzxuLj2B2aPer9X9-IlkKgAul54mXdCQ2_-vne8eCZ0EowjvQXtWuX_LWJUDqITl9bxAPxEMR-4BkGYOAIy-zv3iPTLphoHZTFTu8ZcAS_okDksDXvzUpd-yMt1azU8NuQUItRzzalFF-Q6qa4PIgC1aDB5IYtcH2TAlteFwy1OFA",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路219號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0952724,
+               "lng" : 121.5263715
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09667492989272,
+                  "lng" : 121.5277022798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09397527010728,
+                  "lng" : 121.5250026201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "冰泰酥（沒有提供訂位服務）",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2848,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109324488061289490410\"\u003eTED Wu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEPw1Vj4lqdXFZopjPuLSq3Yrg42f2RO2sZSfBkjnLE9pUFxAb9Rb3OXCvp8KDq23R1oNtCyRUrgbRnpPMIrkglDHZerAvOT0adGCS9Ld1hTlAKazUuMnEJ-gz1mGn0vDQr7vMx9ZYY7FwUW60_bCikdaTxbllpLuk5722TULEJKT8_",
+               "width" : 2848
+            }
+         ],
+         "place_id" : "ChIJdQIThKevQjQRomoF9KT5dg8",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWG+4G 福林里 台北市士林區",
+            "global_code" : "7QQ33GWG+4G"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJdQIThKevQjQRomoF9KT5dg8",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 561
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區美德街84號後門》正門請走捷運橋下",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0960551,
+               "lng" : 121.5250503
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09739427989272,
+                  "lng" : 121.5263496798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09469462010728,
+                  "lng" : 121.5236500201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "泰揚雲泰主題餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3672,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108997297894399704489\"\u003elienyuan lee\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHXCseDl1nySIbCAC4A5G_bJp8fDFo90waTiJRd2GSJhngFGlsWTk--amux3MoI2MpfwZa9WNZzo7W4kRskUGHXwwYcr4_lzvtXitBs-mL5GKBSa9cLzIB_BeWg_s9AgHG4-1LIFyS2MAf3WlujaAZHWvNRPr5kTgmrdHiqVjFUjT8Y",
+               "width" : 4896
+            }
+         ],
+         "place_id" : "ChIJUSq10byuQjQRMPoglIUs4Ao",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWG+C2 舊佳里 台北市士林區",
+            "global_code" : "7QQ33GWG+C2"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJUSq10byuQjQRMPoglIUs4Ao",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 235
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路335巷1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0943082,
+               "lng" : 121.5231372
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09565812989273,
+                  "lng" : 121.5244842298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09295847010728,
+                  "lng" : 121.5217845701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "漫果子桌遊主題餐廳士林店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1836,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118256742111545559445\"\u003e漫果子桌遊主題餐廳士林店\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGe1-gkj_WORysYMvOpaKXg0bZWoSvYsieHnVjlusQjWXcf_4aaeXVdv1CpihPMeb_iS8ff2ntKGa57XnY-qYGukmKuvq1ZvWpd_tG7FcZRYklu-z9qF17ZRyA1iiOKxGpcJAWXvo7ojuxDDauiNSO-Mglb0d1bRRiOpHwBiUkFpsUB",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJx8HafbuuQjQRqMRhs0dmLH0",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVF+P7 福德里 台北市士林區",
+            "global_code" : "7QQ33GVF+P7"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJx8HafbuuQjQRqMRhs0dmLH0",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 237
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區基河路300巷21號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0935946,
+               "lng" : 121.5187769
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09494987989272,
+                  "lng" : 121.5201220798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09225022010727,
+                  "lng" : 121.5174224201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "INTRO Kitchen",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117344936089647583347\"\u003eDeborah Chang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEgt-XhiPlkFFNt66namUj-YURQO6ETc3oui4gB7Qu4KWBRQO2Vkw862axc2UmBCqQ4J9hwSs6_Aiy1l03yEk7EGFCCH1udWuod0yIjMQ884elINnb3Lz7GFjggDkG0MUjodq5LwvI_vy5h0CbngtFVs9HXW4x1hMyqy9Ekaof1OftH",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJt7vNFFSvQjQRp-Cw_uCjY8k",
+         "plus_code" : 
+         {
+            "compound_code" : "3GV9+CG 福佳里 台北市士林區",
+            "global_code" : "7QQ33GV9+CG"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJt7vNFFSvQjQRp-Cw_uCjY8k",
+         "types" : 
+         [
+            "restaurant",
+            "cafe",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 784
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區至善路三段342號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.1250251,
+               "lng" : 121.5878714
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.12636017989272,
+                  "lng" : 121.5891593298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.12366052010728,
+                  "lng" : 121.5864596701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "森林食堂",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1536,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105770206993968798056\"\u003e少冬朱\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG81CdSjHaa53Zyf9NTJJRGxqUAH2aOAmuDkacaQFnITOoyVKgJdat4j9qJ5IsHSm3OJegT6Z0ChhYsSM65COQkyjSCeMjOZ6G5wGndMUtp242VUl5W3LNDJMBS4B81ytwgAQVNhGyGy233PSKvx6C3pOP9LUbypzzfM1KG2zfb0JNS",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJVeh6ZAutQjQRgH26T1FTw7s",
+         "plus_code" : 
+         {
+            "compound_code" : "4HGQ+25 溪山里 台北市士林區",
+            "global_code" : "7QQ34HGQ+25"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJVeh6ZAutQjQRgH26T1FTw7s",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 41
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路209號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0953089,
+               "lng" : 121.526626
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09672702989272,
+                  "lng" : 121.5279555298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09402737010728,
+                  "lng" : 121.5252558701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "堤諾義大利比薩 Tino's Pizza 士林中正門市",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101023997771485222653\"\u003eGlendy Chen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFOsqDvyujQKEepAQ5bqJedT623D8WothanNpqTeXDBZpQAMe5j_arXNc7pScLnPijtM_Ohzc_4SEbBVFU7OH3qw9cqrnH6duypb0r_lyDbk-lKKHtpTd8MJXtXooGbQENiVp-di3DN6oE6gmHwd3pyW8pOjQLt7uDEp11MvsnvaBM_",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ49jwO6OuQjQRgcoE7lXY6HY",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWG+4M 福林里 台北市士林區",
+            "global_code" : "7QQ33GWG+4M"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJ49jwO6OuQjQRgcoE7lXY6HY",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1222
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區承德路四段243號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0888355,
+               "lng" : 121.521739
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09016672989272,
+                  "lng" : 121.5230537798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.08746707010728,
+                  "lng" : 121.5203541201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "哈哈羅55泰式船麵(士林店)",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103200005863601652791\"\u003e淳盈\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFHs9yfN4IRDhIOSsKp2CzKkdUijrG-m_H4TAK4UO20bJxUak8ETnuBRqyUMcT4suW_iuwfrY07palj1mjWqBaXa6ADe1lZ0vPCM3dVAyO3UofFz_9l9XDXjc82er6pKOs-PDLsLQgsq-ZKkiFLek4CFZ5XbJoKWlDpUaRkZ4_D-yAn",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJD9bH0PSvQjQRIcDsadtjtxw",
+         "plus_code" : 
+         {
+            "compound_code" : "3GQC+GM 義信里 台北市士林區",
+            "global_code" : "7QQ33GQC+GM"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJD9bH0PSvQjQRIcDsadtjtxw",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 448
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區美德街32號近士林捷運站1號出口",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0947172,
+               "lng" : 121.5255797
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09606132989272,
+                  "lng" : 121.5269716298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09336167010728,
+                  "lng" : 121.5242719701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Creative Pasta 創義麵 士林店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1512,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111062912420781863876\"\u003eNash K\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG8XG3gLgVneUbKwGCSA8-yXrvxXIdtd5A2brgibBCDM3In2muwchMb8V_Y3GTLZbWf1jrpisLjyjkif7fGEo-daVDWyEyATrxICcSTuG7h_npBL9R9KUxNLMoTxcRZu8TzRuxVk2WfplDi6fk21l1iX9lUT-XUtG8irIA5qWoeytdd",
+               "width" : 2016
+            }
+         ],
+         "place_id" : "ChIJ8d31sryuQjQRYRWoyUaa2YM",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVG+V6 福德里 台北市士林區",
+            "global_code" : "7QQ33GVG+V6"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJ8d31sryuQjQRYRWoyUaa2YM",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 2105
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區至善路三段342-350號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.1250539,
+               "lng" : 121.5878698
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.12640297989272,
+                  "lng" : 121.5891447798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.12370332010728,
+                  "lng" : 121.5864451201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "潼日式料理 (聽雨軒 LIVINGFOREST)",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105037984935723982315\"\u003e大中胡\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFldz_MqQFhhd9Giq1tp2LR3HEdZBbVemxb6lscLaapoH2dUgg5iqqQ66aoloJzD9cVU2AePvQPyQLtVdAHGKyxedgDunct6eNynYMmkDJ_35zSMBuP7NiEOIqfxKRtYUTuFQIfSNFqXUKpR2R5NgatV_duFqkWARZ-do8vo5hC5eUo",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJdSk5ZAutQjQRiSGiRAO0ovI",
+         "plus_code" : 
+         {
+            "compound_code" : "4HGQ+25 溪山里 台北市士林區",
+            "global_code" : "7QQ34HGQ+25"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJdSk5ZAutQjQRiSGiRAO0ovI",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 543
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路211號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0953444,
+               "lng" : 121.5266267
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09674602989272,
+                  "lng" : 121.5279611298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09404637010728,
+                  "lng" : 121.5252614701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "淘客美式漢堡 士林店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107586972788536781455\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFWD3uroGpdAwbEq4-z7Xi9bRQxsyo-I7bv4hMRx0iqNcTQryBAIOQTysO1itzi5ry2Ly2zB9Sk6L5ivk9rIAy3jK6aLwE519TFuN8mQb3vQa8enDQbsTj9TLju2riYmgUMT-f7cufEarEJ7xXpDsv-QCbRdipIFpIxSU09iGu48DT_",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJy3zsO6OuQjQRE2IjMnk0SkM",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWG+4M 福林里 台北市士林區",
+            "global_code" : "7QQ33GWG+4M"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJy3zsO6OuQjQRE2IjMnk0SkM",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 732
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區前港街22號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0845635,
+               "lng" : 121.5224114
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.08592972989272,
+                  "lng" : 121.5237593798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.08323007010728,
+                  "lng" : 121.5210597201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "木子豚日式豬排",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2269,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110003199630970908357\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHOKlD1F1gW0cZB4B5T5-Xi3GBR1mQZo8sKcX-xBUXRGXU07doO-v_BjOSRN5PsUeBrYPBXtXVzcQxtlWeXYunmw_CxGl9JHKfxUebFn-zLLHC1kvAx7bLJw0-3eFNwxtJLL4ncOVNMgFNalpN9Z47X8pKR6uzdAYYXd6ko34NJA9zR",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZ_SPz8GpQjQRcrvZHaeHces",
+         "plus_code" : 
+         {
+            "compound_code" : "3GMC+RX 前港里 台北市士林區",
+            "global_code" : "7QQ33GMC+RX"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJZ_SPz8GpQjQRcrvZHaeHces",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 401
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路253號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0949519,
+               "lng" : 121.5250049
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09632947989272,
+                  "lng" : 121.5264529298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09362982010727,
+                  "lng" : 121.5237532701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "咖啡弄(士林店) Coffee Alley (Shilin)",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 770,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104024830344958195544\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuER4V0BezOjZlp9H5EhqW1hNzx0R5eEN6sMPeclfY9RFb_wL2UapsyOCz4fkg9y6skoEs8tYLEuDmFNhY2oIS0Ir9y0OEhc8Mg0Xzxo1kW2lOcAXt31IEJlxM1U6qsyt95XIB_mILePdxj21ouLtyS4SS4utzZPySX4pDm0_gw1Qy1K",
+               "width" : 1682
+            }
+         ],
+         "place_id" : "ChIJ82bWsLyuQjQRhnCz31yDET4",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVG+X2 福德里 台北市士林區",
+            "global_code" : "7QQ33GVG+X2"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJ82bWsLyuQjQRhnCz31yDET4",
+         "types" : 
+         [
+            "cafe",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1363
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區美德街104號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0966542,
+               "lng" : 121.5248568
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09799787989272,
+                  "lng" : 121.5261773798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09529822010727,
+                  "lng" : 121.5234777201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "OTIS Cafe樹懶咖哩",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116052319686864312715\"\u003eAsikas Chang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGgKIMJYKUw-ciQX_QY-R7Ojkb5mnAnEWFDpu5j7n_ijE2ko4Faaplg0ywrdUsfgp9mpRIRb1yCKv4J6kwXE0MyQkVKt1OhZIJPqFEmqg4aGuRjQvz3FcrvrbYBjijjBRFr9woBvqy6CRrgrOMG6xGM5IyrmdQsLJ0e4H1OInHZCtep",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ_WxzGIuvQjQRSN405YUIsDQ",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWF+MW 士林區 台北市",
+            "global_code" : "7QQ33GWF+MW"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJ_WxzGIuvQjQRSN405YUIsDQ",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 439
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中山北路五段505巷27號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.093111,
+               "lng" : 121.5271973
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09447267989272,
+                  "lng" : 121.5285483298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09177302010728,
+                  "lng" : 121.5258486701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "倉田丸田二代目",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108145834874711542032\"\u003e陳由極\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFNiSmVCG4ksg7UBkMhIhgo40XD1gic_GJVrRPFfnzVmazsnaVVeVY5YOK5qvLg3iX1BFKf67594APtg6dvvPTAsQW5XcC5ax_3zwdgjA1KWBKInVPTgHBMyk8an1gdFzIIsoNyN2fvv7X01Wvp9TFRFWcg-z_WmpCQsO_-X5W7RNR1",
+               "width" : 5333
+            }
+         ],
+         "place_id" : "ChIJD0WqEQrQDRQRi3aOkjGOdYo",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVG+6V 福林里 台北市士林區",
+            "global_code" : "7QQ33GVG+6V"
+         },
+         "price_level" : 2,
+         "rating" : 3.1,
+         "reference" : "ChIJD0WqEQrQDRQRi3aOkjGOdYo",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 452
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區文林路434號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0946885,
+               "lng" : 121.524836
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09602562989272,
+                  "lng" : 121.5261271298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09332597010728,
+                  "lng" : 121.5234274701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "一条通 士林門市",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1512,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111062912420781863876\"\u003e奕仲\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHq1YM67mb49Vhu1qx3-4jPUr29Z5Pc1hnrPFVICJeAdfA62eETrIa_zIQhu6AlM4w3IVC1aTvVMB4VTlUuKPMtliL-lHTPYF-iwaPswcajp1CQ-dZmVDlS28qW7v4cvC7OorE-o4LnHninOB1xbHRZXDIR-nv9GmCoS_xqtPIBoObk",
+               "width" : 2016
+            }
+         ],
+         "place_id" : "ChIJw9V8InWvQjQRC9KmU_IUpAs",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVF+VW 福德里 台北市士林區",
+            "global_code" : "7QQ33GVF+VW"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJw9V8InWvQjQRC9KmU_IUpAs",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 656
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路235巷29號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0945299,
+               "lng" : 121.5262273
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09587727989272,
+                  "lng" : 121.5275677798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09317762010728,
+                  "lng" : 121.5248681201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "Modism Café 摩德年代 士林店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109244592043677184362\"\u003e陳立珊\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFLMTWVnY4g3wdRecT0ZbNlQJU6DaHe7ktWrjIf6t90rp9_FNqyyFi--yVRgo-AAR5N3XamMzvf6mWYwG-7I_BswO2VE-EOvq3i3UGMfRT_AuPjiY0vndq9D-u3_ipKDim2fbPRRIuincjR7yZB23weDd9104cAF0iz5jSftOR8pPau",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJn4mze4mvQjQRDe7XJaf7Ki0",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVG+RF 福林里 台北市士林區",
+            "global_code" : "7QQ33GVG+RF"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJn4mze4mvQjQRDe7XJaf7Ki0",
+         "types" : 
+         [
+            "cafe",
+            "bar",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 381
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區美德街21號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0944512,
+               "lng" : 121.5252725
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09581092989272,
+                  "lng" : 121.5266683798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09311127010728,
+                  "lng" : 121.5239687201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "有幸福Cafe",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 400,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101439346591198687443\"\u003e有幸福Cafe\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFVELBEC1pmm1rNh0m_E4zWMVDugueR8BK5oL2F9fm61J6ttM4jvstH62PrEETpguKwaXHvzfxhObFFmkPErfJIgVhqKwOTl5t_bF-Gnd8oUxgVBr0GMXWKyeRYImOMVym65Qy-H-reJtWm0HIep5tS2h0-a27MTCmLTd_StN-KdLyQ",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJtfXMrbyuQjQRIE2UkmbxwTc",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVG+Q4 福德里 台北市士林區",
+            "global_code" : "7QQ33GVG+Q4"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJtfXMrbyuQjQRIE2UkmbxwTc",
+         "types" : 
+         [
+            "cafe",
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 455
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區文林路469號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0958769,
+               "lng" : 121.5242809
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09723897989272,
+                  "lng" : 121.5256866798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09453932010727,
+                  "lng" : 121.5229870201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "良益壽司",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 5376,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111021551958342945986\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEC4dhet4sMQqQ0f6Pt3Hn3Kc3grolyjsf3-3hmbsIbLhDxkMhRfLOy04tJRM3GoakIkpIPgPsydKXEKlGQlrU1AMbJ_V5pEqZY0y0EidmRPDOyueUTkuhZwvEIesF5dWpMvq65vxFSjox-mPPZ0cOCf2E0TsGAI2_lOMarlSSFsAnk",
+               "width" : 3744
+            }
+         ],
+         "place_id" : "ChIJ0ZU5wryuQjQRSClR6UEPsMw",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWF+9P 福佳里 台北市士林區",
+            "global_code" : "7QQ33GWF+9P"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJ0ZU5wryuQjQRSClR6UEPsMw",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 109
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區中正路357號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0943271,
+               "lng" : 121.5221791
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09569717989272,
+                  "lng" : 121.5235191298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.09299752010728,
+                  "lng" : 121.5208194701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "回田蔬苑",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109248998242952777301\"\u003e墨瞳\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF3ce2Sqhczj-2QFZrt6Nj41DLqDttPZ-hdN53mt2mtmNuGlhAHuzq9OSqbqo-QgqL8IH1ltEG60QNZpFMPrpJfBq_hN0VypFd4duj40v4qXiiCC7oHyh-bQJBDwxqeUuw-DN4f6r8qE14z-_EFHP6o9B7q23_IrhayJIERPhymH3Ac",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJI9LUhbuuQjQRx-phwhO2tPI",
+         "plus_code" : 
+         {
+            "compound_code" : "3GVC+PV 福德里 台北市士林區",
+            "global_code" : "7QQ33GVC+PV"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJI9LUhbuuQjQRx-phwhO2tPI",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 856
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "111台灣台北市士林區大南路50號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.089374,
+               "lng" : 121.524935
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.09070837989272,
+                  "lng" : 121.5262788798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.08800872010728,
+                  "lng" : 121.5235792201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "喫尤平價鐵板燒 - 士林店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1773,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105559228656143898699\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF6NjUEt09ancpRGaIlpEG9p7tdqXFxR1Lcd8hsxXkmm9ZRtYFVYl8NT8dvtekDkLVpFpY9o8hztVKvQLFyzQLu4RcS7N0DhvgwoUMXx-RcniOJyYC8ViCZNDr2Dod69brBWiNe6VZA4he3YasxvboofykQwLm9rIS1DecLldDJqhoT",
+               "width" : 2364
+            }
+         ],
+         "place_id" : "ChIJLQz2m8OvQjQRKSwDDS_bYEc",
+         "plus_code" : 
+         {
+            "compound_code" : "3GQF+PX 義信里 台北市士林區",
+            "global_code" : "7QQ33GQF+PX"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJLQz2m8OvQjQRKSwDDS_bYEc",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 667
+      }
+   ],
+   "status" : "OK"
+}

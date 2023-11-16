@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link href="../static/css/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <h2>登入</h2>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+        <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <input type="email" placeholder="帳號E-mail" name="email" required>
+            <input type="password" id="passwordInput" oninput="password_validation()" placeholder="密碼" name="passwd" required>
+            <input type="submit" value="登入">
+        </form>
+        <div class="register-link">
+            <a href="{% url 'register' %}">註冊帳號</a>
+        </div>
+    </div>
+
+    <script>
+        // Your password validation logic goes here
+        function password_validation() {
+            // Implement your password validation logic here if needed
+        }
+    </script>
+</body>
+</html>
