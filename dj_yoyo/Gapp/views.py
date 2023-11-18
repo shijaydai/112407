@@ -54,7 +54,7 @@ def visitor(request, place_name="None", formatted_address="None"):
 
                 # 将列表转换为JSON字符串
                 json_data = json.dumps(matched_dj_list)
-                print(json_data)
+                
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
@@ -73,6 +73,16 @@ def visitor(request, place_name="None", formatted_address="None"):
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
     return render(request, "visitor.html", {'response_data': response_data})
+
+def get_photo_path(place_id):
+    # photo_folder = os.path.join(os.getcwd(), '照片', '備份')
+    # print("photo_folder" , photo_folder)
+    photo_filename = f'{place_id}.jpg'
+    print("photo_filename" , photo_filename)
+    return None
+    # photo_path = os.path.join(photo_folder, photo_filename)
+    # return photo_path if os.path.exists(photo_path) else None
+    # # print("photo_path" , photo_path)
 
 def member(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -97,11 +107,15 @@ def member(request, place_name="None", formatted_address="None"):
 
                     matched_dj_list = list(matched_dj)
                     json_data = json.dumps(matched_dj_list)
-
+                    # 获取照片路徑
+                    photo_filename = currentText
+                    print("photo_path" , photo_filename)
+                    print("AAAphoto_path" , currentText)
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
                     'match_asw': matched_asw,
+                    'photo_filename': photo_filename,
                 }
                 #print("111" + response_data + "222")
                 # 返回JSON响应

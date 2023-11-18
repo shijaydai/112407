@@ -21,6 +21,11 @@ function detectTextChange() {
             var phoneElement = document.querySelector('.view-link a');
             var phoneText = phoneElement ? phoneElement.textContent : '聯絡電話未提供';
 
+            var photoContainer = document.getElementById('photoContainer');
+            var placePhoto = document.getElementById('placePhoto');
+            placePhoto.src = '/static/img/backup/' + currentText + '.jpg';  // 根據後端返回的照片路徑設定照片
+            photoContainer.style.display = 'block';
+
             var info = '<h3>店家信息</h3>';
             info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
             info += '<strong>地址:</strong> ' + addressText + '<br>';
