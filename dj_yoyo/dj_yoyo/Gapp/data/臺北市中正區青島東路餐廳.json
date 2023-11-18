@@ -1,0 +1,1246 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuGzEhWOsLsGaD-E-bQpDoHd4Bb2xipasGPI5No7Xh_kXfETlcrknJt2koabf6dg3vKrL-VygRl_hil9t-qL36EZNrceH71h4V0w3ufQKeeo9_gxwdTdVqFsV6rzZkhf0awHSp2RFmypDziV68ajJHWieZXClTXF2yDlMbJjhag_mjcZJxqGCbqzUPPkXSQyQm86ksIymsBe6g7GIh7Yehnpya4MtNFWwfjKpUsdU-MSvYE3Kg5GckHVktVG0FQ6LhoxIyziw4kC2xdo2FTIgWs4_vbpadTZJER8xNDVbZjLqOdBHKvd2K1vYIplAn3f_sop6UYWGmsmUHZR0eqhuY0K2lNoCtBcDrsFAIYEb2cKLw8w5-t5mGDYwUww_cMayFfFQB4X7T1qKKWbKN8XlIUeSOGMfEGg14sGxfqvLGQZXQ",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路6-1號青島會館二館號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0436672,
+               "lng" : 121.5219748
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04511567989272,
+                  "lng" : 121.5233532798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04241602010728,
+                  "lng" : 121.5206536201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "忠青商行",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3468,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115273370343630040147\"\u003ehaiweitsao\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHZho-x_B5qAK_Rb1rFlJ3FWGMSa7caUDgqanNjtPS37uZ2ms5vJJj8JhvyaUxiXqRs15pH5U3HxzJlIvHBObi-EIb4lhqb3ykj0VdlU66Zt4c_fjnGNAyiwGmn_ObPv_nnMqRl8YYtZfdS2V_egrTaDM306TKJ1mYTIaGCXIYAQ1IY",
+               "width" : 4624
+            }
+         ],
+         "place_id" : "ChIJLZxabbKpQjQR6cN-5ukbq78",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+FQ 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+FQ"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJLZxabbKpQjQR6cN-5ukbq78",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 2686
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路6之2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0437017,
+               "lng" : 121.5220376
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04512752989272,
+                  "lng" : 121.5233827798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04242787010728,
+                  "lng" : 121.5206831201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "雙月食品社 青島店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 534,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117520808085940932966\"\u003e安魯魯\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEVXlM77Zm61tv8W_5_vD-hmSd0-TQTVHLJyqTgdjvN11QMUs29Ls_JYGBBzpp75hj-IzidKgsnmJTNNEvs-31eUM2rf71pcalQrrZ2zRzc7a9GRvb1C05sLhAdfajWMBg0Q1y3B30Vejngv7H_JmbjiNYNu3ZjiGzdyBsRSXRocTep",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJgbsfD3GpQjQR7z5ZO22KdVQ",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+FR 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+FR"
+         },
+         "price_level" : 2,
+         "rating" : 4.8,
+         "reference" : "ChIJgbsfD3GpQjQR7z5ZO22KdVQ",
+         "types" : 
+         [
+            "restaurant",
+            "meal_delivery",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 17790
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路7之5號號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0442435,
+               "lng" : 121.522359
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04566042989272,
+                  "lng" : 121.5237299798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04296077010727,
+                  "lng" : 121.5210303201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "珍品小館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111225326469705928637\"\u003eXia Z\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFiIQ6whArD34Ezt38LdKwBPUdKNfLhkBRr2E-8tU7j7E_9RCtn7b_CkaqSXWb0sPDlnnXV_iYeA7TvkFU4BQ-yvBRI77fHLnBwaoZdClrEVm9L9WWRGY1_na5kP-17UE67CFz3mcMXGniivKAyyDSggCKRoMg9pDmNWk0HIyjj3Uqa",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRwzYA3GpQjQRmJ-2dl50_8c",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+MW 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+MW"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJRwzYA3GpQjQRmJ-2dl50_8c",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 607
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路4-2號號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0438749,
+               "lng" : 121.5214541
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04528202989272,
+                  "lng" : 121.5228209798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04258237010728,
+                  "lng" : 121.5201213201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "坂田家廚房",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115433336513478930530\"\u003emonsterno1\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEHnjgj2Rfq0NTF9RsTiOOWGatI_tll-1Af12qXBP-ZunbO-Yw91Sd0fI6iF2dQrLzsHKUv8e7Qev2HVYmslL2fd5A8Z5wq5up9YRi1thYEJ8nnG3BrSLDb0qthR2RB7Yb_7X08fMVb-Io0YnGcgUtO7x1CA_2S-z_WBwvY8GQtfTXc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJa59ZVfepQjQRc8xDAV2sCqA",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+GH 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+GH"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJa59ZVfepQjQRc8xDAV2sCqA",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 154
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路21之9號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0434643,
+               "lng" : 121.5241923
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04473972989272,
+                  "lng" : 121.5255193798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04204007010728,
+                  "lng" : 121.5228197201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "何家大碗公涼麵 成功店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103714456755345789855\"\u003eA-Kwon Fang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEHacBfhxu1gMXr0rCr_8n0LQps_p01LZ3ntdbVjRD976JLH52cP4T7NaaNFIvm8zdIY8unyu6XjK4bRsnlByt4IQm6tjScDFfxpC6L7v7bXiYaPwYY84KUWmnlVmWfAu8Trjijacp98Sq1CTOD1AqFDlOzw6XxCGeDNG5r0U0_kB92",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJt6c7i3CpQjQRz67TYipLTFA",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+9M 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+9M"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJt6c7i3CpQjQRz67TYipLTFA",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 497
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路7-3號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0438201,
+               "lng" : 121.5225368
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04513112989272,
+                  "lng" : 121.5238753298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04243147010728,
+                  "lng" : 121.5211756701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "青島東路 基隆麵食館",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2252,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112350194573469681900\"\u003e王怡斌\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHaRycHSQ3QUoBGJeNyU5Uci8dUz7USr38pTYGY2nGCDkPT3KnEMdLKeoPtc88Bw5PXY8VLs3Z4w1kQ9Bmw0XuFj9KbUXj04F3Zxnet-6zG_qkJLFX8MY2IVneC-W3w2Hh2waC2toEPoNFl5dMBJlyY2muIT3FXCs3q4-jxnwsO181o",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJJVbgA3GpQjQR6VhEPnLA69w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+G2 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+G2"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJJVbgA3GpQjQR6VhEPnLA69w",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 693
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路3-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0440762,
+               "lng" : 121.521578
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04537542989273,
+                  "lng" : 121.5229127298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04267577010728,
+                  "lng" : 121.5202130701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "93蕃茄牛肉麵",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1536,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111204314645120534398\"\u003eTommy\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH1ZsiY9lUEK-nW_RS-Zy3vnqaGb1160zAW3RZchxx1NTuTStp5UVjlXSQmrveCTM3I3eHxsYZbc4yL0eKjobB9VLHJ306jPZAALcxgqf4upYH5ijkSNqbCmbdy7gUht5gOjfEQHWmzsdpCzKk_EtxDzJ4iURZJezz2kDw4L3LzIt1U",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ6xj3C3GpQjQRaSOEnbUzB94",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+JJ 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+JJ"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJ6xj3C3GpQjQRaSOEnbUzB94",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1513
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路9號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0437863,
+               "lng" : 121.5226835
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04509677989272,
+                  "lng" : 121.5240218798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04239712010728,
+                  "lng" : 121.5213222201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "皇家黃牛肉麵",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116947356204019813336\"\u003eARTJOEY8866 WANG\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEIlsx83inVtXFG_CA36dHrV_4IcgVqVlxF-CHlIATSV_PnpHayc4-2xzUWdatHhtZRY-25CuxRqan9eFIf6VnEZhILQR_pSSG-ZgVaQzm7S7-_OiTmRfTiOWpWKfAc2MnMnbnFvpXcQ_qKg-Ru7pt_BVArf8W2uQT6M7wS6PtBlQfW",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUd8bZ3ypQjQRb_lRn1UkUvk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+G3 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+G3"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJUd8bZ3ypQjQRb_lRn1UkUvk",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 762
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路21-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0435021,
+               "lng" : 121.5240423
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04481037989272,
+                  "lng" : 121.5253790298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04211072010728,
+                  "lng" : 121.5226793701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "青島早餐",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2268,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112350194573469681900\"\u003eMeck大叔\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHvc290zCEfLefe5Q1TnYYfjqFtVW5m21unXhxRQvCAYRBoRTY5dQypRn_7mZHKwzrRBYIv4Nm433yR6LncN9hNwhtXdfboJ88Ae-AGCC-qx3AZy_vwJQZCdIxRNv9lkIgvuM0aWQ6t0AB_IuYOp20hfNY91N8I159yfHuSza-IiBZW",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJP_Re83CpQjQRIGx64GNZKFE",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+CJ 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+CJ"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJP_Re83CpQjQRIGx64GNZKFE",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 693
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路3-3號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0440164,
+               "lng" : 121.5217671
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04532192989272,
+                  "lng" : 121.5231037298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04262227010728,
+                  "lng" : 121.5204040701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "青島排骨便當",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115424834228264075131\"\u003e周傑特\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGCJY9KbjeZTpHawAvPC0UAEW2ifCKg2n0UdX3mCKMS7wYy2HY1gOFDzKOB9IHmMjcBp1aVBHe7SY1ZzdDyvAZkK1BSaam2ZVohcwAZDPTwAE6cDAp7HMT71STTBETzibZqJMJthRLj8jSPRhhJYBjXCfxTLLgYr-KbeDCyLwGHDxgR",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJg1JSCXGpQjQRGzrSvOjWEkc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+JP 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+JP"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJg1JSCXGpQjQRGzrSvOjWEkc",
+         "types" : 
+         [
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1143
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路23-11號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.043473,
+               "lng" : 121.5245079
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04473507989272,
+                  "lng" : 121.5258307798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04203542010728,
+                  "lng" : 121.5231311201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "中原素麵食",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102506046124065506028\"\u003etu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFu8t1D8SKKd-Z3mjHzq5oe7FnuCoK338COWAlGFRmESdo_pD7AeJrw6wwvsgqJKw0XG-cs5bArLUJOkw1tzeHLLg70XAeaISD4ZlMtdDaA7lbMIldDZZOhyuJj0PJpkLgHzAJUY9cGSMd10ntDj8LJhuCjbRXV68hR4YfFNlSeJFTp",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJF7JiiXCpQjQR7KPFFy1Op34",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+9R 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+9R"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJF7JiiXCpQjQR7KPFFy1Op34",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 240
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路33-3號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0432492,
+               "lng" : 121.5249554
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04455332989272,
+                  "lng" : 121.5262916298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04185367010728,
+                  "lng" : 121.5235919701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "福州乾拌麵",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109121938552662938929\"\u003e昆吾劍\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH8vJsIIGHZdz3olAl5EhA-uJIyXTZoANBpwEshfOn_1yY_IcUEm-_tP_or1lRMS3B5OrJQMDsYFJXEx3vd3c_X_OEDfi62xLl24mHBerFziexk5OjUMwsNtz846toxF3bL5TJIiI0omXnc7_ZTNtXG0Ioj_I6Dte3LV6g0eaUToE6T",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUflthHCpQjQR56_p1RgNlmg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+7X 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+7X"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJUflthHCpQjQR56_p1RgNlmg",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 876
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路25之1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0433752,
+               "lng" : 121.5245462
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04465157989272,
+                  "lng" : 121.5258733798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04195192010728,
+                  "lng" : 121.5231737201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "早安早點",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107087508688223435462\"\u003e陳彥文\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFEaUUMyixaHkkzsf4P1jts0NBay7oz37BbFx0yG2WbJP5MPin-_pk8M0JyjCeBFCl5K2xdxIlFwWZvhcWibznW9NbPvmQ1Z2HAooxGSJbX1zScNPoV8mYNWSnbEimz9oUo5gNVljpb0Q31vt6tsjW-WmAMWtoXTiyQFexrFnaH3OLa",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJpY1OiXCpQjQRtbkDxvYq6Ww",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+8R 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+8R"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJpY1OiXCpQjQRtbkDxvYq6Ww",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 109
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路23號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0434418,
+               "lng" : 121.5242818
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04477277989272,
+                  "lng" : 121.5256259298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04207312010728,
+                  "lng" : 121.5229262701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "華國早餐店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107650788989754463605\"\u003eMaarten van Beek\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFZe93y2pTwMk_EF8fgMTdqXgPhHAiHwnhAHHBC3aZvK5T8W5MeM-62QD3epKrOGP5I_1U89QhGXwJYMYEIXXN_ExJCsu867xWcwyV8DrnR0Fp7jYxsMvaAmwZtJWsbmYTIoGa6KmT59wdmUGMueLLjfDTXdD4-lim51m1CtClv5Xkr",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJr0GDjHCpQjQR_5yMw7xiTQ0",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+CP 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+CP"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJr0GDjHCpQjQR_5yMw7xiTQ0",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 529
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路7號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0439054,
+               "lng" : 121.5223201
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04520112989272,
+                  "lng" : 121.5236543798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04250147010728,
+                  "lng" : 121.5209547201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "青島自助餐",
+         "photos" : 
+         [
+            {
+               "height" : 2592,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105910307380842340354\"\u003e李仲益\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFUsQxjOaRy1KCKRBd4q6w6k3smlTIfvLfN4mmh4jsFioQPF7nciNG6uI_fLFWSGBA1qPNCiJgPHFdT9H_mwdRa6eiMZCt46PtChbi_Cqw04TKy9Kid60UHYvQo-LueU2448u8A9F8uSTj3JlEW_8pdJHQNRc9hQyVXofHyKkP3mNnh",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJn9RyVQapQjQRckfvCXmuBjo",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+HW 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+HW"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJn9RyVQapQjQRckfvCXmuBjo",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 24
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路21-1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0435381,
+               "lng" : 121.5240599
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04481242989272,
+                  "lng" : 121.5253858798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04211277010728,
+                  "lng" : 121.5226862201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "黑糖早餐吧",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116937163240057586766\"\u003e吳丹升\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGq_5bwXUfYsJJx0HMp_cfusw13hMaE6OJWD1nPFrwUD0IvKzy5YWPfAo2bVdk_gvi_F6e0gPsv50rxZmrecZ-ytBRZ6RT8_ucszrcqmaoSgIctmwlKmkfTvFJQCWLSTCcxR2rX2wR0kCy5NPab3iX8ItgG-B3efaimL5gbSgMdmvGh",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ1w6j9HCpQjQRJCscYBhb5IM",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+CJ 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+CJ"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJ1w6j9HCpQjQRJCscYBhb5IM",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 174
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路21之8號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.043486,
+               "lng" : 121.5241006
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04476032989272,
+                  "lng" : 121.5254275798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04206067010728,
+                  "lng" : 121.5227279201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "桔子早午餐",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108933594876849767839\"\u003eLinda Hu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG2lJ8jFUDPgCQIqsmEnUlwl42JzYT_xmBSnmlJ6YujALxzY5AuX4z1R4I_gqoKgiaAvJfjGDpofL8SYahznCf2vbOJhVMWAqerNzftenmLKZhzcvAu_0So2x6cSBhIFK15_IwuUXJE_kXz20fM-AGlFbeZMoLSG84YyGJDEf3MRAsA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJrWYirVqpQjQReyuYRwhsaPg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+9J 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+9J"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJrWYirVqpQjQReyuYRwhsaPg",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 189
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路21號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0434955,
+               "lng" : 121.5240682
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04476747989272,
+                  "lng" : 121.5253943298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04206782010728,
+                  "lng" : 121.5226946701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "大麥美而美",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3456,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113893839259821677494\"\u003eray ray\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHtvWK3SdWx6lh1hpZMIHI65bzxyEAtzcf0IyhRjZwotQK2X6zv_0iVyYpJ6HrXNGThHk4mVRD4QXtHi8osEv3cdwTgj6QCf-5MLtz57QWoOt6Im1v7K3u1H-l3ogOCojZgbrMFkZTpPwMKX9JX3vKnRzX_n57aTWkDLTcT7tZ11V06",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJP_Re83CpQjQRFB3jo9YpByc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+9J 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+9J"
+         },
+         "price_level" : 1,
+         "rating" : 3.3,
+         "reference" : "ChIJP_Re83CpQjQRFB3jo9YpByc",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 68
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "1F., No. 3-1, 青島東路中正區台北市台灣 100008",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0440574,
+               "lng" : 121.5216313
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04535927989272,
+                  "lng" : 121.5229668798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04265962010728,
+                  "lng" : 121.5202672201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "玉泉茗茶",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111451470400498043065\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFPZfAtHouGkOpOuJ7F7xLkPBz1bJCee6X7U4wp3XXeboDX8OabowW5jHGg5fhLQsWVHBxSDfal8tByPSm0GIvS4qvdEC_YlFBVUPcqY31Ng2Du0hx4dGRn7FKmZzrYWRBazfcpQ-hjlmgn03dyQYalgT6wiiZgM7UT-zyD_Pe91IEg",
+               "width" : 3025
+            }
+         ],
+         "place_id" : "ChIJt5scFCupQjQRXHacr4b--kw",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+JM 中正區 台北市",
+            "global_code" : "7QQ32GVC+JM"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJt5scFCupQjQRXHacr4b--kw",
+         "types" : 
+         [
+            "restaurant",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 16
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區青島東路7-4號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.04385,
+               "lng" : 121.5225061
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04515047989273,
+                  "lng" : 121.5238415798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04245082010728,
+                  "lng" : 121.5211419201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "蓮池會素食自助餐",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3456,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101704241592721363127\"\u003e奇偉吳\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFj6rrr8LhlIqBhz5Y8etRIrZpgsR7aHJ0Yu19IKGCLOMi7xspEant-zocIrpg118EnYuJ15xWakbK-spd9m81NvrLxDcMRbTNIz1TF5WbTM-TR3A15tQkxyPqiUMMOJYp5MLci2wAkrkMsiYJuGXO3CleqxY-3luO7CDNw53hkLOme",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJp2RLV3CpQjQR4iANMdrKF1w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVF+G2 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVF+G2"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJp2RLV3CpQjQR4iANMdrKF1w",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 380
+      }
+   ],
+   "status" : "OK"
+}

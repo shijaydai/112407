@@ -7,8 +7,8 @@ from time import sleep
 from fake_useragent import UserAgent
 import pandas as pd
 import Gapp.models
-from .models import dj,store,feedback
-from django.shortcuts import render, redirect
+from .models import dj,store,feedback,favorite
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
 import requests, json
@@ -113,9 +113,48 @@ def member(request, place_name="None", formatted_address="None"):
             # 如果缺少必要的参数，返回错误消息和HTTP状态码
             return JsonResponse({'error': 'Missing currentText or address parameter'}, status=400)
 
+    # ---------------------------------------------------收藏功能
+    if request.method == "POST" and request.POST.get("currentText") != None : 
+        # placename = request.POST.get('currentText')
+        # placeaddress = request.POST.get('address')
+        currentText = request.POST.get("currentText")
+        addressText = request.POST.get("address")
+        logging.info(f"Received a POST request with placename: {currentText}, placeaddress: {addressText}")
+        # 将数据存储到数据库
+        favorite_location = favorite.objects.create(placename=currentText, placeaddress=addressText)
+        favorite_location.save()   
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
     return render(request, "member.html", {'response_data': response_data})
+
+def add_favorite_location(request):
+    if request.method == 'POST':
+        # 使用request.POST.get()方法获取POST参数
+        placename = request.POST.get('currentText')
+        placeaddress = request.POST.get('address')
+        if not favorite.objects.filter(placename=placename, placeaddress=placeaddress).exists():
+            # 如果不存在相同数据，则将数据存储到数据库
+            favorite_location = favorite.objects.create(placename=placename, placeaddress=placeaddress)
+            favorite_location.save()
+            return JsonResponse({'message': '地址已收藏'})
+        else:
+            return JsonResponse({'message': '地址已存在'})
+    return JsonResponse({'message': '无效的请求'})
+
+def show_favorite_locations(request):
+    show_favorite_locations = favorite.objects.all()
+    if request.method == 'POST': 
+        searchvalue = request.POST.get('searchForm')
+        return render(request,'member.html' , {'searchvalue': searchvalue} )
+    return render(request, 'show_favorite_locations.html',{'show_favorite_locations': show_favorite_locations})
+
+def unfavorite_location(request, location_id):
+    location = get_object_or_404(favorite, pk=location_id)
+    if request.method == 'POST':
+        location.delete()
+        return redirect('show_favorite_locations')
+    return render(request, 'unfavorite_location_confirm.html', {'location': location})
+
 
 def index(request):
    
@@ -141,6 +180,7 @@ def register(request):
                 message = "帳號已經存在。"
         else:
             message = "密碼不匹配。"
+            return render(request, 'login.html', {'message': message})
     else:
         message = ""
     print(message)

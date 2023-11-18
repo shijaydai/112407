@@ -1,0 +1,1214 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuG1B0BNLKsUS3T661cJAW_KLXjC6wKi_6Oxesg__8oeew0Y8YVuIlozs31I6WDX5-TTSoOl4V0Z_LKw6Rsbm6WGFOjQXcRHmupCQC0VmG0ltB__XuphKWTreeZW4dm-uXiVR1BtE0hiS492Mfv5zrONukA2VQPari1VSmpzrPEh1NLaedSu0C_AmdR0AvwiYxqnYjMVlvYyORpf8pEqo6XkZw0nIEK8jqF4Mo7FVsdNmiF-Pk1pIe0m1pOzqexuH-EYipgaMuXc0orSs9IE3W3O8lYTN4XCK42jeM9aB3W7FD1QRSsjG_sBnvNYN2dqbM2sXcC3WAUuDedSbpPYFf9Q62MKNulwsEINSAUmQhMTGblPKfNNTTSsyotKltJGhYR6Ub8WZxoUAXl6VACrxXOnu_Pp47zvuVdwcFiZmw",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路2巷16號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0318714,
+               "lng" : 121.5180387
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03322477989272,
+                  "lng" : 121.5194049298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03052512010727,
+                  "lng" : 121.5167052701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "老松國賓食堂",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2268,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104198955763677338861\"\u003e許\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEDhB-KrRxI4l4JcKUttyd2vF8c_ujJ_p1G7N-P0jR0yRbcboaPXvSBmPW2CI0vZIz4tLJ_Gk5Fa_Ll1BnC4_EwOqXwKzTN708VoWIwxX3jSSteElB0T2_AwBytyqFsGrTRplISnQeBaMmXqXsZoas0Mql1eZ0JTWd_n2bOF-qR0r7y",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJnzVBe-apQjQRTWVdjQj8eiE",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ9+P6 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ9+P6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJnzVBe-apQjQRTWVdjQj8eiE",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 125
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路42號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0320987,
+               "lng" : 121.5156729
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03350967989272,
+                  "lng" : 121.5169989298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03081002010728,
+                  "lng" : 121.5142992701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "客家古早味",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 847,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101824437807498049859\"\u003e徐禕駿\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGS3fe0yWOUvOpOOBrwG6qHbIrCxgt1C95KqIo6yT401JnjUDoNJxvLcmtdo1ni8IgBdRCVohqx6fU7H8yGDTJbGNbMxVaU4VP3EY-4PvMzh2o7RPKWehzUuwvagVIij0ar2QwgwrpLpz3Tjto8zlNesdPsp0ykQxBDYck1lo61j6aw",
+               "width" : 1179
+            }
+         ],
+         "place_id" : "ChIJcaDryZipQjQR6z00Mwx3lec",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+R7 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+R7"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJcaDryZipQjQR6z00Mwx3lec",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 256
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "10074台灣台北市中正區南海路2巷14號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0319242,
+               "lng" : 121.5179997
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03328007989272,
+                  "lng" : 121.5193672798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03058042010728,
+                  "lng" : 121.5166676201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "以雪爾",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114875921730523192845\"\u003eKunTa\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFBKzLDMXj9XIvwKC7Ta-_xzdMNzHBaoIHTiEggZFocyiqiAqpT_ck5u51yQE4g5xvfG9NY0DO7jTjj03fu-xS_PxZzIyaz8WghATrPWU1JQgWTXzzEfO5ot-nXEt7u8dx1v7_yR6doW8oj1zeRbieARRANKWpePTUqTkWIOq_06gHu",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJu13Gr-CpQjQRfd1bHjYwv7w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ9+Q6 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ9+Q6"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJu13Gr-CpQjQRfd1bHjYwv7w",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 217
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路34號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.032195,
+               "lng" : 121.515975
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03359412989272,
+                  "lng" : 121.5173073298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03089447010727,
+                  "lng" : 121.5146076701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "芷葳食坊",
+         "place_id" : "ChIJx8gMzJipQjQRLDp0w42v8SI",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+V9 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+V9"
+         },
+         "rating" : 0,
+         "reference" : "ChIJx8gMzJipQjQRLDp0w42v8SI",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路112號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.027351,
+               "lng" : 121.507718
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.02874067989272,
+                  "lng" : 121.5090032798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02604102010728,
+                  "lng" : 121.5063036201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "鄭家天津小籠湯包",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2820,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106004451668210470424\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGFZgwcY0UrnC8ep7sQ9exdW2J1Gz2dR3SB1qtb-ilvsfcmg_LEiTdnVSnCXcOIRQ5m_Mj42sLtrW7hI6jPzCuqEvY5MaiS1st8VqumsqBeeq8QLONXx2r4Oh_oDTAQH1E5eRl7c984jienATd4IpaUjnXsevBpnIdeSXQH-0nP6l1Z",
+               "width" : 3760
+            }
+         ],
+         "place_id" : "ChIJkYheb7upQjQRojQvHE_RYVE",
+         "plus_code" : 
+         {
+            "compound_code" : "2GG5+W3 永昌里 台北市中正區",
+            "global_code" : "7QQ32GG5+W3"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJkYheb7upQjQRojQvHE_RYVE",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 270
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路20號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0324241,
+               "lng" : 121.5168667
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03382352989272,
+                  "lng" : 121.5182015798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03112387010728,
+                  "lng" : 121.5155019201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "天和鮮物南海路店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108004482500190605954\"\u003echun-hui chu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF6dKpJHdJjsvV2ZGPttI36GG2rAH6Gi4xCIMmtKGHOUyHBfEQxErkXLQYz7Iko_Kf3D16VC25syTVGAgCobXAV9E7D0O64XwiYmpIbxp-5_SYX1VDYpe1fBWD5ZvV-l5WNPTDztGhPcvb6rSQeNEnVrxnOy4nyg4NC-dWPKnHS6j0W",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ1TVRKp-pQjQRnL5TZqasMtQ",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+XP 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+XP"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJ1TVRKp-pQjQRnL5TZqasMtQ",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路2巷8號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0320341,
+               "lng" : 121.5179109
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03339742989272,
+                  "lng" : 121.5192839298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03069777010728,
+                  "lng" : 121.5165842701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "馬祖麵館（南海店）",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2204,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101637027641513487005\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEgD5_17Us9N28W_dCDrUu2WMOQIXhvdkBPkA8UDZVLNtALZh4hclMeCtNWhadp5_x6jDJj4XbWDaE_XcHMKnJnU7LJpgfGK2wWl9E5vmQylddEeIE0EiJTGRtdhAUDliMjOZoXzRjyRI_Nt6BFvN0ny_IA86AWz1POOcCTdLVOsvLv",
+               "width" : 2730
+            }
+         ],
+         "place_id" : "ChIJCxxqCYOpQjQRVoWKC_w20bQ",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ9+R5 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ9+R5"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJCxxqCYOpQjQRVoWKC_w20bQ",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 236
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路41號5樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.031779,
+               "lng" : 121.512333
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03294567989272,
+                  "lng" : 121.5137506798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03024602010728,
+                  "lng" : 121.5110510201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "蕃薯藤自然食堂-台北植物園店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104409937552619652378\"\u003ehsien-sheng Chen\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG2jvGH70_CfrNzfgscEvE8Nf-yiMqLflIDtXkRqS6fYm1g03kqwChVRBMAf4iiStrpaIdCSed8QCbzO2PoSxAiGE0XQE4CemTX59ZZHkQGl8pIjByaCxMgyKSvYOi271KsLIjY-FOsU4kMdBtYwYlswpqjiHhPplO3wzHajIphVBPQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZ4DQRqKpQjQR9IJ4UG9nqus",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ6+PW 南門里 台北市中正區",
+            "global_code" : "7QQ32GJ6+PW"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJZ4DQRqKpQjQR9IJ4UG9nqus",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2650
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路2巷16號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0318471,
+               "lng" : 121.5180501
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03320037989272,
+                  "lng" : 121.5194163298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03050072010728,
+                  "lng" : 121.5167166701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "韓國傳統精緻便當",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1152,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101189903612457430770\"\u003e蓁宸 CHEN\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHifHrSi1PTq5RoBktzM7ahwV4sfAC-MdPOUjbaK7_BWzx_fhRUJ20VMovC9QQvOHyEkkVN9ajSxHzl0kpqX2kIVfGAs9xFYKNAYx-D7N8EY8CK5Kd_q66luhM1A-Lb_2rhXThcrN1MnxrrnTaWT6Uh3tqujgbX5qaE3oXyracBcCrR",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJkRVkM5mpQjQRmeSuE-xIzQE",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ9+P6 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ9+P6"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJkRVkM5mpQjQRmeSuE-xIzQE",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 22
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路50-1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0320285,
+               "lng" : 121.5151955
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03340072989272,
+                  "lng" : 121.5165389298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03070107010728,
+                  "lng" : 121.5138392701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "八方雲集 (台北南海店)",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3096,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105474050922990678245\"\u003eRay Chu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHan4TQ8FN5JdIxXjp9b2dxDf9Qz35qu7hL6Vm1ckdVQGjMHWNvJ3oMMjJgzmu7nPo4GW1662wFDe1zAMcOhnTX6wgXHPrawoharT2w_4dy2_dYDU6AUTUxm45LZEmAX9FgVKdB9b_3gPXBCnyTJi-qaSAOdbJ_JIp9FcXdVDTNwF24",
+               "width" : 5504
+            }
+         ],
+         "place_id" : "ChIJ13a2sJipQjQRYMmU55BDR6w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+R3 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+R3"
+         },
+         "price_level" : 1,
+         "rating" : 3,
+         "reference" : "ChIJ13a2sJipQjQRYMmU55BDR6w",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 515
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路56號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.031075,
+               "lng" : 121.5129094
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03244792989272,
+                  "lng" : 121.5141604798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02974827010728,
+                  "lng" : 121.5114608201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "建國中學熱食部",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103714456755345789855\"\u003eA-Kwon Fang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGDaC5M3B1-Nw9XYrZBc1McNV4Mg-4d2CHxMCHLu-H2OfNPnoHR8THMkhj8_mBTwpVqiNdZp6vaY2flS7guzbcJqiJuISZhvIGYAgDOCoUyAN9Y3_BeCXhshKI742GRlUQz3pWuL_VSkC2S2Gq5V6f_I9rNQr5BZDVIb-KiE6vZYW1Y",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ5WL-aKKpQjQRIKORoGJQOKA",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ7+C5 龍光里 台北市中正區",
+            "global_code" : "7QQ32GJ7+C5"
+         },
+         "price_level" : 1,
+         "rating" : 4.7,
+         "reference" : "ChIJ5WL-aKKpQjQRIKORoGJQOKA",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 99
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路38-2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0321384,
+               "lng" : 121.5158007
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03354032989272,
+                  "lng" : 121.5171318298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03084067010727,
+                  "lng" : 121.5144321701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "老熊牛肉麵店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2988,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112350194573469681900\"\u003eM eck大叔\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG_glyX-SXmLC-C2q1oBdLRQiJq3xZl73fvkqhcCwyzX0mh53ndVw2x52zak8B84kWR94C7qB5mscVr7qKk9THtkrFRgqAmGiarztTwua9Jl6u_f8s6CkS_hswx5op_7uXsMZJScWPJMmflCZVhKYSVTzlLUTmuzUOxFltf9kZVWroT",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ6Yzoy5ipQjQRUUVVRbNf8_c",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+V8 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+V8"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJ6Yzoy5ipQjQRUUVVRbNf8_c",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 943
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路28號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0322343,
+               "lng" : 121.5161289
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03363577989272,
+                  "lng" : 121.5174604298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03093612010728,
+                  "lng" : 121.5147607701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "南海小館柳州螺螄粉",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116904374243723631638\"\u003e潘志強\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHVoqpJPr3bvINcpBVASS19dT6sn2A2wc83d6IPYM4drbn_KGU_dL6Tt0LTIG7xsFFfqZbZy7naJ3BKpm4EF8jcSaIA6jYHKjcZ3sHyth0TQh6d7OP4564jzJvMwoiYBeJ76AHOIfcbBoxzthuEiFuYxlMgyqbTjqsL0fuVjRIIzDDE",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJL1hEaVipQjQReArHQf9U5Jc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+VF 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+VF"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJL1hEaVipQjQReArHQf9U5Jc",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 191
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "34之1號, 南海路中正區台北市台灣 100",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0321953,
+               "lng" : 121.5159509
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03359147989272,
+                  "lng" : 121.5172855798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03089182010728,
+                  "lng" : 121.5145859201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "悟饕池上飯包 - 台北南海店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2268,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112350194573469681900\"\u003eMeck大叔\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFkBX1rwcoiFuFEDHkDFubyAGNU55r0oJa-fpoGxZe2CHvzaujd-kXrQPSDT5w8TvvXKvdEYxp_4vB4xhHqecL8_ZhLLlGmxhvJ2Uatay_gVy17YMGNAnHNQ_v0cmR-LXcpTF4BXrig0lkTZoMYkLByshmoAQxgCiH1n_7VvtHSgQCP",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ8fq3OKWpQjQRGb1V9-F_9Is",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+V9 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+V9"
+         },
+         "price_level" : 1,
+         "rating" : 3.3,
+         "reference" : "ChIJ8fq3OKWpQjQRGb1V9-F_9Is",
+         "types" : 
+         [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 180
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路2巷6號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0320562,
+               "lng" : 121.5179155
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03341082989272,
+                  "lng" : 121.5192743298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03071117010728,
+                  "lng" : 121.5165746701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "小寧波肉粽",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJrbDYzJ6pQjQRh-ocLl9Tw_Q",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ9+R5 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ9+R5"
+         },
+         "rating" : 0,
+         "reference" : "ChIJrbDYzJ6pQjQRh-ocLl9Tw_Q",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區牯嶺街1號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0319376,
+               "lng" : 121.5151506
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03326657989272,
+                  "lng" : 121.5164651798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03056692010728,
+                  "lng" : 121.5137655201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "南山鐵板燒",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103776206626575270751\"\u003eJiun-Kuei Jung\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGNXYbb5VKpf4c_aSk71KG8AvhicM4gXJrvJHT-DbLHw9s8TX6bjijpVh7Qc2Fm-GDxZDU2Xv7_GC2GY1MoppA9AxZ5DT_Kq0eS5iOo_9vSiTlEXBGsnm5WTXmUnV6tAPgM4uGfI5vIFFBCwBOCqUEqeitNI6LNxTEQD8kA9QnmBFk",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJE7N1upipQjQRTAeMCmmL-Pg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+Q3 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+Q3"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJE7N1upipQjQRTAeMCmmL-Pg",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 730
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市中正區南海路17號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0321922,
+               "lng" : 121.514704
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03344547989272,
+                  "lng" : 121.5160702298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03074582010728,
+                  "lng" : 121.5133705701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "油条 黃金牛肉粉",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118397534853870475992\"\u003e詹崇景\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGKyIK9LSBppuWqSlvotE09T91J7dd4fwaxT5SC_kI-BysZ5WPUObPUUZHTR7ekhPTkxlWMPkEWyBt1NWhVXig_DaUP6xamUDnofk47JJNsFRVdkoDiJYf_McWFmRUvov13hyq6miJuoG-E1-abrEaHUcS2XxgOSpxY-xD1V2YrKWMP",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJRQmyJLmrQjQRXv12vfl9eio",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ7+VV 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ7+VV"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJRQmyJLmrQjQRXv12vfl9eio",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 638
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路34號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0322066,
+               "lng" : 121.5159781
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03360087989272,
+                  "lng" : 121.5173121798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03090122010728,
+                  "lng" : 121.5146125201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "瑞哥雞肉飯南海店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 926,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117077021428663533001\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG1ti_GdBEM88xkXRRwYQY8TO1RpNAKPpnkrciPoj6VomAMWBPVuvYFImptlBq8-olNk5MXlNFPqiyDjxRL14KKdw7AcawM07OP4sRCrOpeKisgNq5mp0t4m-w9JtpkNKpg8FnpQ8ZLA3RE_WGIbhtQDAVANS03fIKSxQ-3DSbnbGok",
+               "width" : 1170
+            }
+         ],
+         "place_id" : "ChIJuXn39pOpQjQRuM-q4OFMk3M",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ8+V9 龍福里 台北市中正區",
+            "global_code" : "7QQ32GJ8+V9"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJuXn39pOpQjQRuM-q4OFMk3M",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 7
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區南海路2巷2號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0325616,
+               "lng" : 121.5175976
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03391942989272,
+                  "lng" : 121.5189640298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03121977010727,
+                  "lng" : 121.5162643701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "雪球咖啡 南門店/早餐店/朝食/厚蛋/鬆軟吐司/南門市場後方四號門對面",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113015250930351305812\"\u003e藍學明\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHYlgFeVzUTp1MaUHm6YRdySi-wboPPREsNRkgiIkz94r8tD4RpJSfCniOmIpAxREa9a_eVBPXg4MSCrIOrSLpIKqkCXWGNPp7BHObYtaTLRUdWsuSgKFrTafKvR8GWRYdGH1S_7YvKLKCrFdMK-dEI1iGsXOuZbgJEJx2raL0PIjyv",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJw5cu8JSpQjQRZwRodtIiATk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GM9+22 龍福里 台北市中正區",
+            "global_code" : "7QQ32GM9+22"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJw5cu8JSpQjQRZwRodtIiATk",
+         "types" : 
+         [
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 172
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區汀州路一段105號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0289194,
+               "lng" : 121.5087088
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03026652989272,
+                  "lng" : 121.5100110798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02756687010728,
+                  "lng" : 121.5073114201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "新東南海鮮餐廳 汀州店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104131860105673374176\"\u003e丘彪\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEGnjqgQ8JVxwtTQ6nzI58ilaPM6tLCX-bFGbqBbUReqKIqfzAwb5_1mPmaVJur0V1PbgIir7TgXkZyIXicdWGnW9lR7HclKsqagO8zSchfTZq6RNl47LllkVUmdDJWuDCmRj8bOscOQP5X2xjduOMgIlrGleBGNxwPMyXV0n5FkhtS",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJtT-8VKOpQjQRRpmHnNwXNog",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH5+HF 龍興里 台北市中正區",
+            "global_code" : "7QQ32GH5+HF"
+         },
+         "price_level" : 3,
+         "rating" : 4.3,
+         "reference" : "ChIJtT-8VKOpQjQRRpmHnNwXNog",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 10514
+      }
+   ],
+   "status" : "OK"
+}

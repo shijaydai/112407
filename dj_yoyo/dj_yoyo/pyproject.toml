@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dj"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+django = "^4.2.5"
+psycopg2 = "^2.9.7"
+beautifulsoup4 = "4.12.2"
+fake-useragent = "1.2.1"
+openpyxl = "3.1.2"
+pandas = "2.1.0"
+selenium = "4.12.0"
+virtualenv = "20.24.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

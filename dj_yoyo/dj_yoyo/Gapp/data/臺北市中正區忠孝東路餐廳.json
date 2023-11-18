@@ -1,0 +1,1245 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuHUvtJ6QGTXz0JVv9JVWxTOcDHPYzO_mFX0R9DMCZz7iSPIU_XBuawWB_PJNtUlOni82OvVbd1pDi7hr4t1Kwtmj7_Fn3T5MJU7lBpzGV4OWsiN8DgyhbESf_uXjy6wu-XshHLvmGDYOwHmbjzsnMxxoyXEsaWokpLeEhliRod69fHeCm30ncPE5LntGe-OWMhCt-gJqa0ygd1tsudxrSjycujpMILVHlAqoHj3gBa91jKlY3PML8_kVHpBOOMLdibPPHaUpkTvhZimvx5HKThjSfzimeIUOm20g4MdfhiKrgvJg5Mltcmesscfd0RZhS_bGGEm18fAqB1KPQPs51lRcyfAoMFbWNO_tv4u-ehfM5KuH5cD7tY_3lfjQtylRfBtpWTtqjvBIFLF1FNDZsTUTqFGIQzpU38Qi_85LM2aZQ",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段289號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0416014,
+               "lng" : 121.5547113
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04288187989272,
+                  "lng" : 121.5560595298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04018222010728,
+                  "lng" : 121.5533598701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "玉喜飯店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3036,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107936307942902599604\"\u003eJohn Wang\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGPfLtu7Mf-PVJLwm9_kgba8-vKZV5HJ8mNK1vnAFmRgVeVSrrbLQK1oBQXVlRJPRY6gRegW7rMgNcc8cUSRu7bpW_qc_HEKdYvz83PmWr4Jl8IZoL72biKo9-7Gw_LVKaAfwP0s8SsmPYofVtYV2KcsclMZacmXydr6F6VSECwR4qM",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJHwOXfMarQjQR1UyT841qCU0",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR3+JV 華聲里 台北市大安區",
+            "global_code" : "7QQ32HR3+JV"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJHwOXfMarQjQR1UyT841qCU0",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1596
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段104號‎2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.041369,
+               "lng" : 121.546653
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04279632989272,
+                  "lng" : 121.5480089798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04009667010728,
+                  "lng" : 121.5453093201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "總督西餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1774,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100485831816695628707\"\u003e江盛文\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFJzUZHrTC9Gvlh9rAZakOOf-p1WxWh3VQz7ywZBJ2JX0vyO9K7geAugxydxXC2VSY-aB_f7duoiRLbGO6sfbx_F73reGp38cLP1CEdCF-8VTagWaVUI56aP67BZJlHayu51ubpW74EuiEiL9fxoJGRZHgEhOFBrY---ffKW9GyXCO1",
+               "width" : 2364
+            }
+         ],
+         "place_id" : "ChIJ5w-cntqrQjQRrRARHVKxABg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRW+GM 仁愛里 台北市大安區",
+            "global_code" : "7QQ32GRW+GM"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJ5w-cntqrQjQRrRARHVKxABg",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1286
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路五段181號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0412185,
+               "lng" : 121.5691254
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04251272989272,
+                  "lng" : 121.5704711298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03981307010728,
+                  "lng" : 121.5677714701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "麵食主義 KIRIN PASTA 忠孝店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114925020971860659272\"\u003e林宗昱\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFUbXO2sr0sXQGtyOARMGKh36yM642D-Cmu5-b8N8_xMSTTQj_zVNnax8bjL6tvBbs8uFLWQKr6JLrUPJYfflM3XfCLYXzyfK_5QQ2D_91tSWYvf36RtT4Ja0HXu9Z_SiptZt0jywvwjVroh26akIMtZ7i78oGWdr-ER21jGER7BsV_",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJl3xKnbyrQjQRB6B3FOtFnjA",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR9+FM 興雅里 台北市信義區",
+            "global_code" : "7QQ32HR9+FM"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJl3xKnbyrQjQRB6B3FOtFnjA",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1366
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路五段15巷9號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0417952,
+               "lng" : 121.5656782
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04313322989272,
+                  "lng" : 121.5670452298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04043357010728,
+                  "lng" : 121.5643455701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "鈺膳園傳統養生美食館 忠孝東路五段15巷9號",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114649788613005068136\"\u003e姚子\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEfrBZC6xZvsNcnHsMJX86U8geWNKfYeR9hYPafV5aZi22KTrM15drzjrtDsMFqZNe3qHhWn3DeKJmcXjMygOQ9grEbvXZDMHY-43o7spKijYD--TIpiqJs7_a0GIOPCRa-a9vZLFkM-mCsSVe42_I0Cq7cDXkCVamgswK-B4Y_sR1J",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJS-pz_7urQjQRyn23vTiz3xY",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR8+P7 興雅里 台北市信義區",
+            "global_code" : "7QQ32HR8+P7"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJS-pz_7urQjQRyn23vTiz3xY",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 43
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "11072台灣台北市信義區忠孝東路四段553巷6弄15號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0423803,
+               "lng" : 121.5634603
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04367232989272,
+                  "lng" : 121.5648085298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04097267010728,
+                  "lng" : 121.5621088701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "初衷小鹿Deer's Hotpot Bistro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103848381770393253120\"\u003eMyrtenaster C\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHaZ5Op1-AHdyVHkS1tXQuN5TTcGxpc1T_e2E8r_dw45-n2Ymz3EOr5jJZt8CWITaKgxvzHUJ0mCaTG05wsS60SIx_e_JqBTFFNQ-kGkeu79vthfHZgv7cJmopVRgn0sXQMR1c7UophfItgIFZSaq4AOgHx0hq6OtvjmcGztf5bkzEI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUe3i_A6rQjQRLQzk4lRMncI",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR7+X9 新仁里 台北市信義區",
+            "global_code" : "7QQ32HR7+X9"
+         },
+         "price_level" : 3,
+         "rating" : 4.5,
+         "reference" : "ChIJUe3i_A6rQjQRLQzk4lRMncI",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1065
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路四段559巷16弄36號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0420719,
+               "lng" : 121.5644461
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04343327989272,
+                  "lng" : 121.5658336798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04073362010728,
+                  "lng" : 121.5631340201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "韓明屋",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3492,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116524459751799825279\"\u003esam lin\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFd2JJwPILLoxMmNO176SRb-9VRZ2jUbvxvm5uQkJzq_rYL95AIelKc2yuaMOuXI6WywI0GyIKlS-MSSZzeD5SBNgEMKyG7R87wQ-WpQD-lrZEXJpPo3xs_fTYuRdC8-rJvBCIUqIFG9Qeh0FsyEi1q1Eqbz5COLHIOyPvO_2thgVbT",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJjQ-CS7mrQjQRKG0nvvZ2YFk",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR7+RQ 新仁里 台北市信義區",
+            "global_code" : "7QQ32HR7+RQ"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJjQ-CS7mrQjQRKG0nvvZ2YFk",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 101
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段216巷32弄1號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0399644,
+               "lng" : 121.5527894
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04125932989272,
+                  "lng" : 121.5541383298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03855967010728,
+                  "lng" : 121.5514386701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "1+1鍋物—忠孝店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2048,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103237519729971564901\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGNAySeNSgERrpcTTDY-Gu1SG7g3PbSg_dEFpyPDlQWAA_V8ULKI9jriL9oSue2xTvdLXdJR9oKE9HciU1l8ECitiI7fDmq0SafhWNX9jkG4TVloSwBKso09EwXTaGG7u_EP2w6ZL3-WeQjDY6SRDljr9CvPUzjlCcahwBYwpPqO0QT",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJVx650BKrQjQRc5yqJp8xicE",
+         "plus_code" : 
+         {
+            "compound_code" : "2HQ3+X4 建倫里 台北市大安區",
+            "global_code" : "7QQ32HQ3+X4"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJVx650BKrQjQRc5yqJp8xicE",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1545
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段166號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0411455,
+               "lng" : 121.550567
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04262287989272,
+                  "lng" : 121.5518808798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03992322010728,
+                  "lng" : 121.5491812201072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "神旺潮品集．忠孝店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103241106891440938972\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF6ltr6k-HGpJ1gurM3Wb8JtxuD-_cA3HcjhwViwSGMF90c1oMilyp6_X6jkoGQbvoCK6caEA0Oumx5sjuuqAHCDtezYdX1PKiY6PvT4Z5bzLs8OaZtVfua_xm7hz7ZXPnMENY6lfAEWqMbimx_ehOiUyW_kNuVCJIsdJLitYu5Uket",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJawHcFNurQjQRpE7CjNLYg0k",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR2+F6 建倫里 台北市大安區",
+            "global_code" : "7QQ32HR2+F6"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJawHcFNurQjQRpE7CjNLYg0k",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 133
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路四段559巷16弄7號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.042464,
+               "lng" : 121.5640129
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04374402989272,
+                  "lng" : 121.5653744798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04104437010728,
+                  "lng" : 121.5626748201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "台灣阿誠現炒菜",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101616098878522752255\"\u003e許振國\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFrxggJDt2qvTjRz0m48Od01ta5m801Qf6f6jjwhvBcR6c_e-xkdLDMfDjGUmwzfHzkPMvqupiXEyeQ6gbK3rMbksl2_f68Jssnk2fDmHXSAxOb-blMDn5-oVhcslfuqJj6jV_tWXJb42t2zAz4NKwBVdK_OM-C8jbfUbPafvyA0hcI",
+               "width" : 5376
+            }
+         ],
+         "place_id" : "ChIJO8LByr6rQjQRuxQVsR3LGmU",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR7+XJ 新仁里 台北市信義區",
+            "global_code" : "7QQ32HR7+XJ"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJO8LByr6rQjQRuxQVsR3LGmU",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 113
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段216巷27弄15號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0399346,
+               "lng" : 121.5538683
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04123462989272,
+                  "lng" : 121.5552169798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03853497010728,
+                  "lng" : 121.5525173201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "AGUSTO奧古斯托 義大利料理 第一品牌 熟成牛排 活龍蝦 餐廳 聚餐 包場 慶生 約會 忠孝敦化店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 401,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108397785209827972827\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGilNGHX7tD22MvF1xL438dLzBsQs2IrNexSJJRfAkN0-YeIeBKVWqztvd83MDxywzTPhg4GHHIoNR9BlWZuywLjaTKFvIs7JjF56djjTvB7miwyMtXGvfspjM5Fv_zt1BtlLcEcK5rog2RPnLuUoqEkxmuuXczaZ1wvsXwTIvhHFvB",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJmYvKcaKrQjQRP84_3tp7iW0",
+         "plus_code" : 
+         {
+            "compound_code" : "2HQ3+XG 車層里 台北市大安區",
+            "global_code" : "7QQ32HQ3+XG"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJmYvKcaKrQjQRP84_3tp7iW0",
+         "types" : 
+         [
+            "liquor_store",
+            "bar",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 993
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段97號B1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0417836,
+               "lng" : 121.5479306
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04304042989272,
+                  "lng" : 121.5492754798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04034077010728,
+                  "lng" : 121.5465758201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "頂好紫琳蒸餃館 Zi Lin Steamed Dumpling",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112121181205722277174\"\u003eku ariel\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHrL11r3WRRphGi5MsVsoDrYFjYGFGdUv2hD0C316YTxrFtnmMZG9FuMXYHuy-OPYWnIok9cPVxtmaPf4rm9qQJiYcdjcKMYLHYYNcH7xrG0gJ8cbA0cZxgH8PiaoovVx6az17Spyp2xn6GdoniSZQIwjWM4VrT3k2Om-jCyTK22aGd",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJQeZgutqrQjQRQQs8vJDJDj4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GRX+P5 光武里 台北市大安區",
+            "global_code" : "7QQ32GRX+P5"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJQeZgutqrQjQRQQs8vJDJDj4",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4803
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路五段297號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0412478,
+               "lng" : 121.573301
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04246697989272,
+                  "lng" : 121.5746451798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03976732010727,
+                  "lng" : 121.5719455201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "桂客鐵板燒",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2757,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114649788613005068136\"\u003eWilliam Yao\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEua3Y_nB7ecG7o5mmgAt4Cy0QJyPnzCvrXAFj_y0Dn-DtJLBPGBCsI-wPzOdOIJTAsdC6tIyJ5Gzu3N9EfInMXRHvnR__tGJCFJjw_vFXlwK5AZW3aqJzRi_MXQPFDNu2kvLii9F9iJuVSe6bTQt3dUzmXXOHdURvM_59Qy6AAWv9h",
+               "width" : 3676
+            }
+         ],
+         "place_id" : "ChIJX34EbqOrQjQRIiMkL4EU0pM",
+         "plus_code" : 
+         {
+            "compound_code" : "2HRF+F8 富台里 台北市信義區",
+            "global_code" : "7QQ32HRF+F8"
+         },
+         "price_level" : 2,
+         "rating" : 3.7,
+         "reference" : "ChIJX34EbqOrQjQRIiMkL4EU0pM",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 104
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段216巷27弄6號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0397983,
+               "lng" : 121.5534179
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04116182989272,
+                  "lng" : 121.5547679798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03846217010728,
+                  "lng" : 121.5520683201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "誠食健康蔬食忠孝本店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101353159716845392134\"\u003eJenny Lu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEv3tyqdZM1c37wbP3K57P1zJI9cdsghkAL5XHRFWum0-5TR2MGcnhjlkA1fLJTOMgp7PeEJ3_Uuh60Gb7hH3P5bWnblKiXvKe-D1HP7RUVuu2eco5hJXHs-llJyoP-uuoOpEPziyrYg1KN6fsYUt8-edqRh7ZbpxS7rl2QvPBEJs16",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ2-Df-cWrQjQR5elQOSt66-E",
+         "plus_code" : 
+         {
+            "compound_code" : "2HQ3+W9 車層里 台北市大安區",
+            "global_code" : "7QQ32HQ3+W9"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJ2-Df-cWrQjQR5elQOSt66-E",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 757
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段216巷32弄5號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0399531,
+               "lng" : 121.5525926
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04125502989272,
+                  "lng" : 121.5539416298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03855537010728,
+                  "lng" : 121.5512419701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "宜品福州乾拌麵",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112813409440485489799\"\u003eAndy Ling\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFR21IKtPAarQzGbyNi9rWaQwmaQ0tYfF137MwAW_JoawrGsg5y4xIZz7QKl1Jm6lWpdsDFqKMpVRYh_0RwOwH3JaO2VOo594Ra0rG3LVn_rABX3qjU1ndh4MUy6SQBCbckoMITNYcMQVP2R7xBctzRsQVNmns9PcK-7YXr29Pczxeb",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJE3QNi8WrQjQRwNJYMfUz91M",
+         "plus_code" : 
+         {
+            "compound_code" : "2HQ3+X2 建倫里 台北市大安區",
+            "global_code" : "7QQ32HQ3+X2"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJE3QNi8WrQjQRwNJYMfUz91M",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1659
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "106台灣台北市大安區忠孝東路四段177號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0417614,
+               "lng" : 121.5506429
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04300432989272,
+                  "lng" : 121.5519901298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04030467010728,
+                  "lng" : 121.5492904701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "鼎王麻辣鍋(忠孝店)",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3013,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109811026405436504681\"\u003e莊雅恬\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEW4TIfW1P4N6x1aCrmKmUbH9HHMxD54v2NPZxvB7hl32wFwhB8lKY1HAJev5SdsQShWUll6m9Q9nG8s8-7V9uBOJTe4aiqr0qsP-J9QobD5TxYOCXnftXZ0cV6jHxYjX4tNE6YCTdFXfJK-1FfiN3ayCnQ--WDIfYxv7R0vtO7WHFN",
+               "width" : 3768
+            }
+         ],
+         "place_id" : "ChIJSeEGna-rQjQR67y_sDHUntA",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR2+P7 建安里 台北市大安區",
+            "global_code" : "7QQ32HR2+P7"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJSeEGna-rQjQR67y_sDHUntA",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 563
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區忠孝東路一段12號2樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0446833,
+               "lng" : 121.5218944
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04610497989272,
+                  "lng" : 121.5232752798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04340532010728,
+                  "lng" : 121.5205756201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "台北喜來登大飯店 - SUKHOTHAI泰式餐廳",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103848381770393253120\"\u003eCervello Millefiore\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFEJ6o-2w0GHo-Uf0X_x0awrMO2VBdg7GJswtKQuge5i6LkELalwYm6Pu2OAgcWUEYqNr5XzMMCZPUscIf9Ih_ytYGbYvw65qQ7HBdvb4sQ-594QVnY2s8HQYB7lZL09HswzkWmDobbanAB3WRqBpy9NrMWlHHVjan4RL5ogWao5E8w",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJJVBTsHGpQjQRqDdikZ0TfhM",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+VQ 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+VQ"
+         },
+         "price_level" : 3,
+         "rating" : 4.2,
+         "reference" : "ChIJJVBTsHGpQjQRqDdikZ0TfhM",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1768
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路四段553巷16號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0428006,
+               "lng" : 121.5629104
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04415222989272,
+                  "lng" : 121.5641891798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04145257010728,
+                  "lng" : 121.5614895201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "PapàRoy 義式手作料理",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112848879157238222888\"\u003e昆李\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuF9ezXCEFDvlbT49q4KP6_7dFLngUy0R9tuvn3pRkNQcF_X0XS4piRNAJytVrosoEkR5ITDhCT7IFtWssaq5OhcAHf7DAw__qws60UMiO1VjBRgpOQuCkJPnzc3lRblQiwGEY8IZc4w_zRa6t9dg6YKVz2C3TNZp5l_tv8ZJ1bjVj4j",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJf9I0P9SrQjQRhIIDDEjwvfA",
+         "plus_code" : 
+         {
+            "compound_code" : "2HV7+45 新仁里 台北市信義區",
+            "global_code" : "7QQ32HV7+45"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJf9I0P9SrQjQRhIIDDEjwvfA",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 728
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路五段8號3F",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.040506,
+               "lng" : 121.5651212
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04215212989272,
+                  "lng" : 121.5666622798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03945247010728,
+                  "lng" : 121.5639626201072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Lady nara 曼谷新泰式料理 台北統一時代店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105309127552596831241\"\u003eNard Lee\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGP0WKLk7y_XzBQtX6A962tI8xv0dM99rGLqXsMTQHMMRB4TGz_evThF6sppZHoxsrXz6F6Pi4DnJJszxZ58rP_pSVrHsUxDlzng7cKvNokgFUylOeTO-Tn6hsK5dy0FybdIPnvDCn3hbWHWIOQsHW6vMWlBqBbv7WDDdMeXLgtUrDC",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJU4V0dSSrQjQRCyJmrbiqi3k",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR8+62 興雅里 台北市信義區",
+            "global_code" : "7QQ32HR8+62"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJU4V0dSSrQjQRCyJmrbiqi3k",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1876
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區忠孝東路一段12號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0446184,
+               "lng" : 121.5220051
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04606162989272,
+                  "lng" : 121.5231267298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.04336197010728,
+                  "lng" : 121.5204270701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "十二廚 台北喜來登大飯店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3648,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114893121311022436708\"\u003e十二廚 Kitchen 12\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFnsJnjFSueFWTgraKeYz7LfnyfudmyLWu7elfLGXdj2xjmrgsrdreE5CkXrlFwGvO_4nIWH2ac-Oh3swx4VO_VNXTrCJthcmyw_RCVDg7hNsJekiioWAxFa_KP7lGarpGMzXAfSrL6wbkczoPzqn2xhBBkuSKVG3eceyoX3Vx5ZVaA",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJJVBTsHGpQjQRaCf_yDIMgJo",
+         "plus_code" : 
+         {
+            "compound_code" : "2GVC+RR 幸福里 台北市中正區",
+            "global_code" : "7QQ32GVC+RR"
+         },
+         "price_level" : 3,
+         "rating" : 3.7,
+         "reference" : "ChIJJVBTsHGpQjQRaCf_yDIMgJo",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 7609
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "110台灣台北市信義區忠孝東路五段43號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.041452,
+               "lng" : 121.5662059
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.04266612989273,
+                  "lng" : 121.5675529798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.03996647010728,
+                  "lng" : 121.5648533201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "溫州大餛飩",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3096,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113528263830766225861\"\u003eLee Hong-Lin\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuESNUyuBvr0CdrMJTJfJ06gXPRZW1LYJ2ijPn6q0T9pFb8xQqaYUAprXVecpJ9kwF6NJSD8jf8e136JVdSqAkzbioyJGi_NLAnV3dNvqxn6vu0mBk6IfO5zribNS_r9poLUS5bMGVNLQ0FbL0RI1QP2yEpIDBvCU0i_phpIVA3iu1sj",
+               "width" : 5504
+            }
+         ],
+         "place_id" : "ChIJozQS-rurQjQRf6Z4Gljkza0",
+         "plus_code" : 
+         {
+            "compound_code" : "2HR8+HF 興雅里 台北市信義區",
+            "global_code" : "7QQ32HR8+HF"
+         },
+         "price_level" : 1,
+         "rating" : 3.5,
+         "reference" : "ChIJozQS-rurQjQRf6Z4Gljkza0",
+         "types" : 
+         [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 383
+      }
+   ],
+   "status" : "OK"
+}
