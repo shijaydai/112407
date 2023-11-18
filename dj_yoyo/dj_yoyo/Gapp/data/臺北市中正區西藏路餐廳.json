@@ -1,0 +1,1217 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "AcJnMuEcciLZLVPk-b6rR-Cb_pkQeeoD4f6SVUfaHEQPazX7ae693i69UED9BUw_WUSCmUIMMouFl5QdYC8pY4zrCH-hBUhyauwFKnoRodFayC90EzK9Mrutnsa8TvvR2YRDmwzhdi5QixsU76bBYI4KGmR68Ki0zoHkf3yP2VkljlHVMn3r8FgLxsu2YaJBpxfmxNA0SyOImSQZTEM5dS8NiSJsrk5bB3gbj-hhozANxbecYB0sNQzZYWFsXJt3WxXxednPeeGIHWtbna2BmQw1QJDx8Bw9RoQ7gi323HAgT9IGrQiKNi4B2UfG0oKhAWUgMQ0N1yQ7KWXxe23XQ5XQZCx7hgmlbyx_tPX3LwG3NqWW16VBDbBqOUY0sjANQ3n9ZIFkNCOrzsTQvhbSpLXzHVeok6zqsFR84G4o9ADtrA",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區西藏路8號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0306672,
+               "lng" : 121.5077354
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03197407989272,
+                  "lng" : 121.5090676298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02927442010728,
+                  "lng" : 121.5063679701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "東家食堂",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2448,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107518670412741720412\"\u003e李青媱\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEh2o0ZPfwWWImNxSvFaA8AKaB_jP4nuEfOGEjCFY-TNzPXQ1ikSc95H1yWXZy2i_LpnlhdZy-aUwy4CIMLTmqXE2XLZ3OgpbIUs228LxqESoblcZzZryp7Lgdb9DCqWgY8mBHfmEwXacf93GZaF0LoCeEmiPnWA0X3Oy2u-TpArvkQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJcaFdl6SpQjQRYerdfQIvKBc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ5+73 廈安里 台北市中正區",
+            "global_code" : "7QQ32GJ5+73"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJcaFdl6SpQjQRYerdfQIvKBc",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 252
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區西藏路18號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0307206,
+               "lng" : 121.5074967
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03203412989272,
+                  "lng" : 121.5088361298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02933447010728,
+                  "lng" : 121.5061364701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "宜賓燃麵",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113384527861563294459\"\u003e林寶國\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFM8z_IJbfupYgUFZAHzFlOitodl-8SpkGFGbcafDNE9eM2Py80OGGm4-Fn0YseZNC7wQBtwmobfWb5r8rBeQTRTnbnrluREPwIEEm1S2G6vifXzO_yx5sRJeoDNbxdJRXd7JJNAuhaVKcaS1uVUyxnt2r6hb1oPWyoAAsDGO-7KUA7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJacSzlqSpQjQRFkjKvpcmNIU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ4+7X 廈安里 台北市中正區",
+            "global_code" : "7QQ32GJ4+7X"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJacSzlqSpQjQRFkjKvpcmNIU",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 348
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路180號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0300025,
+               "lng" : 121.5030857
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03131007989272,
+                  "lng" : 121.5044462798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02861042010728,
+                  "lng" : 121.5017466201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "嚐飽圖TOGO |中正萬華美食.鳳凰飛標機.美式料理.披薩 韓式炸雞 烤甜甜圈 CP值高平價吃的飽外帶套餐（不定期公休）",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1280,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107815369433819572013\"\u003ePearl Yu\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGq0bRUr9V-R4NIPVo1-g2-j7gB3XPApb0Dqlqyyan6LqsejLObPAlRKR1MPD3t7AEjdVGq1ozJtTzZhe2naIb0xFcM6mzR9esTt51mccOSzp1CLyts4o_Ipj_Vtwp5sHz7iSCM36YPqnMpH_Z2Td53YHNsRf2CbSHY_JUfCQtL_0wg",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJgUsA-_CpQjQRSAUH7Kum3u8",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ3+26 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GJ3+26"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJgUsA-_CpQjQRSAUH7Kum3u8",
+         "types" : 
+         [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 45
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路68號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.030542,
+               "lng" : 121.5058343
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03186042989272,
+                  "lng" : 121.5071904298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02916077010727,
+                  "lng" : 121.5044907701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "福州乾麵",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111204314645120534398\"\u003eTommy\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG1xmBhhU5bXxi3qnZpq9ElTa9r8eYYQTVlNH7KCIeQQBq1n67haukK9TSqbCN9k1vJ6yjMuif-ri5UZ9dNOA2lGF7cT0VG9rhc58ChX6705A0hMtW0thniL6p6CNF44ar3-U23MrtSmKWUJ5CjfP4QuqLpskK72lU8qKJXD0JkvzCl",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJiftlMQ-pQjQR8cRwJ2_hcJ4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ4+68 廈安里 台北市中正區",
+            "global_code" : "7QQ32GJ4+68"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJiftlMQ-pQjQR8cRwJ2_hcJ4",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 339
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路185號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0293052,
+               "lng" : 121.5007611
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03066372989272,
+                  "lng" : 121.5021075798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02796407010728,
+                  "lng" : 121.4994079201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "獨家口味豬肚湯",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111992443761046605291\"\u003eMordie Tseng\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuG3BOpyHlW5Jg91nL-yt98PHckIqd3m3Nhf9MeSgeApb8g9NxUMGa6hc8x__POtDtzqw6vcYcA819QNE4-wFVH9_BVfeIDEzk6RF3tyh9M0uhbubkSEVuBSn-XPRz72v8Pq8DziqVTiR4BvVdiXomWLk34OT0gFPHMhLKp8GaoufFBL",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJtaSrR7CpQjQRUqBTgkFi2jc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+P8 新安里 台北市萬華區",
+            "global_code" : "7QQ32GH2+P8"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJtaSrR7CpQjQRUqBTgkFi2jc",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 115
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路215號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0286346,
+               "lng" : 121.4950423
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03003002989272,
+                  "lng" : 121.4963850798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02733037010728,
+                  "lng" : 121.4936854201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "東芝鄉排骨飯",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4128,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100469568790441783831\"\u003e黃志高\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEDv_zLKLnmvHMhvAWHffr5tFfSndCyd1LzG2vfm8hdchlsbrS-DM2rado_OXATk9KTDk2vIwjLF8x5xkm-72y4xIHPWm-48sMbxKbu3CuDsFsvceHME4HHENJ3QeKP4bwhnKqIvf3RFPa1oqaFHg-cfZb3SDXS0JHd2_ONGVvxiD1v",
+               "width" : 3096
+            }
+         ],
+         "place_id" : "ChIJnWCJurOpQjQR0eIPb1AsvQE",
+         "plus_code" : 
+         {
+            "compound_code" : "2FHW+F2 和德里 台北市萬華區",
+            "global_code" : "7QQ32FHW+F2"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJnWCJurOpQjQR0eIPb1AsvQE",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 231
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路228號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0298305,
+               "lng" : 121.5021122
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03113322989272,
+                  "lng" : 121.5034704798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02843357010727,
+                  "lng" : 121.5007708201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "復華川菜",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105309127552596831241\"\u003e李耘蒂\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHRsksGPpVMirDoOMhhiV0ns3lGasCevhhYc9sCXng604zMQw9w211KAvMprBsFJ4N7n8w2QSKGezqsiNBj3-wCO92kdTftGPHQN2COobtMqxzVtUwXTgXmeHqHJbvGTPSeiAigM6fUM3O0nGx8ODREyGFUU8BhIFwHiKb6fGExZ4xP",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ4RAQBbCpQjQRhCdCh-k6dWY",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+WR 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GH2+WR"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJ4RAQBbCpQjQRhCdCh-k6dWY",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 299
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路142號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.030148,
+               "lng" : 121.5039451
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03146012989272,
+                  "lng" : 121.5053034798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02876047010728,
+                  "lng" : 121.5026038201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "麵大師商號",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1152,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115298888968567331562\"\u003e麵大師\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuE_5cw8R8B3XLbpvWLe75huZCX05MfLTMqec-xFeSF3tGr4OqVxGktnotlHngXBYjBge0u3bEj2hzW7QPiBqqIXw4ORdetZ6XxXbr9Bl7OP1WEj8h4eSYjNFA66i7bCMHcrDdAUzVZXfWoelbAxknX6ucwy2_nHxiy_QsrCgaoJF03H",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJK56oS6WpQjQR7TrByhfJvsc",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ3+3H 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GJ3+3H"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJK56oS6WpQjQR7TrByhfJvsc",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 93
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路125巷6號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0292258,
+               "lng" : 121.5024973
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03056857989272,
+                  "lng" : 121.5038056798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02786892010728,
+                  "lng" : 121.5011060201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "九湯屋日式拉麵-萬華西藏店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115598138577780374852\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGsPDGcmhyrsgJpYiHvKQr1U13rnntz7_SPgvVKoMvqx3DxRDLwBprkGSgbm76w7c1-wpaLYfK0GQjpIBMF_kkhtsPeuDMcljBU36E1t7iN5zZCk9Xd8UxR2OS4Z0p4YRi9cXC4Xic3LcUj8RKQoGJfTaAdOOUfQXrMj5j-T5GZwgvM",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJE0KG2FipQjQRuO8-dXRQAVg",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+MX 新忠里 台北市萬華區",
+            "global_code" : "7QQ32GH2+MX"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "ChIJE0KG2FipQjQRuO8-dXRQAVg",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 307
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路129號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0293756,
+               "lng" : 121.5019837
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03079957989272,
+                  "lng" : 121.5033186798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02809992010728,
+                  "lng" : 121.5006190201072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "すき家 SUKIYA 萬華西藏店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1800,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117948046240902601189\"\u003e楊志傑\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFb44GND_XSN0bBZ2OhwEvkSTirRDkMFArwa9-3DTlkv6vaSZNNtoeKEW38MsciE4kMgeSTdJl9mtKUB5QkJqzjyl8ajtQsJ3W4FldaScM7iMB9FO-ccX5vraFbigMlaIiyrn0jqLDOqxYSG-Y1vEFoQAeeD98fnpvrsDHQr1BEY4RF",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ12fcFgGpQjQRjLTg8E1r-gQ",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+PQ 新忠里 台北市萬華區",
+            "global_code" : "7QQ32GH2+PQ"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJ12fcFgGpQjQRjLTg8E1r-gQ",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 219
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區西藏路78號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0304869,
+               "lng" : 121.5056367
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03181252989272,
+                  "lng" : 121.5069938298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02911287010728,
+                  "lng" : 121.5042941701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "巧食珍早餐店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112829761887660576645\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuH4-bMgv1ixHvI03vrJfy_uIK8JhGFaeV8eN6eQdZ6eDMalkBWT98IDYEEHmpCW36YxDau-zwjjuDh50ogAQeW16rqW5CIjSFw8dF3X7iyktk736N1LooMfFlIMiIn7J_b7tSVvZCpHHvhkX80Vy9q-3_mlMwmuljy2K12B5yQMag5H",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJlbNdM7SpQjQRlVZwlTRut4M",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ4+57 廈安里 台北市中正區",
+            "global_code" : "7QQ32GJ4+57"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJlbNdM7SpQjQRlVZwlTRut4M",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 44
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路182號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0300054,
+               "lng" : 121.5030451
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03130487989272,
+                  "lng" : 121.5044064798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02860522010728,
+                  "lng" : 121.5017068201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "悅勝 丼飯、生魚片、壽司專賣店-萬華店",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2268,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116588088037544044320\"\u003e蔡宜軒\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuEMyi_KxGo-X_50nLLn82idveHoFjjLgOyF4tEO9aTuT240zmH3xnTQlMALJ9CvUNkUpbvNzto--mXyjHZjnIEYpP7nN-m8JBhk3ZWtmijzs1L1v3cFLcoK-hZx_0YTGs_0RYGVKWNoZ2cveEKl6J2HGQ2kU-O1t3QL8Kc7SL-8eQOz",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRWCr8w6pQjQRHQXCNuftDp0",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ3+26 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GJ3+26"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJRWCr8w6pQjQRHQXCNuftDp0",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 110
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路520號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.028704,
+               "lng" : 121.4930692
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03000037989272,
+                  "lng" : 121.4944260298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02730072010728,
+                  "lng" : 121.4917263701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "六九盒餐",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105964758109967216631\"\u003eGaspar Xie\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuHVugGYkU0HhlvaL95a6aPWNKMNdMJCVUpjbr3WGX6F3fmZezi-EtoHHYnZ4wky4HoAJieOV-OUg1XnOm2k_qleff89QyxA6UD8ctLhrQZ0o7FMWYoDNq9XndiPVBKIildIGd1fcJwnqDfogZ3IPqUhOMRri00ANsy0wEzuHYw_Qo8",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ_____7KpQjQRYZ3UQJrm0Nw",
+         "plus_code" : 
+         {
+            "compound_code" : "2FHV+F6 和平里 台北市萬華區",
+            "global_code" : "7QQ32FHV+F6"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJ_____7KpQjQRYZ3UQJrm0Nw",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 251
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路216號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0298813,
+               "lng" : 121.5023887
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03118052989272,
+                  "lng" : 121.5037499298928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02848087010728,
+                  "lng" : 121.5010502701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "陽光早午餐",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2250,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107767273807744933833\"\u003e繪丞陳\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFQNOLxKd_M7q45kvAxZyMHJ1RyOYnZZgxadzw5Wrl4prkGFT2IzxblNynGDUqSUYW1TCb_Wjgi-qezzmeMxoLmxQCzwUMnKpD4R5CGvOnWvvwmBIN2qkLxVpyIst2YYyxWI-llusnMorbSP_w2Y9G7c56A6lxzRxPo2Aw_bKfwXLSq",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ86HECsKpQjQR5_pZr4uHd_w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+XX 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GH2+XX"
+         },
+         "price_level" : 1,
+         "rating" : 4.8,
+         "reference" : "ChIJ86HECsKpQjQR5_pZr4uHd_w",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 157
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路198號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0299497,
+               "lng" : 121.5027867
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03125262989272,
+                  "lng" : 121.5041474798928
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02855297010728,
+                  "lng" : 121.5014478201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "好好食坊",
+         "place_id" : "ChIJJznxLTOpQjQRd7ebPs29WAU",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH3+X4 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GH3+X4"
+         },
+         "rating" : 0,
+         "reference" : "ChIJJznxLTOpQjQRd7ebPs29WAU",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路524號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0286923,
+               "lng" : 121.4929594
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.02998037989272,
+                  "lng" : 121.4943172298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02728072010728,
+                  "lng" : 121.4916175701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "魷魚、魚酥、肉羹麵(原雙中旁)",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115456904801809672888\"\u003e陳昱志\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuFDKihnxenC8fK-CKjYMMi8zUSZBBMnlDVJHkIjI9ipRbviU9mosmJic73wJ_e54jNZS0qQngtMgcoXNtn7h2Lc5VG7QcDqc-WkeHo8EgynYOw8dAhk0r4WW-yptr7lmON5hntgdBG_tUnTAsR6ordSFMGf0-HepDNr3g8iy18c01Ve",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJTQZybhWpQjQRF-zs023Ti1Q",
+         "plus_code" : 
+         {
+            "compound_code" : "2FHV+F5 和平里 台北市萬華區",
+            "global_code" : "7QQ32FHV+F5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJTQZybhWpQjQRF-zs023Ti1Q",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 48
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣萬華區西藏路197號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0292136,
+               "lng" : 121.5000599
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03059602989272,
+                  "lng" : 121.5014085298927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02789637010728,
+                  "lng" : 121.4987088701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "牛媽媽的店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJsZKETLCpQjQRqLxdMFut27s",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH2+M2 日善里 台北市萬華區",
+            "global_code" : "7QQ32GH2+M2"
+         },
+         "rating" : 0,
+         "reference" : "ChIJsZKETLCpQjQRqLxdMFut27s",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路200號1樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0299389,
+               "lng" : 121.5027454
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03124322989272,
+                  "lng" : 121.5041058798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02854357010728,
+                  "lng" : 121.5014062201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "福州乾拌麵",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116698977479332104725\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuGtIXPnvOqslbf5E2Dxfa4CQc1WLOggVFEDai8V00SQ4gJpHBp2Cg4OVYoJtWd--dbv-PS3rZ7TEKyp885mNpVjdfvntQMeUYtcqpMW5peaWFFPbf5VnibldVZbuJEOEIT4CsrIpLkc4TEOS-XQPxNprDUT2juQ-dTMDMZ4MbmPCIxa",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJX-KjqTSpQjQROpv89Vmfli4",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH3+X3 頂碩里 台北市萬華區",
+            "global_code" : "7QQ32GH3+X3"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJX-KjqTSpQjQROpv89Vmfli4",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 105
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "100台灣台北市中正區西藏路64號一樓",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0305842,
+               "lng" : 121.5059567
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03190752989272,
+                  "lng" : 121.5073125798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02920787010728,
+                  "lng" : 121.5046129201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "三頁同 法蘭絨手沖咖啡 / 生日&節慶蛋糕",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100503487594380037767\"\u003e賀羿筑\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuE-2S-NxSzJfnw4XUGFTm9wwXosf-MssyUfL_l1atIyXFioVK_LXwcrIhdMgbhbOZ__0oYGhiMN8_QRP38M_vdJ19fHH6vjRF2QTO9WdKeYbmfprIrOyVWIpXKqtj3aXI8jv6ojnXv_fwmiBa1T2ncLo15OniD36xYlgs994xqha0SJ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJk5l1fOOpQjQR4ncqV6JKvIk",
+         "plus_code" : 
+         {
+            "compound_code" : "2GJ4+69 廈安里 台北市中正區",
+            "global_code" : "7QQ32GJ4+69"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJk5l1fOOpQjQR4ncqV6JKvIk",
+         "types" : 
+         [
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 55
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "108台灣台北市萬華區西藏路115巷6弄7號",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 25.0286367,
+               "lng" : 121.5026292
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 25.03000012989272,
+                  "lng" : 121.5039759798927
+               },
+               "southwest" : 
+               {
+                  "lat" : 25.02730047010727,
+                  "lng" : 121.5012763201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "美美精緻早午餐店",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105495043997409699733\"\u003e鄭善寺\u003c/a\u003e"
+               ],
+               "photo_reference" : "AcJnMuELhSdlIPfj5BduWFdjoUjwKY-OK_HiCzU7l8cGpmKuLoF4p_rQiJ4qNoVY2TXnhJwIh0CEtLaZb2uZlghwoKG-dIJBUBM3AAaW-PsqGgsd2ND6DIOUaCnf1MlfxZ9sOfSpTqEAZ3HRGxlWIv2aZJr66QEotYzJivsWZIbAnMJLf4mr",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJTeipALCpQjQRjOkzH5W_g8w",
+         "plus_code" : 
+         {
+            "compound_code" : "2GH3+F3 新忠里 台北市萬華區",
+            "global_code" : "7QQ32GH3+F3"
+         },
+         "price_level" : 1,
+         "rating" : 3.7,
+         "reference" : "ChIJTeipALCpQjQRjOkzH5W_g8w",
+         "types" : 
+         [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 74
+      }
+   ],
+   "status" : "OK"
+}

@@ -25,7 +25,14 @@ class User(AbstractUser):
     REQUIRED_FIELDS = ["username"]  # username 是預設的必填欄位
     def __str__(self):
         return self.username
-    
+
+class favorite(models.Model):
+    placename = models.CharField(max_length=300, default='placename')
+    placeaddress = models.CharField(max_length=300, default='placeaddress')
+    # placenumber = models.CharField(max_length=300)
+    def __str__(self):
+        return self.placename
+
 class feedback(models.Model):
     email = models.EmailField(unique=True, max_length=255, blank=False, null=False)
     name = models.CharField(max_length=100)
@@ -35,5 +42,4 @@ class feedback(models.Model):
         return self.name
 
 
-    
 
