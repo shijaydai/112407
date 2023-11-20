@@ -68,7 +68,7 @@ input[type="submit"]:hover {
 
 .independent {
   position: absolute;
-  top:30%;
+  top:25%;
   left:32%;
   z-index: 9999;
 }

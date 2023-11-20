@@ -21,10 +21,13 @@ function detectTextChange() {
             var phoneElement = document.querySelector('.view-link a');
             var phoneText = phoneElement ? phoneElement.textContent : '聯絡電話未提供';
 
-            var photoContainer = document.getElementById('photoContainer');
+            // var photoContainer = document.getElementById('photoContainer');
             var placePhoto = document.getElementById('placePhoto');
+            placePhoto.style.display = 'block';
+            // photoContainer.style.display = 'block';
             placePhoto.src = '/static/img/backup/' + currentText + '.jpg';  // 根據後端返回的照片路徑設定照片
-            photoContainer.style.display = 'block';
+            
+            
 
             var info = '<h3>店家信息</h3>';
             info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
@@ -44,26 +47,31 @@ function detectTextChange() {
                 success: function (response) {
                     console.log('hello'+response);
                     var resultDiv = document.getElementById('results');
-                    var info = '<strong>店家信息</strong><br>';
-                    info += '店家名稱: ' + currentText + '<br>';
-                    info += '地址: ' + addressText + '<br>';
-                    info += '聯絡電話: ' + phoneText + '<br>';
-                    info += '<button id="Favorite">收藏</button>'+'<br>';
+
+                    //店家信息
+                    var info = '<div class="ao">';
+                        info = '<h3>店家信息</h3>';
+                        info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
+                        info += '<strong>地址:</strong> ' + addressText + '<br>';
+                        info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
+                        info += '<button id="Favorite">收藏</button>';
+                        var jsonData = JSON.parse(response.comment);
+                        info += '有效占比: ' + response.match_asw + '<br><br>';
+                    info += '</div>'; 
                     
-                    var jsonData = JSON.parse(response.comment);
-                    info += '有效占比: ' + response.match_asw + '<br><br>';
-
-                    info += '<strong>用戶信息</strong><br>';
-                    var jsonData = JSON.parse(response.comment);
-                    console.log(jsonData[0]);
-                    for (let i = 0; i < jsonData.length; i++) {
-                        info += '留言者名字: ' + jsonData[i].username + '<br>';
-                        info += '留言時間: ' + jsonData[i].msgtime + '<br>';
-                        info += '星星數: ' + jsonData[i].star + '<br>';
-                        info += '評論: ' + jsonData[i].comment + '<br>';
-                        info += '有效性: ' + jsonData[i].effflag + '<br>';    
-                    }
-
+                    //用戶訊息
+                    info += '<div class="bo">';
+                        info += '<strong>用戶信息</strong><br>';
+                        var jsonData = JSON.parse(response.comment);
+                        console.log(jsonData[0]);
+                        for (let i = 0; i < jsonData.length; i++) {
+                            info += '留言者名字: ' + jsonData[i].username + '<br>';
+                            info += '留言時間: ' + jsonData[i].msgtime + '<br>';
+                            info += '星星數: ' + jsonData[i].star + '<br>';
+                            info += '評論: ' + jsonData[i].comment + '<br>';
+                            info += '有效性: ' + jsonData[i].effflag + '<br><br>';    
+                        }
+                    info += '</div>';
                     
                     resultDiv.innerHTML = info;
                 },
