@@ -60,3 +60,15 @@ input[type="submit"]:hover {
 .register-link a:hover {
   text-decoration: underline;
 }
+
+#logo{
+  width: 10%;
+  height: auto;
+}
+
+.independent {
+  position: absolute;
+  top:30%;
+  left:32%;
+  z-index: 9999;
+}
