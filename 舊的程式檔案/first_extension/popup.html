@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoogleMaps Reviews Filter</title>
+  <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Aet0bgdNx4orDWD3Ok8DMYpWCHhw3lc&libraries=places"></script>
+
+</head>
+<body>
+  <a href="https://www.google.com/maps" target="_blank">前往 Google Maps</a>
+  <h2>GoogleMaps評論真實性</h2>
+  <label for="keyword">關鍵字:</label>
+  <input type="text" id="keyword" placeholder="搜尋關鍵字">
+  <button id="applyFilter" onclick="searchPlaces()">搜尋</button>
+  <button id="clearFilter">清除</button>
+
+  <div id="placeInfo">
+    <!-- 這裡將顯示店家資訊 -->
+  <p>店家名稱：</p>
+  <p>地址：</p>
+  <p>連絡電話：</p>
+  <p>有效評論占比：</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+

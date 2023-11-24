@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+body{
+ background-color: #efe9e7;
+}
+a{
+ text-decoration: none;
+ color: #3D1101;
+}
+.sss{
+ max-width: 960px;
+ margin:20px auto 0 auto;
+ height: auto;
+}
+

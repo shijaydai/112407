@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "我的店家搜索擴充",
+  "version": "1.0",
+  "description": "在點擊 Google Maps 上的店家位置時顯示經緯度",
+  "permissions": ["activeTab"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon_16.jpg",
+    "48": "images/icon_48.jpg",
+    "128": "images/icon_128.jpg"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon_16.jpg",
+        "48": "images/icon_48.jpg",
+        "128": "images/icon_128.jpg"
+      }
+  },
+  "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+      }
+  ]
+}
