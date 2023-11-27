@@ -5,35 +5,49 @@
     <title>店家搜尋</title>
     <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places"></script>
+    <link href="../static/css/visitor.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>店家搜尋</h1>
-    <input type="visitor" id="searchInput" placeholder="輸入店家名稱">
-    <button onclick="searchPlaces()">搜尋</button>
-    <div id="map" style="height: 400px;"></div>
-
-    <div id="results">
-        <div id="placeInfo"></div> <!-- 顯示店家信息的區域 -->
-        <h2>搜索結果</h2>
-        <ul id="placesList"></ul>
-    </div>
-    <h1>測試Database</h1>
-    <ul>
-        {% for item in response_data %}
-            <li>username: {{ item.username }}</li>
-            <li>msgtime: {{ item.msgtime }}</li>
-            <li>star: {{ item.star }}</li>
-            <li>comment: {{ item.comment }}</li>
-            <li>effflag: {{ item.effflag }}</li>
-        {% endfor %}
+    <ul id = "top">
+        <li id = "top1"><a onclick="window.location.href='/'">回首頁</a></li>
+        <li id = "top1"><a onclick="window.location.href='/login'">登入</a></li>
     </ul>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <header>
 
-    <script src="{% static 'js/search.js' %}"></script>
+        <h1>店家搜尋</h1>
 
+        <div class="independent">
+            <img id ="logo" src="../static/img/logo.png" >
+        </div>
+        
+        <div class = "search">
+            <input type="visitor" id="searchInput" placeholder="輸入店家名稱">
+            <button id="searchButton" onclick="searchPlaces()">搜尋</button>
+        </div>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places&callback=initMap"></script>
-    <script src="{% static 'js/search.js' %}"></script>
+        <div id="map" style="height: 400px;"></div>
+
+        <div class="results">
+            <h2>搜索結果</h2>
+            <div id="placeInfo"> <!-- 顯示店家信息的區域 -->
+                <ul id="placesList"></ul>
+            </div>
+            {% comment %} <ul>
+                {% for item in response_data %}
+                    <li>username: {{ item.username }}</li>
+                    <li>msgtime: {{ item.msgtime }}</li>
+                    <li>star: {{ item.star }}</li>
+                    <li>comment: {{ item.comment }}</li>
+                    <li>effflag: {{ item.effflag }}</li>
+                {% endfor %}
+            </ul> {% endcomment %}
+            
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places&callback=initMap"></script>
+    </header>
 </body>
-<script src="../static/js/visitor.js"></script>
+        <script src="../static/js/visitor.js"></script>
+        <script src="../static/js/search.js"></script>
 </html>
