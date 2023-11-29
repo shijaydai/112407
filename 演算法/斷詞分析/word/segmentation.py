@@ -1,23 +1,29 @@
-import jieba.posseg as pseg
 import pandas as pd
+import jieba.posseg as pseg
 
-# 載入CSV文件
-file_path = 'word.csv'  # 將 'your_file.csv' 替換為你的檔案路徑
+def segment_text_with_pos(text):
+    try:
+        # 將 NaN 或其他非字符串值轉換為字符串
+        text = str(text)
+        words = pseg.cut(text)
+        return [(word, pos) for word, pos in words]
+    except Exception as e:
+        print(f"Error processing text: {text}, Error: {e}")
+        return []
+
+# 讀取 CSV 檔案
+file_path = "Gappdj.csv"
 df = pd.read_csv(file_path, encoding='cp950')
 
-# 定義斷詞函數，包含詞性
-def segment_text_with_pos(text):
-    words = pseg.cut(text)
-    segmented_text = []
-    for word, pos in words:
-        segmented_text.append(f'{word}({pos})')
-    return ' '.join(segmented_text)
+# 檢查並處理缺失值
+df['comment'].fillna("", inplace=True)
 
-# 對DataFrame的某一列進行斷詞和顯示詞性
-column_to_segment = 'comment'  # 將 'column_name' 替換為你想要斷詞的列名稱
-df['segmented_text_with_pos'] = df[column_to_segment].apply(segment_text_with_pos)
+# 指定要斷詞的欄位
+column_to_segment = 'comment'
 
-# 保存結果到新的CSV文件
-output_file_path = 'output_segmented_with_pos.csv'
+# 進行斷詞
+df['segmented'] = df[column_to_segment].apply(segment_text_with_pos)
+
+# 將結果保存為新的 CSV 檔案
+output_file_path = "Gappdj_segmented.csv"
 df.to_csv(output_file_path, index=False, encoding='cp950')
-
