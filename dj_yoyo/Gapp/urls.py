@@ -11,6 +11,7 @@ urlpatterns = [
     path('show_favorite_locations/', views.show_favorite_locations, name='show_favorite_locations'),
     path('add_favorite_location/', views.add_favorite_location, name='add_favorite_location'),
     path('unfavorite-location/<int:location_id>/', views.unfavorite_location, name='unfavorite_location'),
+    path('searchhistory/', views.searchhistory, name='searchhistory'),
     # path('login/', views.user_login, name='login'),
     # path('testA/<str:place_name>/<str:formatted_address>/', views.testA, name='testA'),
 ]

@@ -33,7 +33,7 @@ function detectTextChange() {
             info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
             info += '<strong>地址:</strong> ' + addressText + '<br>';
             info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
-            info += '<button id="Favorite">收藏</button>';
+            info += '<button id="Favorite" class="Favorite">收藏</button>';
         
 
             placeInfoDiv.innerHTML = info;
@@ -50,11 +50,11 @@ function detectTextChange() {
 
                     //店家信息
                     var info = '<div class="ao">';
-                        info = '<h3>店家信息</h3>';
+                        info += '<h3>店家信息</h3>';
                         info += '<strong>店家名稱:</strong> ' + currentText + '<br>';
                         info += '<strong>地址:</strong> ' + addressText + '<br>';
                         info += '<strong>聯絡電話:</strong> ' + phoneText + '<br>';
-                        info += '<button id="Favorite">收藏</button>';
+                        info += '<button id="Favorite" class="Favorite">收藏</button>';
                         var jsonData = JSON.parse(response.comment);
                         info += '有效占比: ' + response.match_asw + '<br><br>';
                     info += '</div>'; 
@@ -81,6 +81,7 @@ function detectTextChange() {
                     console.log("search_textAJAX請求失敗: " + error);
                 }
             });
+        
 
             document.getElementById('Favorite').addEventListener('click', function() {
                 // if (currentText&&addressText) {

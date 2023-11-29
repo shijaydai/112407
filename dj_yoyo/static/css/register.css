@@ -17,6 +17,8 @@ body {
 
 
 h2 {
+  position: relative;
+  top: -15px;
   text-align: center;
   margin-bottom: 20px;
   color: #11273d;
@@ -62,13 +64,12 @@ input[type="submit"]:hover {
 }
 
 #logo{
-  width: 10%;
+  width: 15%;
   height: auto;
 }
 
 .independent {
-  position: absolute;
-  top:25%;
-  left:32%;
+  position: relative;
+  bottom: 10px;
   z-index: 9999;
 }
