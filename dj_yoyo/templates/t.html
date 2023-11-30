@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>修改個人資料</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  {% comment %} 這裡是 Font Awesome 圖標庫的 CSS 文件。這些圖標通常用於增添視覺元素，如按鈕、列表、表格等 {% endcomment %}
+  <link href="../static/css/t.css" rel="stylesheet" />
+</head>
+<body>
+<div class="profile-card">
+  <div class="card-header">
+
+    <div class="pic">
+      <img id ="logo" src="../static/img/logo.png" >
+      {% comment %} <img src="pic.png" alt=""> {% endcomment %}
+    </div>
+
+    <div class="name">使用者名稱*</div>
+    <div class="desc">帳號*</div>
+
+    {% comment %} 這裡可以不用 {% endcomment %}
+    <div class="sm">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-github"></a>
+      <a href="#" class="fab fa-youtube"></a>
+    </div>
+
+    <a href="#" class="contact-btn">Contact Me</a>
+  </div>
+
+  <div class="card-footer">
+    <div class="numbers">
+
+      <div class="item">
+        <span>120</span>
+        Posts
+      </div>
+      <div class="border"></div>
+      <div class="item">
+        <span>127</span>
+        Following
+      </div>
+      <div class="border"></div>
+      <div class="item">
+        <span>120K</span>
+        Followers
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

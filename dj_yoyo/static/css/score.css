@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px; 
+    background-color: #d9e2ec;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 20px 0 0 0 ;
+}
+
+ul{
+    list-style: none;
+    display: block;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      font-size: small;  
+      
+}
+
+li {
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;/* 將列表項目變成行內元素，使其水平排列 */
+}
+
+li:hover {
+    background-color: #000000; 
+    color:#ffffff;
+}
+
+/* 我是分隔線-------------------------表格內容------------------------------------------------------------- */
+
+table {
+    margin: 20px auto 20px auto;
+    width: 30%;
+    border-collapse: collapse; 
+    border-radius: 20px; /* 將表格四角的半徑 */
+    overflow: hidden; /* 確保邊緣半徑不會被內容超出 */
+    box-shadow: 0 0 0 2px rgb(109, 104, 132); /* 添加 3px 的框線陰影，顏色可以根據需要調整 */
+    background-color: #fff; /* 表格的背景顏色 */
+    color: #000000; /* 表格內容的文字顏色 */
+}
+
+
+th, td {
+    padding: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.a{
+    text-align: center;
+}
+
+.rank{
+    width: 40px;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+.name{
+    display: inline-block; 
+    vertical-align: middle;
+    width: 120px;
+}

@@ -10,6 +10,9 @@
       <h1>有評有G 智能評論偵測器</h1>
         <p id="description">Thank you for visit my website,give me feadback for improve the service</p>
     </div>
+    <div class="independent">
+      <img id ="logo" src="../static/img/logo.png" >
+  </div>
     <form id="survey-form" method="post" action="{% url 'feadback' %}">
       {% csrf_token %}
       <label>名字:</label><br>

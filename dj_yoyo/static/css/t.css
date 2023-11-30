@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  /* background-color: #dcf0fc; */
+  /* background: linear-gradient(130deg, #74b9ff, #e66767); */
+  background: linear-gradient(130deg, #dcf0fc, #02386f);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/logo.png'); 
+  background-size: 9.07%;
+  opacity: 0.3; /* 透明度 */
+  pointer-events: none; /* 防止干擾與頁面交互作用 */
+  z-index: -1; /* 背景圖放最後 */
+}
+
+.ab{
+  width: 400px;
+  text-align: center;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.header{
+  /* background: #2c3a47; */
+  background: #2b546d;
+  padding: 60px 40px;
+}
+
+.logo{
+  display: inline-block;
+  padding: 10px;
+  /* background: linear-gradient(130deg, #74b9ff, #e66767); */
+  background: linear-gradient(130deg, #dcf0fc, #399ad7);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  /*  設定漸變的背景大小為原來的兩倍，這是為了在動畫中創建一個漸變的效果，讓漸變速度快一點。 */
+  animation: animated-gradient 2s linear infinite;
+  /* 設定一個名為 animated-gradient 的動畫，持續時間為2秒，使用線性的時間函數，並且無限循環播放。 */
+}
+
+/* 定義動畫。這個動畫會改變元素的背景位置，從而在動畫過程中創建一個平滑的漸變效果。 */
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+/* 
+25%：在動畫的四分之一處，將背景位置設置為左下角。
+50%：在動畫的一半處，將背景位置設置為右下角。
+75%：在動畫的三分之二處，將背景位置設置為右上角。
+100%：在動畫完成時，將背景位置設置為左上角。 */
+
+.logo img{
+  display: block;
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.name{
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 35px ;
+}
+
+
+
+/* .sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.sm a{
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+}
+.sm a:hover{
+  color: #e66767;
+}
+.contact-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #e66767;
+  border: 2px solid #e66767;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+}
+.contact-btn:hover{
+  background: #e66767;
+  color: #f2f2f2;
+} */
+
+.b{
+  background: #f4f4f4;
+  padding: 30px 120px  ;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.form-a{
+    width: 75px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+    
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 10px; 
+    border: none;
+    color: #2c3a47;
+    text-align: center;
+    display: inline-block;
+}
+
+.form-b{
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+
+    margin-top: 20px;
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 10px; 
+    border: none;
+    color: #2c3a47;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.form-c{
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+
+    margin-top: 20px;
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 10px; 
+    border: none;
+    color: #2c3a47;
+    text-align: center;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+button{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #e66767;
+    border: 2px solid #e66767;
+    width: 100%;
+    
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: .3s linear;
+    font-size: 15px;
+    /* margin-top: 20px;
+    font-size: 14px;
+    width: 50px;
+    height: 32px;
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block; */
+}
+
+button:hover {
+    /* background-color:#adb5bd;;
+    color: #161b61; */
+    cursor: pointer;
+    background: #e66767;
+    color: #f2f2f2;
+}
+/* .item{
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #e66767;
+}
+.item span{
+  display: block;
+  color: #2c3a47;
+  font-size: 30px;
+}
+.border{
+  width: 1px;
+  height: 30px;
+  background: #bbb;
+} */

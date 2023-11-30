@@ -3,6 +3,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser, Group, Permission
 import json
 from django.db import models
+from django import forms
 
 class store(models.Model):
     storename = models.CharField(max_length=255)
@@ -26,7 +27,7 @@ class User(AbstractUser):
     def __str__(self):
         return self.username
 
-class favorite(models.Model):
+class favoritelocation(models.Model):
     placename = models.CharField(max_length=300, default='placename')
     placeaddress = models.CharField(max_length=300, default='placeaddress')
     # placenumber = models.CharField(max_length=300)
@@ -36,10 +37,13 @@ class favorite(models.Model):
 class feedback(models.Model):
     email = models.EmailField(unique=True, max_length=255, blank=False, null=False)
     name = models.CharField(max_length=100)
-    feadback = models.CharField(max_length=300)
+    feedback = models.CharField(max_length=300)
     recommend = models.CharField(max_length=300)
     def __str__(self):
         return self.name
 
-
+class ChangePasswordForm(forms.Form):
+    new_password = forms.CharField(label='新密碼', widget=forms.PasswordInput)
+    confirm_password = forms.CharField(label='確認新密碼', widget=forms.PasswordInput)
+    new_username = forms.CharField(label='新使用者名稱')
 

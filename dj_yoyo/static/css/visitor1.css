@@ -1,0 +1,156 @@
+/* 響應式變更前 */
+body{
+    background-color: #dcf0fc;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#top{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    list-style-type: none; 
+    color:#161b61;
+    font-size: small;
+    cursor: pointer;
+    
+}
+
+#top1:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; 
+    border: none;
+    text-align: center;
+    pointer-events: auto;
+}
+
+
+
+#top1{
+    float: left;
+    margin-right: 50px; 
+    width: 48px;
+    text-align: center;
+}
+
+h1{
+    position:relative;
+    top: 0;
+    left: 60px;
+    font-size: 50px;
+    color: #161b61;
+}
+
+#logo{
+    width: 10%;
+    height: auto;
+  }
+  
+.independent {
+    position: absolute;
+    top:38px;
+    left:25px;
+    z-index: 9999;
+}
+
+header:before {
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    background-color:#fff;
+    opacity: 0.5;
+    
+}
+
+.search{
+    
+    position: absolute;
+    top: 18%;
+    left: 110px;
+    
+}
+
+#searchInput{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchButton{
+    margin-left: 10px;
+    
+    font-size: 14px;
+
+    width: 50px;
+    height: 32px;
+    position: absolute;
+    top: 5%;
+    left: 210px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchButton:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+
+#map{
+    
+    width: 700px;
+    height: 480px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+}
+
+.results{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+h2{
+    color: #161b61;
+    font-size: 36px;
+}
+
+#placeInfo{
+    position: absolute;
+    width: 500px;
+    font-size: 18px;
+    
+}
+
+
+
+h3{
+    font-size: 24px;
+    color: #161b61;
+}

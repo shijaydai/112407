@@ -1,6 +1,7 @@
 body{
     background-color: #dcf0fc;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 #top{
@@ -10,7 +11,7 @@ body{
     list-style-type: none; 
     color:#161b61;
     font-size: small;
-    cursor: pointer;
+    
     
 }
 
@@ -22,6 +23,7 @@ body{
     border: none;
     text-align: center;
     pointer-events: auto;
+    cursor: pointer;
 }
 
 
@@ -29,7 +31,14 @@ body{
 #top1{
     float: left;
     margin-right: 50px; 
-    width: 48px;
+    width: 55px;
+    text-align: center;
+}
+
+#top2{
+    float: left;
+    margin-right: 50px; 
+    width: 100px;
     text-align: center;
 }
 
@@ -48,14 +57,17 @@ h1{
   
 .independent {
     position: absolute;
-    top:38px;
-    left:25px;
+    top: 5vh;
+    left: 2vw;
+    /* top:38px;
+    left:25px; */
     z-index: 9999;
 }
 
 header:before {
     width: 100%;
-    height: 480px;
+    /* height: 480px; */
+    height: 68vh;
     text-align: center;
     content: "";
     position: absolute;
@@ -73,15 +85,16 @@ header:before {
     
     position: absolute;
     top: 18%;
-    left: 110px;
-    
+    /* left: 110px; */
+    left: 7.5%;
 }
 
 #searchInput{
-    width: 200px;
+    /* width: 200px; */
+    width: 80%;
+    max-width: 300px;
     height: 35px;
     font-size: 20px;
-
     background:  rgba(154, 147, 147, 0.5); 
     border-radius: 15px; 
     border: none;
@@ -95,11 +108,13 @@ header:before {
     
     font-size: 14px;
 
-    width: 50px;
+    /* width: 50px; */
+    width: 20%;
     height: 32px;
     position: absolute;
     top: 5%;
-    left: 210px;
+    /* left: 210px; */
+    left: 85%;
 
     background:  rgba(154, 147, 147, 0.5); 
     border-radius: 15px; 
@@ -115,11 +130,40 @@ header:before {
     cursor: pointer;
 }
 
+#position{
+    margin-left: 10px;
+    
+    font-size: 14px;
+
+    /* width: 50px; */
+    width: 35%;
+    height: 32px;
+    position: absolute;
+    top: 5%;
+    /* left: 210px; */
+    left: 115%;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#position:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
 
 #map{
     
-    width: 700px;
-    height: 480px;
+    /* width: 700px;
+    height: 480px; */
+    width: 45%;
+    height: 40vh;
     position: absolute;
     top: 52%;
     left: 30%;
@@ -139,15 +183,17 @@ header:before {
     top: 63%;
     left: 60.5%;
     font-size: 18px;
+    width: 50%;
+    /* font-size: 1.1vw; */
 }
 
 h2{
     color: #161b61;
-    font-size: 36px;
+    font-size: 2.4vw;
 }
 
 h3{
-    font-size: 24px;
+    font-size: 2vw;
     color: #161b61;
     margin: 0;
 }
@@ -156,14 +202,17 @@ h3{
     position: absolute;
     top: 33%;
     left: 60.5%;
-    width: 300px;
+    /* width: 300px; */
+    width: 60%;
     max-width: 280px;
     display: none;
+    font-size: 1.1vw;
 }
 
 #Favorite{
     margin-right: 10px;
     
+    width: 80px;
     font-size: 16px;
 
     background:  rgba(154, 147, 147, 0.5); 
@@ -174,23 +223,51 @@ h3{
     display: inline-block;
 }
 
+#Favorite:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+#rank{
+    margin-right: 10px;
+    
+    width: 150px;
+    font-size: 16px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#rank:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
 
 .bo {
     position: absolute;
     top:100%;
-    left: -160.5%; 
+    left: -210%;
+    /* left: -160.5%;  */
     margin-top: 10px;
     width: 1000px;
 }
 
 .bo strong {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 2vw;
     color: #161b61;
     
 }
 
 .bo p {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin-bottom: 2%;
 }
 
 /* .ao{
@@ -199,3 +276,4 @@ h3{
     left: 60.5%;
     font-size: 18px;
 } */
+

@@ -1,0 +1,57 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 20px; 
+    background-color: #d9e2ec;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 20px 0 0 0 ;
+}
+
+ul{
+    list-style: none;
+    display: block;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      font-size: small;  
+      
+}
+
+li {
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;/* 將列表項目變成行內元素，使其水平排列 */
+}
+
+/* 我是分隔線-------------------------表格內容------------------------------------------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    border-radius: 20px; /* 將表格四角的半徑 */
+    overflow: hidden; /* 確保邊緣半徑不會被內容超出 */
+    box-shadow: 0 0 0 2px rgb(109, 104, 132); /* 添加 3px 的框線陰影，顏色可以根據需要調整 */
+    background-color: #fff; /* 表格的背景顏色 */
+    color: #000000; /* 表格內容的文字顏色 */
+}
+
+th, td {
+    border: 3px solid rgb(0, 0, 0) 6, 116;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+

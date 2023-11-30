@@ -7,7 +7,7 @@ from time import sleep
 from fake_useragent import UserAgent
 import pandas as pd
 import Gapp.models
-from .models import dj,store,feedback,favorite
+from .models import dj,store,feedback,favoritelocation,ChangePasswordForm
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
@@ -28,6 +28,8 @@ from django.contrib.auth.hashers import make_password
 from django.http import HttpResponseRedirect
 import logging
 from .get_new import getnew
+from django.contrib import messages
+from django.db.models import Sum, F, ExpressionWrapper, DecimalField,Count
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -86,8 +88,10 @@ def get_photo_path(place_id):
 
 def member(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
-    data = dj.objects.all()
-    data1 = store.objects.all()
+    username = request.user.username if request.user.is_authenticated else None
+    print(username)
+
+
     print(request.GET)
     if  request.method == "GET" and request.GET.get("currentText") != None :    
         currentText = request.GET.get("currentText")
@@ -98,25 +102,31 @@ def member(request, place_name="None", formatted_address="None"):
                 print("address" , addressText)
                 # 查询匹配的dj对象
                 matched_store = store.objects.filter(storename=currentText, address=addressText).first()
-
+                print(matched_store)
                 if matched_store is not None:
                     matched_dj = dj.objects.filter(storeid_id=matched_store.id).values()
-                    matched_effsum = dj.objects.filter(storeid_id=matched_store.id, effflag=1).count()
+                    matched_effsum = dj.objects.filter(storeid_id=matched_store.id, effflag=0).count()
                     matched_reccnt = dj.objects.filter(storeid_id=matched_store.id).count()
-                    matched_asw = matched_effsum * 100 / matched_reccnt if matched_reccnt != 0 else 0
+                    matched_asw = round(matched_effsum * 98.9 / matched_reccnt, 2) if matched_reccnt != 0 else 0
 
                     matched_dj_list = list(matched_dj)
                     json_data = json.dumps(matched_dj_list)
+                    
+                    
                     # 获取照片路徑
                     photo_filename = currentText
                     print("photo_path" , photo_filename)
                     print("AAAphoto_path" , currentText)
+                    
+
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
                     'match_asw': matched_asw,
                     'photo_filename': photo_filename,
                 }
+
+                
                 #print("111" + response_data + "222")
                 # 返回JSON响应
                 return JsonResponse(response_data)
@@ -127,6 +137,13 @@ def member(request, place_name="None", formatted_address="None"):
             # 如果缺少必要的参数，返回错误消息和HTTP状态码
             return JsonResponse({'error': 'Missing currentText or address parameter'}, status=400)
 
+    #-------------------------------------------------------------------前三名排序
+     
+
+    # topthreestores_data={
+    #     'topthreestores':topthreestores,
+    # }
+
     # ---------------------------------------------------收藏功能
     if request.method == "POST" and request.POST.get("currentText") != None : 
         # placename = request.POST.get('currentText')
@@ -135,20 +152,56 @@ def member(request, place_name="None", formatted_address="None"):
         addressText = request.POST.get("address")
         logging.info(f"Received a POST request with placename: {currentText}, placeaddress: {addressText}")
         # 将数据存储到数据库
-        favorite_location = favorite.objects.create(placename=currentText, placeaddress=addressText)
+        favorite_location = favoritelocation.objects.create(placename=currentText, placeaddress=addressText)
         favorite_location.save()   
     # 如果请求方法不是GET，返回错误响应和HTTP状态码
     # return render(request, "visitor.html",locals())
-    return render(request, "member.html", {'response_data': response_data})
+    return render(request, "member.html", {'response_data': response_data, 'username': username})
+
+
+def score(request):
+     # 1. 獲取所有 store 的資料
+    all_stores = store.objects.all()
+
+    # 2. 透過 store 的 id，找出相對應的 dj 記錄，計算 matched_effsum 和 matched_reccnt
+    top_effs = []
+    for single_store in all_stores:
+        matched_dj_records = dj.objects.filter(storeid_id=single_store.id)
+        matched_effsum = matched_dj_records.filter(effflag=0).count()
+        matched_reccnt = matched_dj_records.count()
+
+        # 3. 計算 matched_asw
+        matched_asw = round(matched_effsum * 98.9 / matched_reccnt, 2) if matched_reccnt != 0 else 0
+
+
+        # 4. 將結果加入 top_effs 列表
+        top_effs.append({
+            'storename': single_store.storename,
+            'matched_asw': matched_asw,
+        })
+
+    # 5. 將 top_effs 按 matched_asw 排序，選取前三高的值
+    top_effs = sorted(top_effs, key=lambda x: x['matched_asw'], reverse=True)[:3]
+
+    # 6. 將結果傳遞給模板
+    context = {
+        'top_effs': top_effs,
+    }
+    print(context)
+
+    return render(request, "score.html",context)
+
+
+
 
 def add_favorite_location(request):
     if request.method == 'POST':
-        # 使用request.POST.get()方法获取POST参数
+        # 使用request.POST.get()方法获取POST参数 
         placename = request.POST.get('currentText')
         placeaddress = request.POST.get('address')
-        if not favorite.objects.filter(placename=placename, placeaddress=placeaddress).exists():
+        if not favoritelocation.objects.filter(placename=placename, placeaddress=placeaddress).exists():
             # 如果不存在相同数据，则将数据存储到数据库
-            favorite_location = favorite.objects.create(placename=placename, placeaddress=placeaddress)
+            favorite_location = favoritelocation.objects.create(placename=placename, placeaddress=placeaddress)
             favorite_location.save()
             return JsonResponse({'message': '地址已收藏'})
         else:
@@ -156,14 +209,14 @@ def add_favorite_location(request):
     return JsonResponse({'message': '无效的请求'})
 
 def show_favorite_locations(request):
-    show_favorite_locations = favorite.objects.all()
+    show_favorite_locations = favoritelocation.objects.all()
     if request.method == 'POST': 
         searchvalue = request.POST.get('searchForm')
         return render(request,'member.html' , {'searchvalue': searchvalue} )
-    return render(request, 'show_favorite_locations.html',{'show_favorite_locations': show_favorite_locations})
+    return render(request, 'showfavorite.html',{'show_favorite_locations': show_favorite_locations})
 
 def unfavorite_location(request, location_id):
-    location = get_object_or_404(favorite, pk=location_id)
+    location = get_object_or_404(favoritelocation, pk=location_id)
     if request.method == 'POST':
         location.delete()
         return redirect('show_favorite_locations')
@@ -215,15 +268,15 @@ def login(request):
             message = "登入失敗，請檢查帳號和密碼是否正確。"
     return render(request, 'login.html', {'message': message})
 
-def feedback(request):
+def feadback(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')
         feadback = request.POST.get('feadback')
         recommend = request.POST.get('recommend')
-        unit = feedback.objects.create(name=name, email=email, feadback=feadback, recommend=recommend)
+        unit = feedback.objects.create(name=name, email=email, feedback=feadback, recommend=recommend)
         unit.save()
-        return HttpResponseRedirect('/index/')
+        return HttpResponseRedirect('/member')
     return render(request, "feadback.html", locals())
 
 def extract_name_and_address(json_data):
@@ -325,4 +378,40 @@ def get_photo(all_place_list, file_path):
                                 # all_place_list.remove(place_id)    
                     except Exception as e:
                         print(f"發生未處理的異常: {e}")
+
+
+
+def change_password(request):
+    username = request.user.username if request.user.is_authenticated else None
+
+    if request.method == 'POST':
+        form = ChangePasswordForm(request.POST)
+        if form.is_valid():
+            new_password = form.cleaned_data['new_password']
+            confirm_password = form.cleaned_data['confirm_password']
+            new_username = form.cleaned_data['new_username']
+            
+            
+            if new_password == confirm_password :
+                # 更新用戶密碼
+                user = request.user
+                user.set_password(new_password)
+                user.username = new_username
+                user.save()
+                
+                # 登出用戶，以便他們需要重新登錄
+                messages.success(request, 'Password changed successfully. Please log in again.')
+                return redirect('login')
+            else:
+                messages.error(request, 'New password and confirmation password do not match.')
+    else:
+        form = ChangePasswordForm()
+
+    return render(request, 'changepsw.html', {'form': form, 'username': username})
+
+def searchhistory(request):
+
+    return render(request, "searchhistory.html", locals())
+
+
 

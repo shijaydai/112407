@@ -1,0 +1,279 @@
+/* 響應式變更前 */
+body{
+    background-color: #dcf0fc;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+/* ----------------------------------------------------------右上角 */
+#top{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    list-style-type: none; 
+    color:#161b61;
+    font-size: small;
+    
+    
+}
+
+#top1:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; 
+    border: none;
+    text-align: center;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+
+#top1{
+    float: left;
+    margin-right: 50px; 
+    width: 55px;
+    text-align: center;
+}
+
+#top2{
+    float: left;
+    margin-right: 50px; 
+    width: 100px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------左上角 */
+
+h1{
+    position:absolute;
+    top: 0;
+    left: 75px;
+    font-size: 50px;
+    color: #161b61;
+}
+
+#logo{
+    width: 40px;
+    height: auto;
+  }
+  
+.independent {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    /* top:38px;
+    left:25px; */
+    z-index: 9999;
+}
+
+/* ----------------------------------------------------------淺藍色底 */
+
+header:before {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    content: "";
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    background-color:#fff;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+/* ----------------------------------------------------------搜尋 */
+
+.search{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+#searchInput{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchButton{
+    margin-left: 10px;
+    
+    font-size: 14px;
+
+    width: 50px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchButton:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+#position{
+    margin-left: 70px;
+    
+    font-size: 14px;
+
+    width: 70px;
+    height: 32px;
+    position: absolute;
+    top: 2px;
+    
+
+    background:  rgba(255, 0, 0, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#position:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------地圖 */
+
+#map{
+    width: 700px;
+    height: 400px;
+    
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    
+}
+
+/* ----------------------------------------------------------搜尋結果 */
+
+
+.re{
+    position: absolute;
+    top: 130px;
+    right: 420px;
+}
+
+.re1{
+    position: absolute;
+    top: 450px;
+    right:  0px;
+    font-size: 18px;
+    width: 570px;
+    
+}
+
+h2{
+    color: #161b61;
+    font-size: 38px;
+}
+
+h3{
+    font-size: 32px;
+    color: #161b61;
+    margin: 0;
+}
+
+#placePhoto{
+    position: absolute;
+    top: 230px;
+    
+    right: 290px;
+    max-width: 280px;
+    max-height: 280px;
+    display: none;
+}
+
+#Favorite{
+    margin-right: 10px;
+    
+    width: 80px;
+    font-size: 16px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#Favorite:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+#rank{
+    margin-right: 10px;
+    
+    width: 150px;
+    font-size: 16px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#rank:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+.bo {
+    position: absolute;
+    top: 180px;
+    right: 200px;
+    width: 1200px;
+
+}
+
+.bo strong {
+    font-size: 32px;
+    color: #161b61;
+}
+
+.bo p {
+    margin-bottom: 8px;
+}
+
+#no{
+    width: 20px;
+    display: inline-block; 
+    vertical-align: middle;
+    background-color: #dcf0fc;
+}
+
+#ok{
+    width: 20px;
+    display: inline-block; 
+    vertical-align: middle;
+    background-color: #dcf0fc;
+}
+

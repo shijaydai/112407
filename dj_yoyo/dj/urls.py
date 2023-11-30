@@ -16,10 +16,13 @@ urlpatterns = [
     path('', views.index),
     path('register/', views.register, name='register'),
     path('login/',views.login, name='login'),
-    path('feedback/', views.feedback, name='feedback'),
+    path('feadback/', views.feadback, name='feadback'),
     path('test/', views.test),
     path('show_favorite_locations/', views.show_favorite_locations, name='show_favorite_locations'),
     path('add_favorite_location/', views.add_favorite_location, name='add_favorite_location'),
     path('unfavorite-location/<int:location_id>/', views.unfavorite_location, name='unfavorite_location'),
+    path('change_password/', views.change_password, name='change_password'),
+    path('searchhistory/', views.searchhistory, name='searchhistory'),
+    path('score/', views.score, name='score'),
 ]
 
