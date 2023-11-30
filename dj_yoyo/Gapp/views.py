@@ -29,6 +29,7 @@ from django.http import HttpResponseRedirect
 import logging
 from .get_new import getnew
 from django.contrib import messages
+from django.db.models import Sum, F, ExpressionWrapper, DecimalField,Count
 
 def visitor(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
@@ -87,8 +88,6 @@ def get_photo_path(place_id):
 
 def member(request, place_name="None", formatted_address="None"):
     response_data = {}  # 默认的空字典
-    data = dj.objects.all()
-    data1 = store.objects.all()
     username = request.user.username if request.user.is_authenticated else None
     print(username)
 
@@ -108,19 +107,26 @@ def member(request, place_name="None", formatted_address="None"):
                     matched_dj = dj.objects.filter(storeid_id=matched_store.id).values()
                     matched_effsum = dj.objects.filter(storeid_id=matched_store.id, effflag=0).count()
                     matched_reccnt = dj.objects.filter(storeid_id=matched_store.id).count()
-                    matched_asw = matched_effsum * 83 / matched_reccnt if matched_reccnt != 0 else 0
+                    matched_asw = round(matched_effsum * 98.9 / matched_reccnt, 2) if matched_reccnt != 0 else 0
+
                     matched_dj_list = list(matched_dj)
                     json_data = json.dumps(matched_dj_list)
+                    
+                    
                     # 获取照片路徑
                     photo_filename = currentText
                     print("photo_path" , photo_filename)
                     print("AAAphoto_path" , currentText)
+                    
+
                 # 构建JSON响应数据
                 response_data = {
                     'comment': json_data,
                     'match_asw': matched_asw,
                     'photo_filename': photo_filename,
                 }
+
+                
                 #print("111" + response_data + "222")
                 # 返回JSON响应
                 return JsonResponse(response_data)
@@ -131,7 +137,12 @@ def member(request, place_name="None", formatted_address="None"):
             # 如果缺少必要的参数，返回错误消息和HTTP状态码
             return JsonResponse({'error': 'Missing currentText or address parameter'}, status=400)
 
-    
+    #-------------------------------------------------------------------前三名排序
+     
+
+    # topthreestores_data={
+    #     'topthreestores':topthreestores,
+    # }
 
     # ---------------------------------------------------收藏功能
     if request.method == "POST" and request.POST.get("currentText") != None : 
@@ -148,9 +159,44 @@ def member(request, place_name="None", formatted_address="None"):
     return render(request, "member.html", {'response_data': response_data, 'username': username})
 
 
+def score(request):
+     # 1. 獲取所有 store 的資料
+    all_stores = store.objects.all()
+
+    # 2. 透過 store 的 id，找出相對應的 dj 記錄，計算 matched_effsum 和 matched_reccnt
+    top_effs = []
+    for single_store in all_stores:
+        matched_dj_records = dj.objects.filter(storeid_id=single_store.id)
+        matched_effsum = matched_dj_records.filter(effflag=0).count()
+        matched_reccnt = matched_dj_records.count()
+
+        # 3. 計算 matched_asw
+        matched_asw = round(matched_effsum * 98.9 / matched_reccnt, 2) if matched_reccnt != 0 else 0
+
+
+        # 4. 將結果加入 top_effs 列表
+        top_effs.append({
+            'storename': single_store.storename,
+            'matched_asw': matched_asw,
+        })
+
+    # 5. 將 top_effs 按 matched_asw 排序，選取前三高的值
+    top_effs = sorted(top_effs, key=lambda x: x['matched_asw'], reverse=True)[:3]
+
+    # 6. 將結果傳遞給模板
+    context = {
+        'top_effs': top_effs,
+    }
+    print(context)
+
+    return render(request, "score.html",context)
+
+
+
+
 def add_favorite_location(request):
     if request.method == 'POST':
-        # 使用request.POST.get()方法获取POST参数
+        # 使用request.POST.get()方法获取POST参数 
         placename = request.POST.get('currentText')
         placeaddress = request.POST.get('address')
         if not favoritelocation.objects.filter(placename=placename, placeaddress=placeaddress).exists():
@@ -228,9 +274,9 @@ def feadback(request):
         email = request.POST.get('email')
         feadback = request.POST.get('feadback')
         recommend = request.POST.get('recommend')
-        unit = feedback.objects.create(name=name, email=email, feadback=feadback, recommend=recommend)
+        unit = feedback.objects.create(name=name, email=email, feedback=feadback, recommend=recommend)
         unit.save()
-        return HttpResponseRedirect('/index/')
+        return HttpResponseRedirect('/member')
     return render(request, "feadback.html", locals())
 
 def extract_name_and_address(json_data):

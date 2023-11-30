@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>店家搜尋</title>
+    <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places"></script>
+    <link href="../static/css/score.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>有效性排名前三高</h1>
+    <ul>
+        <li><a onclick="window.location.href='/member'">回到搜尋</a></li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>
+                店家名稱
+            </th>
+            <th>
+                有效占比
+            </th>
+        </tr>
+        <tr>
+            <td class = "a">
+                <img class="rank" src="../static/img/1st.jpg" >
+                <div class="name">
+                    {{ top_effs.0.storename }}
+                </div>
+            </td>
+            <td>
+                {{ top_effs.0.matched_asw }}
+            </td>
+        </tr>
+        <tr>
+            <td class = "a">
+                <img class="rank" src="../static/img/2nd.jpg" >
+                <div class="name">
+                    {{ top_effs.1.storename }}
+                </div>
+            </td>
+            <td>
+                {{ top_effs.1.matched_asw }}
+            </td>
+            
+        </tr>
+        <tr>
+            <td class = "a">
+                <img class="rank" src="../static/img/3rd.jpg" >
+                <div class="name">
+                    {{ top_effs.2.storename }}
+                </div>
+            </td>
+            <td>
+                {{ top_effs.2.matched_asw }}
+            </td>         
+        </tr>
+    </table>
+    
+</body>
+<script src="../static/js/member.js"></script>
+<script src="../static/js/search.js"></script>
+
+</html>

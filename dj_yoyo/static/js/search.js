@@ -16,7 +16,6 @@ function initMap() {
     map.addListener('click', function() {
         clearPlaceInfo();
     });
-    
 }
 
 function placeMarker(location) {
@@ -47,15 +46,14 @@ function searchPlaces() {
         // 將搜尋結果保存到搜尋記錄陣列中
         searchHistory.push({ query: searchInput, results: results});
         localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
-        // 顯示搜尋記錄
-        showSearchHistory();
+        console.log(searchHistory)
     });
 }
 
 function displayResults(results, status) {
     var placesList = document.getElementById('placesList');
     placesList.innerHTML = '';
-    console.log('000000000000000000')
+
     if (status == google.maps.places.PlacesServiceStatus.OK) {
         for (var i = 0; i < results.length; i++) {
             var place = results[i];
@@ -83,13 +81,6 @@ function displayResults(results, status) {
 
             placesList.appendChild(listItem);
         }
-        
-        // console.log(place.name);
-        // searchHistory.push(place.name);
-        // showSearchHistory(searchHistory)
-        // console.log(searchHistory)
-        
-
 
         // 如果有搜尋結果，設定地圖中心和縮放級別以顯示第一個結果
         map.setCenter(results[0].geometry.location);
@@ -99,19 +90,67 @@ function displayResults(results, status) {
     }
 }
 
-function showSearchHistory() {
-    var historyContainer = document.getElementById('searchHistoryContainer');
 
-    // 清空搜尋記錄容器
-    historyContainer.innerHTML = '';
 
-    // 迭代搜尋記錄陣列
-    for (var i = 0; i < searchHistory.length; i++) {
-        var searchRecord = document.createElement('div');
-        searchRecord.textContent = '搜尋記錄 ' + (i + 1) + ': ' + searchHistory[i].query ;
-        historyContainer.appendChild(searchRecord);
+
+
+
+//------------------------------------------------------------------------------------目前定位
+function watchLocation() {
+    if (navigator.geolocation) {
+        var options = {
+            enableHighAccuracy: true, // 啟用高精確度
+            maximumAge: 30000,        // 最大快取時間（毫秒）
+            timeout: 27000            // 超時時間（毫秒）
+        };
+
+        // 實際監聽位置變化
+        navigator.geolocation.watchPosition(successCallback, errorCallback, options);
+    } else {
+        alert('Geolocation is not supported by your browser');
     }
 }
+
+function successCallback(position) {
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+
+    // 將地圖中心設置為目前位置
+    map.setCenter({ lat: latitude, lng: longitude });
+}
+
+function errorCallback(error) {
+    console.error('Error getting location:', error.message);
+}
+
+// 在按鈕點擊時調用 watchLocation 函數
+document.addEventListener('DOMContentLoaded', function() {
+    var positionButton = document.getElementById('position');
+    if (positionButton) {
+        positionButton.addEventListener('click', watchLocation);
+    } else {
+        console.error('Element with id "position" not found.');
+}});
+
+
+//---------------------------------------------------------------------------------------------------
+
+
+
+
+// function showSearchHistory() {
+//     var historyContainer = document.getElementById('searchHistoryContainer');
+
+//     // 清空搜尋記錄容器
+//     historyContainer.innerHTML = '';
+
+//     // 迭代搜尋記錄陣列
+//     for (var i = 0; i < searchHistory.length; i++) {
+//         var searchRecord = document.createElement('div');
+//         searchRecord.textContent = '搜尋記錄 ' + (i + 1) + ': ' + searchHistory[i].query ;
+//         historyContainer.appendChild(searchRecord);
+//     }
+// }
 
 
 
@@ -122,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var storedSearchHistory = localStorage.getItem('searchHistory');
     var searchHistory = storedSearchHistory ? JSON.parse(storedSearchHistory) : [];
 
+    
     // 清空表格內容
     myList.innerHTML = '';
 
@@ -196,7 +236,6 @@ function searchLocation() {
         }
     });
 }      
-
 
 
 

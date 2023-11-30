@@ -5,17 +5,19 @@
     <title>店家搜尋</title>
     <meta charset="UTF-8"> <!-- 設定字符編碼為 UTF-8 -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5KrfTVdXU8zFiOnlFNg763FYvXirAuhU&libraries=places"></script>
-    <link href="../static/css/member.css" rel="stylesheet" />
+    <link href="../static/css/member1.css" rel="stylesheet" />
 </head>
 <body>
 
-    
     <ul id = "top">
         <li id = "top2">歡迎您 {{ username }}</li>
         <li id = "top1"><a onclick="window.location.href='/'">回首頁</a></li>
-        <li id = "top1"><a onclick="window.location.href='/login'">登入</a></li>
         <li id = "top1"><a onclick="window.location.href='/change_password'">更改資料</a></li>
+        <li id = "top1"><a onclick="window.location.href='/searchhistory'">搜尋紀錄</a></li>
+        <li id = "top1"><a onclick="window.location.href='/show_favorite_locations'">所有收藏</a></li>
+        <li id = "top1"><a onclick="window.location.href='/feadback'">回饋</a></li>
     </ul>
+    
     <header>
 
         <h1>店家搜尋</h1>
@@ -24,9 +26,13 @@
         <div class="independent">
             <img id ="logo" src="../static/img/logo.png" >
         </div>
+
+        
+        
         <div class = "search">
             <input type="text" id="searchInput" placeholder="輸入店家名稱" value="{{ searchvalue }}">
             <button id= "searchButton" onclick="searchPlaces()">搜尋</button>
+            <button id="position">目前位置</button>
                 <script>
                     window.onload = function() {
                         // 获取 searchInput 的值
@@ -41,12 +47,13 @@
                 </script>
         </div>
                        
-        <div id="map" style="height: 400px;"></div>
+        <div id="map"></div>
                 
             
         <div class="re">
             <h2>搜索結果</h2>
         </div>
+
 
         
         <div class= "re1">

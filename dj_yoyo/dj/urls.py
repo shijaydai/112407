@@ -23,5 +23,6 @@ urlpatterns = [
     path('unfavorite-location/<int:location_id>/', views.unfavorite_location, name='unfavorite_location'),
     path('change_password/', views.change_password, name='change_password'),
     path('searchhistory/', views.searchhistory, name='searchhistory'),
+    path('score/', views.score, name='score'),
 ]
 

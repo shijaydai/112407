@@ -130,6 +130,33 @@ header:before {
     cursor: pointer;
 }
 
+#position{
+    margin-left: 10px;
+    
+    font-size: 14px;
+
+    /* width: 50px; */
+    width: 35%;
+    height: 32px;
+    position: absolute;
+    top: 5%;
+    /* left: 210px; */
+    left: 115%;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#position:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
 
 #map{
     
@@ -156,6 +183,7 @@ header:before {
     top: 63%;
     left: 60.5%;
     font-size: 18px;
+    width: 50%;
     /* font-size: 1.1vw; */
 }
 
@@ -184,6 +212,7 @@ h3{
 #Favorite{
     margin-right: 10px;
     
+    width: 80px;
     font-size: 16px;
 
     background:  rgba(154, 147, 147, 0.5); 
@@ -194,6 +223,31 @@ h3{
     display: inline-block;
 }
 
+#Favorite:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
+
+#rank{
+    margin-right: 10px;
+    
+    width: 150px;
+    font-size: 16px;
+
+    background:  rgba(154, 147, 147, 0.5); 
+    border-radius: 15px; 
+    border: none;
+    color: #161b61;
+    text-align: center;
+    display: inline-block;
+}
+
+#rank:hover {
+    background-color:#adb5bd;;
+    color: white;
+    cursor: pointer;
+}
 
 .bo {
     position: absolute;

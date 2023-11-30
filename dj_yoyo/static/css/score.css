@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 20px; 
     background-color: #d9e2ec;
+    text-align: center;
 }
 
 h1{
@@ -37,13 +38,12 @@ li:hover {
     color:#ffffff;
 }
 
-
 /* 我是分隔線-------------------------表格內容------------------------------------------------------------- */
 
 table {
-    width: 100%;
+    margin: 20px auto 20px auto;
+    width: 30%;
     border-collapse: collapse; 
-    margin-top: 20px;
     border-radius: 20px; /* 將表格四角的半徑 */
     overflow: hidden; /* 確保邊緣半徑不會被內容超出 */
     box-shadow: 0 0 0 2px rgb(109, 104, 132); /* 添加 3px 的框線陰影，顏色可以根據需要調整 */
@@ -51,49 +51,27 @@ table {
     color: #000000; /* 表格內容的文字顏色 */
 }
 
+
 th, td {
-    border: 3px solid rgb(0, 0, 0) 6, 116;
-    text-align: left;
-    padding: 8px;
+    padding: 20px;
 }
 
 th {
     background-color: #f2f2f2;
 }
 
-th:nth-child(3),th:nth-child(4) {
+.a{
     text-align: center;
 }
 
-tr:hover {
-    background-color: #f5f5f5;
+.rank{
+    width: 40px;
+    display: inline-block; 
+    vertical-align: middle;
 }
 
-td form {
-    display: inline;
-    margin: 0;
+.name{
+    display: inline-block; 
+    vertical-align: middle;
+    width: 120px;
 }
-
-button {
-    background-color: #dc3545;
-    color: #ffffff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #c82333;
-}
-
-.no-favorites {
-    font-style: italic;
-    color: #888888;
-}
-
-.centerbutton{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-

@@ -69,9 +69,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',  #PostgreSQL
         'NAME': 'comment',  #資料庫名稱
         'USER': 'postgres',  #資料庫帳號
-        'PASSWORD': '112407',  #資料庫密碼   修改為自己的密碼
+        'PASSWORD': '10946017',  #資料庫密碼   修改為自己的密碼
         'HOST': 'localhost',  #Server(伺服器)位址
-        'PORT': '5432'  #PostgreSQL Port號
+        'PORT': '5433'  #PostgreSQL Port號
     }
 }
 

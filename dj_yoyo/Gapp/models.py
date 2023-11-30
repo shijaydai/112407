@@ -37,7 +37,7 @@ class favoritelocation(models.Model):
 class feedback(models.Model):
     email = models.EmailField(unique=True, max_length=255, blank=False, null=False)
     name = models.CharField(max_length=100)
-    feadback = models.CharField(max_length=300)
+    feedback = models.CharField(max_length=300)
     recommend = models.CharField(max_length=300)
     def __str__(self):
         return self.name
