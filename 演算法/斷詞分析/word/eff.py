@@ -6,7 +6,7 @@ start_column_index = 9  # 這裡可以替換成你想要的起始列索引
 
 # 取得所有檔案路徑
 file_paths = glob.glob('Gappdj_wordcount_total_9_*.csv')
-file_paths = glob.glob('final.csv')
+
 
 # 初始化結果列表
 result_totals = []
@@ -27,7 +27,7 @@ for i, file_path in enumerate(file_paths):
     df['total'] = df[columns_to_sum].sum(axis=1)
 
     # 計算 eff 列
-    df['eff'] = (df['total'] <= 5).astype(int)
+    df['eff'] = (df['total'] <= 6).astype(int)
 
     # 將結果加入列表
     result_totals.append(df[['id', 'total', 'eff']])
@@ -36,8 +36,8 @@ for i, file_path in enumerate(file_paths):
 final_result_total = pd.concat(result_totals, ignore_index=True)
 
 # 保存最終結果到新的 CSV 文件
-#final_output_file_path = 'Gappdj_wordcount_total_eff.csv'
-final_output_file_path = 'total_eff.csv'
+final_output_file_path = 'Gappdj_wordcount_total_eff.csv'
+#final_output_file_path = 'total_eff.csv'
 final_result_total.to_csv(final_output_file_path, index=False, encoding='cp950')
 
 

@@ -1,36 +1,41 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import numpy as np
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
-# 載入CSV文件
-file_path = 'Gappdj_wordcount_chunk_1.csv'  # 替換為你的檔案路徑
-df = pd.read_csv(file_path, encoding='cp950')
+nltk.download('vader_lexicon')
+nltk.download('stopwords')
+nltk.download('punkt')
 
-# 假設 'target' 是目標變數，其他欄位是特徵
-X = df.drop('target', axis=1)
-y = df['target']
+# 讀取 CSV 檔
+data = pd.read_csv('Gappdj_segmented_no_test25.csv', encoding='cp950')
 
-# 將資料分為訓練集和測試集
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# 初始化情感分析器
+sia = SentimentIntensityAnalyzer()
 
-# 初始化GradientBoostingClassifier
-clf = GradientBoostingClassifier()
+# 移除停用詞
+stop_words = set(stopwords.words('chinese'))  # 修改 'chinese' 為你使用的語言
+def remove_stopwords(text):
+    if pd.isnull(text) or ('|' in text) or ('/' in text) or ('\\' in text):
+        return '1'  # 如果是空值、包含 '|'、'/' 或 '\'，回傳 '1'
+    return text
 
-# 訓練模型
-clf.fit(X_train, y_train)
+# 增加情感分析分數至 DataFrame
+data['compound'] = data['segmented'].apply(lambda x: sia.polarity_scores(remove_stopwords(x))['compound'])
 
-# 預測測試集
-y_pred = clf.predict(X_test)
+# 設定情感分析分數閾值，任何情感分數不為0的都視為有情感
+data['is_positive'] = np.where(data['compound'] != 0, 0, 1)
 
-# 評估模型性能
-accuracy = accuracy_score(y_test, y_pred)
-conf_matrix = confusion_matrix(y_test, y_pred)
-classification_rep = classification_report(y_test, y_pred)
+# 處理特殊情況：有出現 \ / | 且字數低於55的強制顯示為1
+data['is_positive'] = np.where((data['is_positive'] == 0) & (data['segmented'].str.contains('[\\/|]')) & (data['segmented'].str.len() < 55), 1, data['is_positive'])
 
-# 顯示評估結果
-print(f'Accuracy: {accuracy}')
-print('Confusion Matrix:')
-print(conf_matrix)
-print('Classification Report:')
-print(classification_rep)
+# 修正is_positive的部分，處理空值
+data['is_positive'] = np.where((pd.isnull(data['segmented']) | (data['segmented'].str.strip() == '')), 1, data['is_positive'])
+
+# 計算每家店的有效評論占比
+store_effectiveness = data.groupby(['id', 'segmented'])[['is_positive']].mean().reset_index()
+
+# 匯出至 CSV 檔案
+store_effectiveness.to_csv('segmented_no_test25.csv', index=False, encoding='cp950')
